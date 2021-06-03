@@ -1,0 +1,6 @@
+!-----------FONT-------------
+
+URxvt.font: xft:mplus Nerd Font Mono:size=8,xft:Monospace:size=11:antialias=true:hinting=true
+URxvt.boldFont: xft:mplus Nerd Font Mono:bold:size=8
+URxvt.italicFont: xft:mplus Nerd Font Mono:italic:size=8
+URxvt.boldItalicfont: xft:mplus Nerd Font Mono:boldItalic:size=8

@@ -1,0 +1,23 @@
+!-----------COLO-SCHEME-----------
+
+*background: [100]#2F343F
+*foreground: #FFFFFF
+*cursorColor: #D8DEE9
+
+*color0:  #3B4252
+*color1:  #FF247A
+*color2:  #00B241
+*color3:  #FFC800
+*color4:  #83A1E7
+*color5:  #D08EF0
+*color6:  #FFFFFF
+*color7:  #C9CACB
+
+*color8:  #4C566A
+*color9:  #F56B6F
+*color10:  #BAEA81
+*color11:  #FFC957
+*color12:  #7FA5FF
+*color13:  #CE8DEE
+*color14:  #6EDFFF
+*color15:  #ECEFF4
