@@ -1,11 +1,8 @@
-```bash
-$ rsync -avxHAXP --exclude '.git*' .* ~/
-```
-
-```bash
-$ fc-cache -rv
-```
-
+------------------------------------------------
+|      $ rsync -avxHAXP --exclude '.git*' .* ~/|
+------------------------------------------------
+|      $ fc-cache -rv                          |
+------------------------------------------------
 
 |        Keybind        | Fungsi                                          |
 |   Open Rofi - Menu    | Super + Space                                   |
