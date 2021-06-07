@@ -51,8 +51,16 @@ bspc rule -a Conky state=floating manage=off
 bspc rule -a stalonetray state=floating manage=off
 # ----------------------------------------------------------------------------
 
+# Kill Process if running ----------------------------------------------------
+killall -9 sxhkd dunst xfce4-power-manager
+# ----------------------------------------------------------------------------
+
 # Set wall -------------------------------------------------------------------
 bash $HOME/.fehbg
+# ----------------------------------------------------------------------------
+
+# Launch Xsettingsd Daemon ---------------------------------------------------
+xsettingsd &
 # ----------------------------------------------------------------------------
 
 # Mpd ------------------------------------------------------------------------
@@ -68,6 +76,7 @@ sxhkd &
 nm-applet &
 exec tint2 &
 xrdb .Xresources &
+xbacklight -set 30% &
 xfce4-power-manager &
 xrdb merge .Xresources &
 xsetroot -cursor_name left_ptr &
