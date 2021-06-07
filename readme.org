@@ -8,7 +8,6 @@ $ fc-cache -rv
 
 
 |        Keybind        | Fungsi                                          |
-| :-------------------: | :---------------------------------------------- |
 |   Open Rofi | Menu    | Super + Space                                   |
 |    Open | Terminal    | Super + Enter	                                  |
 |   Screenshot | Now    | Print [ PrtSc ]                                 |
