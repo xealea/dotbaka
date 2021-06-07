@@ -8,8 +8,8 @@ $ fc-cache -rv
 
 
 |        Keybind        | Fungsi                                          |
-|   Open Rofi | Menu    | Super + Space                                   |
-|    Open | Terminal    | Super + Enter	                                  |
-|   Screenshot | Now    | Print [ PrtSc ]                                 |
-|  Screenshots | Half   | Alt + Print [ PrtSc ]                           |
+|   Open Rofi - Menu    | Super + Space                                   |
+|    Open - Terminal    | Super + Enter	                                  |
+|   Screenshot - Now    | Print [ PrtSc ]                                 |
+|  Screenshots - Half   | Alt + Print [ PrtSc ]                           |
 |     Reload sxhkd      | Super + Escape                                  |
