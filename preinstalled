@@ -2,11 +2,11 @@
 # Bash Menu Script Installasion Depedency and fish shell
 
 PS3='Please enter your choice: '
-options=("Install Depedency [ Void ]" "Install Depedency [ Artix Linux ]" "Swicth Shell [ All GNU/Linux ]" )
+options=("Install Depedency [ Void Linux ]" "Install Depedency [ Artix Linux ]" "Swicth Shell [ All GNU-Linux ]" )
 select opt in "${options[@]}"
 do
     case $opt in
-        "Install Depedency [ Void ]")
+        "Install Depedency [ Void Linux ]")
             sudo xbps-install -Su xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
             fish-shell xsettingsd alacritty dunst mpv neofetch neovim Thunar rofi viewnior xfce4-power-manager \
             pcmanfm tint2 ranger fontconfig rsync wget curl git
@@ -21,7 +21,7 @@ do
             chsh -s /usr/bin/fish
             echo "swicth shell to fish finished"
             ;;
-        *) echo "invalid option $REPLY";;
+        *) echo "Invalid Selection $REPLY";;
     esac
   break
 done
