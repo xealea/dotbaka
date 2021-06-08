@@ -77,8 +77,8 @@ nm-applet &
 exec tint2 &
 xrdb .Xresources &
 xbacklight -set 30% &
-xfce4-power-manager &
 xrdb merge .Xresources &
 xsetroot -cursor_name left_ptr &
+dbus-launch xfce4-power-manager &
 pulseaudio --daemonize=no --exit-idle-time=-1 &
 # End ------------------------------------------------------------------------
