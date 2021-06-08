@@ -1,0 +1,22 @@
+#!/bin/bash
+# Bash Menu Script Installasion Depedency and fish shell
+
+PS3='Please enter your choice: '
+options=("Install Depedency" "Swicth Shell" )
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Install Depedency")
+            sudo xbps-install -Su xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
+            fish-shell xsettingsd alacritty dunst mpv neofetch neovim thunar rofi viewnior xfce4-power-manager \
+            pcmanfm tint2 ranger fontconfig rsync wget curl git
+            echo "preparing install depedency"
+            ;;
+        "Swicth Shell")
+            chsh -s /usr/bin/fish
+            echo "preparing swicth shell to fish"
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+  break
+done
