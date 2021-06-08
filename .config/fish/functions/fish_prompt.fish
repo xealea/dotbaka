@@ -10,7 +10,7 @@ function fish_prompt
     if test "$USER" = root
         echo -n (set_color red)'# '
     end
-    echo -n (set_color red)'❯'(set_color yellow)'❯'(set_color green)'❯ '
+    echo -n (set_color red)'▪'(set_color yellow)'▪'(set_color green)'▪ '
     set_color normal
 
     # And now define the right prompt so that it's brought along
