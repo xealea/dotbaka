@@ -10,11 +10,11 @@ do
             sudo xbps-install -Su xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
             fish-shell xsettingsd alacritty dunst mpv neofetch neovim thunar rofi viewnior xfce4-power-manager \
             pcmanfm tint2 ranger fontconfig rsync wget curl git
-            echo "preparing install depedency"
+            echo "install depedency finished"
             ;;
         "Swicth Shell")
             chsh -s /usr/bin/fish
-            echo "preparing swicth shell to fish"
+            echo "swicth shell to fish finished"
             ;;
         *) echo "invalid option $REPLY";;
     esac
