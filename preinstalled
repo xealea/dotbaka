@@ -2,17 +2,22 @@
 # Bash Menu Script Installasion Depedency and fish shell
 
 PS3='Please enter your choice: '
-options=("Install Depedency" "Swicth Shell" )
+options=("Install Depedency [ Void ]" "Install Depedency [ Artix Linux ]" "Swicth Shell [ All GNU/Linux ]" )
 select opt in "${options[@]}"
 do
     case $opt in
-        "Install Depedency")
+        "Install Depedency [ Void ]")
             sudo xbps-install -Su xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
-            fish-shell xsettingsd alacritty dunst mpv neofetch neovim thunar rofi viewnior xfce4-power-manager \
+            fish-shell xsettingsd alacritty dunst mpv neofetch neovim Thunar rofi viewnior xfce4-power-manager \
             pcmanfm tint2 ranger fontconfig rsync wget curl git
             echo "install depedency finished"
             ;;
-        "Swicth Shell")
+        "Install Depedency [ Artix Linux ]")
+            sudo pacman -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
+            fish xsettingsd alacritty dunst mpv neofetch neovim thunar rofi viewnior xfce4-power-manager \
+            pcmanfm tint2 ranger fontconfig rsync wget curl git
+            ;;
+        "Swicth Shell [ All GNU-Linux ]")
             chsh -s /usr/bin/fish
             echo "swicth shell to fish finished"
             ;;
