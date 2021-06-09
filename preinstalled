@@ -8,16 +8,16 @@ do
     case $opt in
         "Install Depedency [ Void Linux ]")
             sudo xbps-install -Su xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
-            fish-shell xsettingsd alacritty dunst mpv neofetch neovim Thunar rofi viewnior xfce4-power-manager \
-            pcmanfm tint2 ranger fontconfig rsync wget curl git w3m w3m-img ImageMagick
+            fish-shell xsettingsd dunst mpv neofetch neovim Thunar rofi viewnior xfce4-power-manager \
+            pcmanfm tint2 ranger fontconfig rsync wget curl w3m w3m-img ImageMagick
             echo "--------------------------"
             echo "install depedency finished"
             echo "--------------------------"
             ;;
         "Install Depedency [ Artix Linux ]")
             sudo pacman -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
-            fish xsettingsd alacritty dunst mpv neofetch neovim thunar rofi viewnior xfce4-power-manager \
-            pcmanfm tint2 ranger fontconfig rsync wget curl git w3m w3m-img imagemagick
+            fish xsettingsd dunst mpv neofetch neovim thunar rofi viewnior xfce4-power-manager \
+            pcmanfm tint2 ranger fontconfig rsync wget curl w3m w3m-img imagemagick
             echo "--------------------------"
             echo "install depedency finished"
             echo "--------------------------"
