@@ -34,7 +34,7 @@ case $chosen in
         sed -i 's/gtk-theme-name=Thic/gtk-theme-name=Baka/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i 's/gtk-icon-theme-name=ThiCX/gtk-theme-name=Assistance/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i 's/thicrc/bakarc/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i 's/thic.png/baka.png/g' ${HOME}/.fehbg
+        sed -i 's/thic.png/void.png/g' ${HOME}/.fehbg
         xrdb ${HOME}/.Xresources
         bspc wm -r
         ;;
