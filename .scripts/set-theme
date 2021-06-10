@@ -4,7 +4,7 @@
 rofi_command="rofi -theme ${HOME}/.config/rofi/config.rasi"
 
 # Themes
-theme_0=" Thic"
+theme_0=" Twilight"
 theme_1=" Baka"
 
 # Variable passed to rofi
@@ -13,29 +13,34 @@ options="$theme_0\n$theme_1"
 chosen="$(echo -e "$options" | $rofi_command -p "Available themes" -dmenu -selected-row 0)"
 case $chosen in
     $theme_0)
-        sed -i 's/baka/thic/g' ${HOME}/.Xresources
-        sed -i 's/Baka/Thic/g' ${HOME}/.xsettingsd
-        sed -i 's/Assistance/ThiCX/g' ${HOME}/.xsettingsd
-        sed -i 's/#FFFFFFff/#FFC800ff/g' ${HOME}/.config/rofi/colors.rasi
-        sed -i 's/#2F343Fff/#7F6CFCff/g' ${HOME}/.config/rofi/colors.rasi
-        sed -i 's/gtk-theme-name=Baka/gtk-theme-name=Thic/g' ${HOME}/.config/gtk-3.0/settings.ini
-        sed -i 's/gtk-icon-theme-name=Assistance/gtk-theme-name=ThiCX/g' ${HOME}/.config/gtk-3.0/settings.ini
-        sed -i 's/bakarc/thicrc/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i 's/void.png/thic.png/g' ${HOME}/.fehbg
+        sed -i 's/baka/twilight/g' ${HOME}/.Xresources
+        sed -i 's/Baka/Twilight/g' ${HOME}/.xsettingsd
+        sed -i 's/Assistance/Lolipop/g' ${HOME}/.xsettingsd
+        sed -i 's/#FFFFFFff/#1b1b1bff/g' ${HOME}/.config/rofi/colors.rasi
+        sed -i 's/#2F343Fff/#FFFFFFff/g' ${HOME}/.config/rofi/colors.rasi
+        sed -i 's/background = "#2F343F"/background = "#FFFFFF"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i 's/foreground = "#FFFFFF"/foreground = "#1B1B1B"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i 's/gtk-theme-name=Baka/gtk-theme-name=Twilight/g' ${HOME}/.config/gtk-3.0/settings.ini
+        sed -i 's/gtk-icon-theme-name=Assistance/gtk-theme-name=Lolipop/g' ${HOME}/.config/gtk-3.0/settings.ini
+        sed -i 's/bakarc/twilightrc/g' ${HOME}/.config/bspwm/bspwmrc
+        sed -i 's/void.png/twilight.png/g' ${HOME}/.fehbg
         xrdb ${HOME}/.Xresources
         bspc wm -r
         ;;
     $theme_1)
-        sed -i 's/thic/baka/g' ${HOME}/.Xresources
-        sed -i 's/Thic/Baka/g' ${HOME}/.xsettingsd
-        sed -i 's/ThiCX/Assistance/g' ${HOME}/.xsettingsd
-        sed -i 's/#FFC800ff/#FFFFFFff/g' ${HOME}/.config/rofi/colors.rasi
-        sed -i 's/#7F6CFCff/#2F343Fff/g' ${HOME}/.config/rofi/colors.rasi
-        sed -i 's/gtk-theme-name=Thic/gtk-theme-name=Baka/g' ${HOME}/.config/gtk-3.0/settings.ini
-        sed -i 's/gtk-icon-theme-name=ThiCX/gtk-theme-name=Assistance/g' ${HOME}/.config/gtk-3.0/settings.ini
-        sed -i 's/thicrc/bakarc/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i 's/thic.png/void.png/g' ${HOME}/.fehbg
+        sed -i 's/twilight/baka/g' ${HOME}/.Xresources
+        sed -i 's/Twilight/Baka/g' ${HOME}/.xsettingsd
+        sed -i 's/Lolipop/Assistance/g' ${HOME}/.xsettingsd
+        sed -i 's/#1b1b1bff/#FFFFFFff/g' ${HOME}/.config/rofi/colors.rasi
+        sed -i 's/#FFFFFFff/#2F343Fff/g' ${HOME}/.config/rofi/colors.rasi
+        sed -i 's/background = "#FFFFFF"/background = "#2F343F"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i 's/foreground = "#1B1B1B"/foreground = "#FFFFFF"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i 's/gtk-theme-name=Twilight/gtk-theme-name=Baka/g' ${HOME}/.config/gtk-3.0/settings.ini
+        sed -i 's/gtk-icon-theme-name=Lolipop/gtk-theme-name=Assistance/g' ${HOME}/.config/gtk-3.0/settings.ini
+        sed -i 's/twilightrc/bakarc/g' ${HOME}/.config/bspwm/bspwmrc
+        sed -i 's/twilight.png/void.png/g' ${HOME}/.fehbg
         xrdb ${HOME}/.Xresources
         bspc wm -r
         ;;
-esac; exit 0;
+  esac;
+exit 0;
