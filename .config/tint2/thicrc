@@ -22,13 +22,13 @@ border_width = 0
 border_sides = 
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #4c566a 100
-border_color = #4c566a 100
+background_color = #7f6cfc 100
+border_color = #7f6cfc 100
 gradient_id = 0
 background_color_hover = #ededed 82
 border_color_hover = #ededed 82
-background_color_pressed = #4c566a 100
-border_color_pressed = #4c566a 100
+background_color_pressed = #7f6cfc 100
+border_color_pressed = #7f6cfc 100
 
 # Background 3: Active desktop name, Inactive desktop name, Urgent task
 rounded = 8
