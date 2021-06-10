@@ -16,6 +16,7 @@ case $chosen in
         sed -i 's/baka/thic/g' ${HOME}/.Xresources
         sed -i 's/Baka/Thic/g' ${HOME}/.xsettingsd
         sed -i 's/Assistance/ThiCX/g' ${HOME}/.xsettingsd
+        sed -i 's/FFFFFFff/#FFC800ff/g' ${HOME}/.config/rofi/colors.rasi
         sed -i 's/#2F343Fff/#7F6CFCff/g' ${HOME}/.config/rofi/colors.rasi
         sed -i 's/gtk-theme-name=Baka/gtk-theme-name=Thic/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i 's/gtk-icon-theme-name=Assistance/gtk-theme-name=ThiCX/g' ${HOME}/.config/gtk-3.0/settings.ini
@@ -28,6 +29,7 @@ case $chosen in
         sed -i 's/thic/baka/g' ${HOME}/.Xresources
         sed -i 's/Thic/Baka/g' ${HOME}/.xsettingsd
         sed -i 's/ThiCX/Assistance/g' ${HOME}/.xsettingsd
+        sed -i 's/#FFC800ff/FFFFFFff/g' ${HOME}/.config/rofi/colors.rasi
         sed -i 's/#7F6CFCff/#2F343Fff/g' ${HOME}/.config/rofi/colors.rasi
         sed -i 's/gtk-theme-name=Thic/gtk-theme-name=Baka/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i 's/gtk-icon-theme-name=ThiCX/gtk-theme-name=Assistance/g' ${HOME}/.config/gtk-3.0/settings.ini
