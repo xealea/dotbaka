@@ -6,6 +6,10 @@
 super + Return
 	urxvt
 
+# set theme use rofi
+super + z
+	bash ${HOME}/.scripts/set-theme
+
 # program launcher
 super + @space
 	rofi -show drun
