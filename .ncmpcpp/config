@@ -1,61 +1,31 @@
-# VISUALIZER
-visualizer_in_stereo = "no"
-visualizer_data_source = "/tmp/mpd.fifo"
-visualizer_fps = 60
-visualizer_output_name = "Visualizer"
-visualizer_type = "wave"
-visualizer_look = "▐"
-visualizer_color = "red"
-visualizer_spectrum_smooth_look = no
-
-# GLOBAL
-cyclic_scrolling = "yes"
-mouse_support = "yes"
-mouse_list_scroll_whole_page = "yes"
-lines_scrolled = "1"
-message_delay_time = "1"
-playlist_shorten_total_times = "yes"
-playlist_display_mode = "columns"
-browser_display_mode = "columns"
-search_engine_display_mode = "columns"
-playlist_editor_display_mode = "columns"
-autocenter_mode = "yes"
-centered_cursor = "yes"
-user_interface = "classic"
-follow_now_playing_lyrics = "yes"
-locked_screen_width_part = "50"
-ask_for_locked_screen_width_part = "yes"
-display_bitrate = "no"
-external_editor = "nano"
-main_window_color = "default"
-startup_screen = "playlist"
-
-# PROGRESSBAR
-progressbar_look = "▃▃_"
-progressbar_elapsed_color = "blue"
-progressbar_color = "black"
-
-# UI VISIBILITY
+[header]
 header_visibility = "no"
+header_window_color = "default"
+volume_color = "green"
+state_line_color = "9"
+
+[playlist]
+playlist_display_mode = "classic"
+song_list_format = "$5%t $R$6%a"
+now_playing_prefix = "$b"
+now_playing_suffix = "$/b"
+browser_playlist_prefix = "$1»$1 "
+
+[statusbar]
+progressbar_look = "━━━"
+progressbar_color = "9"
 statusbar_visibility = "yes"
-titles_visibility = "no"
+progressbar_elapsed_color = "cyan"
+statusbar_color = "3"
+song_status_format = "{%t - %a}"
+
+[library]
+song_library_format = "{{%a - %t}|{%f}}{$R%l}"
+empty_tag_color = "9"
+
+[global]
+main_window_color = "default"
+centered_cursor = "yes"
 enable_window_title = "yes"
-
-# COLOR
-statusbar_color = "white"
-color1 = "white"
-color2 = "blue"
-
-# UI FORMAT
-now_playing_prefix = "$b$2$7 "
-now_playing_suffix = "  $/b$8"
-current_item_prefix = "$b$7|$/b$3 "
-current_item_suffix = "  $8"
-
-song_columns_list_format = "(50)[]{t|fr:Title} (0)[blue]{a}"
-
-song_list_format = " {%t $R   $8%a$8}|{%f $R   $8%l$8} $2"
-song_status_format = "$b$7 %b |{$8 %a }"
-
-song_window_title_format = "Now Playing .."
-execute_on_song_change = "bash ~/.ncmpcpp/notif"
+external_editor = "vim"
+execute_on_song_change = ~/.ncmpcpp/notif
