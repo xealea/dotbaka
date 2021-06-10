@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill $HOME/.wallpaper/void.png
+feh --no-fehbg --bg-scale ${HOME}/.wallpaper/void.png
