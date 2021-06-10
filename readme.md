@@ -12,18 +12,20 @@ $ rsync -avxHAXP --exclude '.git*' .* ~/
 $ fc-cache -rv
 ```
 ```
-|-----------------------|-------------------------------------------------|
-|        Keybind        | Fungsi                                          |
-|-----------------------|-------------------------------------------------|
-|   Open Rofi - Menu    | Super + Space                                   |
-|-----------------------|-------------------------------------------------|
-|    Open - Terminal    | Super + Enter	                                  |
-|-----------------------|-------------------------------------------------|
-|   Screenshot - Now    | Print [ PrtSc ]                                 |
-|-----------------------|-------------------------------------------------|
-|  Screenshots - Half   | Alt + Print [ PrtSc ]                           |
-|-----------------------|-------------------------------------------------|
-|     Reload sxhkd      | Super + Escape                                  |
-|-----------------------|-------------------------------------------------|
-|     Switch Theme```   | Super + Z					  |
-|-----------------------|-------------------------------------------------|
+|-----------------------|-------------------------|
+|        Keybind        | Fungsi                  |
+|-----------------------|-------------------------|
+|   Open Rofi - Menu    | Super + Space           |
+|-----------------------|-------------------------|
+|    Open - Terminal    | Super + Enter	          |
+|-----------------------|-------------------------|
+|   Screenshot - Now    | Print [ PrtSc ]         |
+|-----------------------|-------------------------|
+|  Screenshots - Half   | Alt + Print [ PrtSc ]   |
+|-----------------------|-------------------------|
+|     Reload sxhkd      | Super + Escape          |
+|-----------------------|-------------------------|
+|     Switch Theme```   | Super + Z	          |
+|-----------------------|-------------------------|
+
+* by the way. I made info like this because if maybe someone wants to use it simply without wanting to be difficult, you can try it (actually I'm a little reluctant) to share this source but after I thought it would be better if I was easy to use it too & and clone became even better  easy of course without having to enter the pswd github first :)
