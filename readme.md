@@ -11,7 +11,7 @@ $ rsync -avxHAXP --exclude '.git*' .* ~/
 ```bash
 $ fc-cache -rv
 ```
-* Picom for Void [ xbps-src] | [Here](https://github.com/ibhagwan/picom-ibhagwan-template)
+* Picom for Void [ xbps-src ] | [Here](https://github.com/ibhagwan/picom-ibhagwan-template)
 * Picom For Artix [ use Aur ] | ```yay -S picom-ibhagwan-git```
 
 ```
