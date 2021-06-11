@@ -5,7 +5,7 @@
 configuration {
     lines:							3;
     columns:						4;
-    font: 							"M+2 c medium 11";
+    font: 							"Mplus2 c medium 11";
     bw: 							0;
     location: 						0;
     padding: 						0;
