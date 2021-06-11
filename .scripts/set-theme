@@ -16,7 +16,7 @@ case $chosen in
         sed -i 's/baka/twilight/g' ${HOME}/.Xresources
         sed -i 's/Baka/Twilight/g' ${HOME}/.xsettingsd
         sed -i 's/Assistance/Lolipop/g' ${HOME}/.xsettingsd
-        sed -i 's/#FFFFFFff/#F56B6Fffff/g' ${HOME}/.config/rofi/colors.rasi
+        sed -i 's/#FFFFFFff/#F56B6Fff/g' ${HOME}/.config/rofi/colors.rasi
         sed -i 's/#2F343Fff/#FFFFFFff/g' ${HOME}/.config/rofi/colors.rasi
         sed -i 's/background = "#2F343F"/background = "#FFFFFF"/g' ${HOME}/.config/dunst/dunstrc
         sed -i 's/foreground = "#FFFFFF"/foreground = "#F56B6F"/g' ${HOME}/.config/dunst/dunstrc
