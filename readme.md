@@ -1,6 +1,6 @@
 <img align="center" src="https://badges.pufler.dev/visits/vcyzteen/dotbaka?style=flat-square&label=&color=ffffff&logo=GitHub&logoColor=white&labelColor=373e4d" /> <img align="center" src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?style=flat-square&label=.files&color=ffffff"/>
 
-<h3><b><p align="center">Preview</p></b></h3>
+<h3><b><p align="center">Preview Wallpaper</p></b></h3>
 
 <img align="center" src="preview/dark.png" />
 <img align="center" src="preview/light.png" />
