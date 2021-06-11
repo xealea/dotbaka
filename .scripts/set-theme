@@ -10,7 +10,7 @@ theme_1=" Baka"
 # Variable passed to rofi
 options="$theme_0\n$theme_1"
 
-chosen="$(echo -e "$options" | $rofi_command -p "only have 2 themes" -dmenu -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "only have 2 themes" -show -drun -sync)"
 case $chosen in
     $theme_0)
 	# Kill Process if running ----------------------
