@@ -1,30 +1,23 @@
-!--------COLOR-SCHEME---------
+!-----------COLOR-SCHEME-----------
 
-*foreground: [100]#464b50;
-*background: #ffffff;
-*cursorColor: #464b50;
+*background: [100]#FFFFFF
+*foreground: #F56B6F
+*cursorColor: #D8DEE9
 
-*color0: #1e1e1e;
-*color1: #cf6a4c;
-*color2: #8f9d6a;
-*color3: #f9ee98;
-*color4: #7587a6;
-*color5: #9b859d;
-*color6: #afc4db;
-*color7: #a7a7a7;
+*color0: #1e1e1e
+*color1: #cf6a4c
+*color2: #8f9d6a
+*color3: #f9ee98
+*color4: #7587a6
+*color5: #9b859d
+*color6: #afc4db
+*color7: #a7a7a7
 
-*color8: #5f5a60;
-*color9: #cf6a4c;
-*color10: #8f9d6a;
-*color11: #f9ee98;
-*color12: #7587a6;
-*color13: #9b859d;
-*color14: #afc4db;
-*color15: #ffffff;
-
-!*color06=#cda869
-!*color11=#9b703f
-!*color12=#323537
-!*color13=#464b50
-!*color14=#838184
-!*color15=#c3c3c3
+*color8: #5f5a60
+*color9: #cf6a4c
+*color10: #8f9d6a
+*color11: #f9ee98
+*color12: #7587a6
+*color13: #9b859d
+*color14: #afc4db
+*color15: #ffffff
