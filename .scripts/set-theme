@@ -14,7 +14,7 @@ chosen="$(echo -e "$options" | $rofi_command -p "only have 2 themes" -dmenu -sel
 case $chosen in
     $theme_0)
 	# Kill Process if running ----------------------
-        killall -9 rxvt-unicode rofi sxhkd dunst xfce4-power-manager tint2
+        killall urxvt rofi sxhkd dunst xfce4-power-manager tint2
         # ----------------------------------------------
         sed -i -e 's/baka/twilight/g' ${HOME}/.Xresources
         sed -i -e 's/Baka/Twilight/g' ${HOME}/.xsettingsd
@@ -32,7 +32,7 @@ case $chosen in
         ;;
     $theme_1)
 	# Kill Process if running ----------------------
-        killall -9 rxvt-unicode rofi sxhkd dunst xfce4-power-manager tint2
+        killall urxvt rofi sxhkd dunst xfce4-power-manager tint2
         # ----------------------------------------------
         sed -i -e 's/twilight/baka/g' ${HOME}/.Xresources
         sed -i -e 's/Twilight/Baka/g' ${HOME}/.xsettingsd
