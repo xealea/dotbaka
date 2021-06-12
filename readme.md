@@ -22,7 +22,7 @@ $ fc-cache -rv
 ```
 
 * Picom
-  * Picom for Void [ xbps-src ] | [Here](https://github.com/ibhagwan/picom-ibhagwan-template)
+  * Picom For Void [ xbps-src ] | [picom-ibhagwan](https://github.com/ibhagwan/picom-ibhagwan-template)
   * Picom For Artix [ Aur ] | ```yay -S picom-ibhagwan-git```
 
 ```
