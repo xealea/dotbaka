@@ -1,7 +1,6 @@
 <p align="center"><img width="300" src="preview/dotbaka.png" />
 
-<p align="center"><img src="https://badges.pufler.dev/visits/vcyzteen/dotbaka?style=for-the-badge&label=&color=ffffff&logo=GitHub&logoColor=white&labelColor=373e4d" /><img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?style=for-the-badge&label=.files&color=ffffff"/>
-
+<p align="center"><img src="https://badges.pufler.dev/visits/vcyzteen/dotbaka?style=for-the-badge&label=&color=ffffff&label=visiting" /> <img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?style=for-the-badge&label=files&color=ffffff"/> <img src="https://img.shields.io/github/license/vcyzteen/dotbaka?style=for-the-badge&label=licenci&color=ffffff" />
 <h3><b><p align="center">P R E V I E W - W A L L P A P E R</p></b></h3>
 
 <p align="center"><img align="center" src="preview/dark.png" />
