@@ -8,6 +8,9 @@
 <b>You are welcome if you want to take the part you want or change it on your own device</b>
 
 ```bash
+$ git clone https://github.com/vcyzteen/dotbaka && cd dotbaka
+```
+```bash
 $ chmod +x preinstalled && ./preinstalled
 ```
 ```bash
