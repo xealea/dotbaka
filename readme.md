@@ -6,7 +6,7 @@
 <p align="center"><img align="center" src="preview/dark.png" />
 <p align="center"><img align="center" src="preview/light.png" />
 
-<b>You are welcome if you want to take the part you want or change it on your own device</b>
+<b><p align="center">You are welcome if you want to take the part you want or change it on your own device</p></b>
 
 ```bash
 $ git clone https://github.com/vcyzteen/dotbaka && cd dotbaka
