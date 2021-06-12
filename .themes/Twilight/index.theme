@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Twilight
+Comment=A flat theme white based @Arc
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Twilight
+MetacityTheme=Twilight
+IconTheme=Lolipop
+CursorTheme=
+ButtonLayout=menu:minimize,maximize,close
