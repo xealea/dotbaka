@@ -260,7 +260,7 @@ button_dwheel_command =
 button_font = Material 17
 button_font_color = #000000 100
 button_padding = 0 0
-button_background_id = 6
+button_background_id = 1
 button_centered = 0
 button_max_icon_size = 34
 
@@ -278,7 +278,7 @@ button_dwheel_command =
 button_font = Material 17
 button_font_color = #F56B6F 100
 button_padding = 0 0
-button_background_id = 6
+button_background_id = 1
 button_centered = 1
 button_max_icon_size = 34
 
@@ -296,7 +296,7 @@ button_dwheel_command =
 button_font = Material 17
 button_font_color = #F56B6F 100
 button_padding = 0 0
-button_background_id = 6
+button_background_id = 1
 button_centered = 1
 button_max_icon_size = 34
 
@@ -314,7 +314,7 @@ button_dwheel_command =
 button_font = Material 17
 button_font_color = #F56B6F 100
 button_padding = 0 0
-button_background_id = 6
+button_background_id = 1
 button_centered = 1
 button_max_icon_size = 34
 
@@ -332,7 +332,7 @@ button_dwheel_command =
 button_font = Material 17
 button_font_color = #F56B6F 100
 button_padding = 0 0
-button_background_id = 6
+button_background_id = 1
 button_centered = 1
 button_max_icon_size = 34
 
@@ -350,7 +350,7 @@ button_dwheel_command =
 button_font = Material 17
 button_font_color = #F56B6F 100
 button_padding = 0 0
-button_background_id = 6
+button_background_id = 1
 button_centered = 1
 button_max_icon_size = 34
 
@@ -368,7 +368,7 @@ button_dwheel_command =
 button_font = Material 17
 button_font_color = #F56B6F 100
 button_padding = 0 0
-button_background_id = 6
+button_background_id = 1
 button_centered = 1
 button_max_icon_size = 34
 
@@ -386,7 +386,7 @@ button_dwheel_command =
 button_font = Material 17
 button_font_color = #F56B6F 100
 button_padding = 0 0
-button_background_id = 6
+button_background_id = 1
 button_centered = 1
 button_max_icon_size = 34
 
