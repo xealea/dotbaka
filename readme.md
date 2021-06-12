@@ -1,11 +1,11 @@
 <p align="center"><img width="300" src="preview/dotbaka.png" />
 
-<h3><b><p align="center">Preview Wallpaper</p></b></h3>
+<p align="center"><img src="https://badges.pufler.dev/visits/vcyzteen/dotbaka?style=for-the-badge&label=&color=ffffff&logo=GitHub&logoColor=white&labelColor=373e4d" /><img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?style=for-the-badge&label=.files&color=ffffff"/>
 
-<img align="center" src="preview/dark.png" />
-<img align="center" src="preview/light.png" />
+<h3><b><p align="center">P R E V I E W - W A L L P A P E R</p></b></h3>
 
-<p align="center"><img src="https://badges.pufler.dev/visits/vcyzteen/dotbaka?style=flat-square&label=&color=ffffff&logo=GitHub&logoColor=white&labelColor=373e4d" /><img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?style=flat-square&label=.files&color=ffffff"/>
+<p align="center"><img align="center" src="preview/dark.png" />
+<p align="center"><img align="center" src="preview/light.png" />
 
 <b>You are welcome if you want to take the part you want or change it on your own device</b>
 
