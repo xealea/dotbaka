@@ -49,9 +49,9 @@ $ fc-cache -rv
   * [Aditya Shakya](https://github.com/adi1090x)
   * [Risky Nur Assyaufi](https://github.com/bandithijo)
 
-* Wallpaper Resource Anime PNG
+* Wallpaper Anime ( soon )
   * [Pixiv](https://pixiv.net)
-  * [Sfw](https://safebooru.donmai.us)
+  * [Safebooru](https://safebooru.donmai.us)
 
 * By The Way
   * I made info like this because if maybe someone wants to use it simply without wanting to be difficult, you can try it (actually I'm a little reluctant because this repo not good) to share this source but after I thought it would be better if I was easy to use it too & and clone became even better easy of course without having to enter the pswd github first :)
