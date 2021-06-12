@@ -10,7 +10,7 @@ theme_1=" Baka"
 # Variable passed to rofi
 options="$theme_0\n$theme_1"
 
-chosen="$(echo -e "$options" | $rofi_command -p "only have 2 themes" -show -dmenu -sync -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "Switch Themes" -show -dmenu -sync -selected-row 0)"
 case $chosen in
     $theme_0)
 	# Kill Process if running ----------------------
@@ -28,6 +28,9 @@ case $chosen in
         sed -i -e 's/bakarc/twilightrc/g' ${HOME}/.config/bspwm/bspwmrc
         sed -i -e 's/dark.png/light.png/g' ${HOME}/.fehbg
         xrdb ${HOME}/.Xresources
+        # Kill terminal --------------------------------
+        killall $USR1 urxvt
+        # ----------------------------------------------
         bspc wm -r
         ;;
     $theme_1)
@@ -46,6 +49,9 @@ case $chosen in
         sed -i -e 's/twilightrc/bakarc/g' ${HOME}/.config/bspwm/bspwmrc
         sed -i -e 's/light.png/dark.png/g' ${HOME}/.fehbg
         xrdb ${HOME}/.Xresources
+        # Kill terminal --------------------------------
+        killall $USR1 urxvt
+        # ----------------------------------------------
         bspc wm -r
         ;;
 esac
