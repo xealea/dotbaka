@@ -19,7 +19,7 @@ case $chosen in
         sed -i -e 's/baka/twilight/g' ${HOME}/.Xresources
         sed -i -e 's/Baka/Twilight/g' ${HOME}/.xsettingsd
         sed -i -e 's/Assistance/Lolipop/g' ${HOME}/.xsettingsd
-	sed -i -e 's/#47427C/#F56B6F/g' ${HOME}/.scripts/selfdraw.sh
+	sed -i -e 's/#E56C6C/#F56B6F/g' ${HOME}/.scripts/selfdraw.sh
         sed -i -e 's/baka/twilight/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/background = "#2F343F"/background = "#FFFFFF"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/foreground = "#FFFFFF"/foreground = "#F56B6F"/g' ${HOME}/.config/dunst/dunstrc
@@ -40,7 +40,7 @@ case $chosen in
         sed -i -e 's/twilight/baka/g' ${HOME}/.Xresources
         sed -i -e 's/Twilight/Baka/g' ${HOME}/.xsettingsd
         sed -i -e 's/Lolipop/Assistance/g' ${HOME}/.xsettingsd
-	sed -i -e 's/#F56B6F/#47427C/g' ${HOME}/.scripts/selfdraw.sh
+	sed -i -e 's/#F56B6F/#E56C6C/g' ${HOME}/.scripts/selfdraw.sh
         sed -i -e 's/twilight/baka/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/background = "#FFFFFF"/background = "#2F343F"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/foreground = "#F56B6F"/foreground = "#FFFFFF"/g' ${HOME}/.config/dunst/dunstrc
