@@ -29,7 +29,7 @@ configuration {
     display-combi: 					"";
 }
 
-@import "colors.rasi"
+@import "baka.rasi"
 
 * {
     background-color:             	@bg;
