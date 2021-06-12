@@ -21,8 +21,10 @@ $ rsync -avxHAXP --exclude '.git*' .* ~/
 ```bash
 $ fc-cache -rv
 ```
-* Picom for Void [ xbps-src ] | [Here](https://github.com/ibhagwan/picom-ibhagwan-template)
-* Picom For Artix [ use Aur ] | ```yay -S picom-ibhagwan-git```
+
+* Picom
+  * Picom for Void [ xbps-src ] | [Here](https://github.com/ibhagwan/picom-ibhagwan-template)
+  * Picom For Artix [ Aur ] | ```yay -S picom-ibhagwan-git```
 
 ```
 |-----------------------|-------------------------|
@@ -41,5 +43,15 @@ $ fc-cache -rv
 |     Switch Theme```   | Super + Z	          |
 |-----------------------|-------------------------|
 ```
+* Inspiration Resources
+  * [اَدِّيْ](https://github.com/addy-dclxvi)
+  * [Harry](https://github.com/owl4ce)
+  * [Aditya Shakya](https://github.com/adi1090x)
+  * [Risky Nur Assyaufi](https://github.com/bandithijo)
 
-* by the way. I made info like this because if maybe someone wants to use it simply without wanting to be difficult, you can try it (actually I'm a little reluctant because this repo not good) to share this source but after I thought it would be better if I was easy to use it too & and clone became even better easy of course without having to enter the pswd github first :)
+* Wallpaper Resource Anime PNG
+  * [Pixiv](https://pixiv.net)
+  * [Sfw](https://safebooru.donmai.us)
+
+* By The Way
+  * I made info like this because if maybe someone wants to use it simply without wanting to be difficult, you can try it (actually I'm a little reluctant because this repo not good) to share this source but after I thought it would be better if I was easy to use it too & and clone became even better easy of course without having to enter the pswd github first :)
