@@ -35,6 +35,14 @@ $ fc-cache -rv
     
     <p align="center"><a href="https://github.com/PKief/vscode-material-icon-theme" />I C O N - T H E M E </a> | <a href="https://github.com/akamud/vscode-theme-onedark" /> T H E M E - V S C O D E</a></p>
 
+- **Telegram Theme <kbd>optional</kbd>**
+  <details>
+  <summary><strong>See</strong></summary>
+
+  <p align="center"><img src="preview/telegram.png" alt="Telegram-Theme" align="center"/>
+
+  <p align="center"><a href="https://github.com/vcyzteen/Telegram-theme" /> T E L E G R A M - T H E M E </a>
+
 ```
 |-----------------------|-------------------------|
 |        Keybind        | Fungsi                  |
