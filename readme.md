@@ -26,6 +26,15 @@ $ fc-cache -rv
   * Picom For Void [ xbps-src ] | [picom-ibhagwan](https://github.com/ibhagwan/picom-ibhagwan-template)
   * Picom For Artix [ Aur ] | ```yay -S picom-ibhagwan-git```
 
+- **VSCode Themes & Icons <kbd>optional</kbd>**
+  <details>
+  <summary><strong>See</strong></summary>
+    
+    <p align="center"><img src="preview/vscode.png" alt="Atom&Material" align="center"/>
+    </p>
+    
+    <p align="center"><a href="https://github.com/PKief/vscode-material-icon-theme" />I C O N - T H E M E </a> | <a href="https://github.com/akamud/vscode-theme-onedark" /> T H E M E - V S C O D E</a></p>
+
 ```
 |-----------------------|-------------------------|
 |        Keybind        | Fungsi                  |
