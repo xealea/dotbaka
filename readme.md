@@ -43,6 +43,16 @@ $ fc-cache -rv
 
   <p align="center"><a href="https://github.com/vcyzteen/Telegram-theme" /> T E L E G R A M - T H E M E </a>
 
+- **SLIM Theme <kbd>optional</kbd>**
+  <details>
+  <summary><strong>See</strong></summary>
+
+  <p align="center"><img src="preview/slim.png" alt="SLIM-Theme" align="center"/>
+
+  <p align="center"><a href="https://drive.google.com/drive/folders/1_Ktq9kGqDi0TNC8Q49AWpLo2HvWkPhnQ" /> S L I M - T H E M E </a>
+  
+  	* *<b>Installasion See <a href="https://wiki.archlinux.org/title/SLiM">Archwiki<a/></b>*
+
 ```
 |-----------------------|-------------------------|
 |        Keybind        | Fungsi                  |
