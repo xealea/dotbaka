@@ -11,16 +11,22 @@
 
 * **Installasion**
 
-```bash
+```sh
 $ git clone https://github.com/vcyzteen/dotbaka && cd dotbaka
 ```
-```bash
+```sh
 $ chmod +x preinstalled && ./preinstalled
 ```
-```bash
+```sh
 $ rsync -avxHAXP --exclude '.git*' .* ~/
 ```
-```bash
+```sh
+pushd ~/.icons/ &&
+    sudo ln -vs ~/.icons/Tela-grey /usr/share/icons/Tela-grey &&
+    sudo ln -vs ~/.icons/Tela-red /usr/share/icons/Tela-red &&
+popd
+```
+```sh
 $ fc-cache -rv
 ```
 
