@@ -1,6 +1,6 @@
 Net/ThemeName "Baka"
-Net/IconThemeName "Assistance"
-Gtk/CursorThemeName ""
+Net/IconThemeName "Tela-grey"
+Gtk/CursorThemeName "oreo_white_cursors"
 Net/EnableEventSounds "0"
 Net/EnableInputFeedbackSounds "0"
 Xft/DPI "-1"
