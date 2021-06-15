@@ -9,7 +9,7 @@
 
 <b><p align="center">You are welcome if you want to take the part you want or change it on your own device</p></b>
 
-* *<h3><b>Installasion</b></h3>*
+* **Installasion**
 
 ```bash
 $ git clone https://github.com/vcyzteen/dotbaka && cd dotbaka
@@ -24,7 +24,10 @@ $ rsync -avxHAXP --exclude '.git*' .* ~/
 $ fc-cache -rv
 ```
 
-* Picom
+- **Compositor <kbd>suggested</kbd>**
+  <details>
+  <summary><strong>See</strong></summary>
+
   * Picom For Void [ xbps-src ] | [picom-ibhagwan](https://github.com/ibhagwan/picom-ibhagwan-template)
   * Picom For Artix [ Aur ] | ```yay -S picom-ibhagwan-git```
 
