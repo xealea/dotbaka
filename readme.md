@@ -99,18 +99,24 @@ $ fc-cache -rv
 |     Switch Theme      | Super + Z	          |
 |-----------------------|-------------------------|
 ```
-* Inspiration Resources
+<h3><b><p align="center">T H A N K S - F O R</p></b></h3>
+
+* **Inspiration Resources**
   * [اَدِّيْ](https://github.com/addy-dclxvi)
   * [Harry](https://github.com/owl4ce)
   * [Ibhagwan](https://github.com/ibhagwan)
   * [Aditya Shakya](https://github.com/adi1090x)
   * [Risky Nur Assyaufi](https://github.com/bandithijo)
 
-* Wallpaper Anime ( soon )
+* **Icons & Cursors theme**
+  * [Oreo](https://github.com/varlesh/oreo-cursors)
+  * [Tela](https://github.com/vinceliuice/Tela-icon-theme)
+
+* **Wallpaper Anime ( soon )**
   * [Pixiv](https://pixiv.net)
   * [Safebooru](https://safebooru.donmai.us)
 
-* By The Way
+* **By The Way**
   * I made info like this because if maybe someone wants to use it simply without wanting to be difficult, you can try it (actually I'm a little reluctant because this repo not good) to share this source but after I thought it would be better if I was easy to use it too & and clone became even better easy of course without having to enter the pswd github first :)
 
 <h3><b><p align="center">- - - T H A N K S - F O R - V I S I T I N G - - -</p></b></h3>
