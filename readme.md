@@ -67,7 +67,7 @@ $ fc-cache -rv
 |-----------------------|-------------------------|
 |     Reload sxhkd      | Super + Escape          |
 |-----------------------|-------------------------|
-|     Switch Theme```   | Super + Z	          |
+|     Switch Theme      | Super + Z	          |
 |-----------------------|-------------------------|
 ```
 * Inspiration Resources
