@@ -166,13 +166,13 @@
     ### Icons ###
 
     # Align icons left/right/off
-    icon_position = off
+    icon_position = left
 
     # Scale larger icons down to this size, set to 0 to disable
     max_icon_size = 32
 
     # Paths to default icons.
-    icon_path = icon_path = ~/.icons/Flat-Remix-Blue-Light/actions/:~/.icons/Flat-Remix-Blue-Light/apps/:~/.icons/Flat-Remix-Blue-Light/devices/:~/.icons/Flat-Remix-Blue-Light/emblems/:~/.icons/Flat-Remix-Blue-Light/emotes/:~/.icons/Flat-Remix-Blue-Light/mimetypes/:~/.icons/Flat-Remix-Blue-Light/places/:~/.icons/Flat-Remix-Blue-Light/status/
+    icon_path = /usr/share/icons/Tela-grey/16x16/actions/:/usr/share/icons/Tela-grey/16x16/apps/:/usr/share/icons/Tela-grey/16x16/devices/:/usr/share/icons/Tela-grey/16x16/emblems/:/usr/share/icons/Tela-grey/16x16/mimetypes/:/usr/share/icons/Tela-grey/16x16/places/:/usr/share/icons/Tela-grey/16x16/status/
 
     ### History ###
 
