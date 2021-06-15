@@ -23,7 +23,7 @@ do
             echo "--------------------------"
             ;;
         "Swicth Shell [ All GNU-Linux ]")
-            chsh -s /usr/bin/fish
+            sudo chsh -s /usr/bin/fish
             echo "--------------------------"
             echo "swicth shell fish finished"
             echo "--------------------------"
