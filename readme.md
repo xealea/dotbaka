@@ -9,6 +9,8 @@
 
 <b><p align="center">You are welcome if you want to take the part you want or change it on your own device</p></b>
 
+* *<h3><b>Installasion</b></h3>*
+
 ```bash
 $ git clone https://github.com/vcyzteen/dotbaka && cd dotbaka
 ```
