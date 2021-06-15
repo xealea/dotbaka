@@ -21,10 +21,10 @@ $ chmod +x preinstalled && ./preinstalled
 $ rsync -avxHAXP --exclude '.git*' .* ~/
 ```
 ```sh
-pushd ~/.icons/ &&
-    sudo ln -vs ~/.icons/Tela-grey /usr/share/icons/Tela-grey &&
-    sudo ln -vs ~/.icons/Tela-red /usr/share/icons/Tela-red &&
-popd
+$ pushd ~/.icons/ &&
+     sudo ln -vs ~/.icons/Tela-grey /usr/share/icons/Tela-grey &&
+     sudo ln -vs ~/.icons/Tela-red /usr/share/icons/Tela-red &&
+  popd
 ```
 ```sh
 $ fc-cache -rv
