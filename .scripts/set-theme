@@ -27,7 +27,7 @@ case $chosen in
         sed -i -e 's/gtk-theme-name=Baka/gtk-theme-name=Twilight/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/gtk-icon-theme-name=Assistance/gtk-theme-name=Lolipop/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/bakarc/twilightrc/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i -e 's/eula.png/light.png/g' ${HOME}/.fehbg
+        sed -i -e 's/eula.jpg/light.png/g' ${HOME}/.fehbg
         xrdb ${HOME}/.Xresources
         # Kill terminal --------------------------------
         killall $USR1 urxvt
@@ -49,7 +49,7 @@ case $chosen in
         sed -i -e 's/gtk-theme-name=Twilight/gtk-theme-name=Baka/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/gtk-icon-theme-name=Lolipop/gtk-theme-name=Assistance/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/twilightrc/bakarc/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i -e 's/light.png/eula.png/g' ${HOME}/.fehbg
+        sed -i -e 's/light.png/eula.jpg/g' ${HOME}/.fehbg
         xrdb ${HOME}/.Xresources
         # Kill terminal --------------------------------
         killall $USR1 urxvt
