@@ -3,11 +3,12 @@
 <p align="center"><img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge">
 <p align="center"><img src="https://badges.pufler.dev/visits/vcyzteen/dotbaka?style=for-the-badge&label=&color=ffffff&label=visiting" /> <img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?style=for-the-badge&label=files&color=ffffff"/> <img src="https://img.shields.io/github/license/vcyzteen/dotbaka?style=for-the-badge&label=licenci&color=ffffff" />
 <img src="https://img.shields.io/badge/MAINTAINED-YES-white?style=for-the-badge">
-<h3><b><p align="center">P R E V I E W - W A L L P A P E R</p></b></h3>
+<h3><b><p align="center">P R E V I E W - R O F I - L A U N C H E R</p></b></h3>
 
-<p align="center"><img align="center" src="preview/dark.png" />
-<p align="center"><img align="center" src="preview/light.png" />
-
+| D O T B A K A |
+|-|
+|![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/rofi.png)|
+     
 <b><p align="center">You are welcome if you want to take the part you want or change it on your own device</p></b>
 
 * **Installasion**
