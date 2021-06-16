@@ -68,8 +68,10 @@ $ fc-cache -rv
     
     <p align="center"><img src="preview/vscode.png" alt="Atom&Material" align="center"/>
     </p>
+    <p align="center"><img src="preview/vscode-light.png" alt="Atom&Material" align="center"/>
+    </p>
     
-    <p align="center"><a href="https://github.com/PKief/vscode-material-icon-theme" />I C O N - T H E M E </a> | <a href="https://github.com/akamud/vscode-theme-onedark" /> T H E M E - V S C O D E</a></p>
+    <p align="center"><a href="https://github.com/PKief/vscode-material-icon-theme" />I C O N - T H E M E </a> | <a href="https://github.com/akamud/vscode-theme-onedark" /> T H E M E - V S C O D E - D A R K </a> | <a href="https://github.com/akamud/vscode-theme-onelight" /> T H E M E - V S C O D E - L I G H T </a></p>
 
 - **Telegram Theme <kbd>optional</kbd>**
   <details>
