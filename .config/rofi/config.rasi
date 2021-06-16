@@ -3,18 +3,18 @@
  */
 
 configuration {
-    lines:							3;
-    columns:						4;
+    lines:							4;
+    columns:						2;
     font: 							"Mplus2 c medium 11";
     bw: 							0;
     location: 						0;
-    padding: 						0;
+    padding: 						10;
     fixed-num-lines: 				true;
-    show-icons: 					false;
+    show-icons: 					true;
     sidebar-mode: 					false;
     separator-style: 				"none";
     hide-scrollbar: 				true;
-    fullscreen: 					true;
+    fullscreen: 					false;
     fake-transparency: 				false;
     scroll-method: 					0;
     window-format: 					"[{w}] ··· {c} ···   {t}";
@@ -39,8 +39,8 @@ window {
     border: 						0px;
     border-color: 					@ac;
     border-radius: 					0px;
-    padding: 						80px;
-    width: 							100%;
+    padding: 						100px;
+    width: 							50%;
 }
 
 prompt {
@@ -52,7 +52,7 @@ prompt {
 textbox-prompt-colon {
     expand: 						false;
     str: 							" ";
-    margin:							0px 4px 0px 0px;
+    margin:							0px 0px 0px 0px;
     text-color: 					inherit;
 }
 
@@ -85,13 +85,13 @@ listview {
     border-color: 					@ac;
     spacing: 						5px;
     scrollbar: 						false;
-    padding: 						25px 5px -20px 5px;
+    padding: 						0px 0px 0px 0px;
 }
 
 element {
     border: 						4px;
     border-radius: 					5px;
-    padding: 						10px;
+    padding: 						5px;
 }
 element normal.normal {
     background-color: 				@bg;
