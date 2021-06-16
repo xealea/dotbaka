@@ -117,14 +117,17 @@ $ fc-cache -rv
   * [Ibhagwan](https://github.com/ibhagwan)
   * [Aditya Shakya](https://github.com/adi1090x)
   * [Risky Nur Assyaufi](https://github.com/bandithijo)
-
-* **Icons & Cursors theme**
-  * [Oreo](https://github.com/varlesh/oreo-cursors)
+)
   * [Tela](https://github.com/vinceliuice/Tela-icon-theme)
 
-* **Wallpaper Anime ( soon )**
-  * [Pixiv](https://pixiv.net)
-  * [Safebooru](https://safebooru.donmai.us)
+* **© All artist who make icons, illustrations, and wallpapers.**
+
+  * [Tela-Icons](https://github.com/vinceliuice/Tela-icon-theme)
+  * [Void 0 世界の鎮魂歌 - 雪](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=89927268)
+
+* **Our local linux art community**
+  * [@dotfiles_id](https://t.me/dotfiles_id)
+  * [R/unixporn](https://www.reddit.com/r/unixporn)
 
 * **By The Way**
   * I made info like this because if maybe someone wants to use it simply without wanting to be difficult, you can try it (actually I'm a little reluctant because this repo not good) to share this source but after I thought it would be better if I was easy to use it too & and clone became even better easy of course without having to enter the pswd github first :)
