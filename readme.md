@@ -117,8 +117,6 @@ $ fc-cache -rv
   * [Ibhagwan](https://github.com/ibhagwan)
   * [Aditya Shakya](https://github.com/adi1090x)
   * [Risky Nur Assyaufi](https://github.com/bandithijo)
-)
-  * [Tela](https://github.com/vinceliuice/Tela-icon-theme)
 
 * **© All artist who make icons, illustrations, and wallpapers.**
 
