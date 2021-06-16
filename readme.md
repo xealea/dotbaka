@@ -121,6 +121,7 @@ $ fc-cache -rv
 * **© All artist who make icons, illustrations, and wallpapers.**
 
   * [Tela-Icons](https://github.com/vinceliuice/Tela-icon-theme)
+  * [マネージャー](https://github.com/vcyzteen)
   * [Void 0 世界の鎮魂歌 - 雪](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=89927268)
 
 * **Our local linux art community**
