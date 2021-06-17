@@ -1,4 +1,4 @@
 #!/bin/bash
 
-scrot '%Y-%m-%d_$wx$h_Takeit.png' -e 'mv $f ~/Pictures/Screenshots'
+scrot '%Y-%m-%d-%T-screenshot.png' -e 'mv $f ~/Pictures/Screenshots'
 notify-send "Chissu! Take Screenshot"
