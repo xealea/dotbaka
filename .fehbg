@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill ${HOME}/.wallpaper/eula.jpg
+feh --no-fehbg --bg-fill ${HOME}/.wallpaper/dark.jpg
