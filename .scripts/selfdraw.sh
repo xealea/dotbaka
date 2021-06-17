@@ -61,7 +61,7 @@ type -p "scrot" &> /dev/null || noterr
         SV_LOC="CLIPBOARD"
     fi
     
-    $EXNOTIFY_SEND -r 12 -i "$NOTIF_SS_ICON" -u low "" "<span size='small'><u>$SV_LOC</u></span>\nPicture Has Been Saved!"
+    $EXNOTIFY_SEND -r 12 -i "$NOTIF_SS_ICON" -u low "" "<span size='small'><u>$SV_LOC</u></span>\nChissu! Take Screenshot"
     
     if [[ -f "$SAVE_DIR/Screenshots/$CURRENT.png" ]]; then
         [[ "$OPEN_FRAMED" = "yes" ]] && [[ -n "$(command -v "viewnior")" ]] && \
