@@ -158,9 +158,20 @@ alt + XF86AudioLowerVolume
 	
 # pulseaudio controls mute speaker
 XF86AudioMute
-	pamixer --get-mute; \
-	dunstify "Mute Audio"
+	pamixer -m \
+        pamixer -u \
+        dunstify "Mute Audio"
 
-# screenshot
+# screenshot now
+Print
+        scrot '%Y-%m-%d_$wx$h_SS.png' -e 'mv $f ~/Pictures/Screenshots' \
+        dunstify "Chissu! Take Screenshot"
+
+# screenshot 3sec
+Print + 3
+        scrot -d 3 '%Y-%m-%d_$wx$h_SS.png' -e 'mv $f ~/Pictures/Screenshots' \
+        dunstify "Chissu! Take Screenshot 3 Second"
+
+# screenshot with border
 alt + Print
-    bash ~/.scripts/selfdraw.sh
+        bash ~/.scripts/selfdraw.sh
