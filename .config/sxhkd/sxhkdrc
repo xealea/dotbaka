@@ -164,14 +164,12 @@ XF86AudioMute
 
 # screenshot now
 Print
-        scrot '%Y-%m-%d_$wx$h_Chissu.png' -e 'mv $f ~/Pictures/Screenshots'
-        dunstify "Chissu! Take Screenshot"
+        bash ${HOME}/.scripts/screenshot-3sec
 
 # screenshot 3sec
-Print + 3
-        scrot -d 3 '%Y-%m-%d_$wx$h_Chissu.png' -e 'mv $f ~/Pictures/Screenshots'
-        dunstify "Chissu! Take Screenshot 3 Second"
+5 + Print
+        bash ${HOME}/.scripts/screenshot-5sec
 
 # screenshot with border
 alt + Print
-        bash ~/.scripts/selfdraw.sh
+        bash ${HOME}/.scripts/selfdraw.sh
