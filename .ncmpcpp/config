@@ -22,5 +22,5 @@ main_window_color = blue
 current_item_prefix = $(blue)$r
 color1 = blue
 color2 = blue
-song_columns_list_format = "[blue]{NE} (50)[white]{t|f:Title} (20)[blue]{} (7f)[magenta]{l}"
+song_columns_list_format = "[blue]{NE} (50)[white]{t|f:Title} (7f)[magenta]{l}"
 window_border_color = blue
