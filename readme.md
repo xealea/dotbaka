@@ -92,6 +92,12 @@ $ fc-cache -rv
   
   	* *<b>Installasion See <a href="https://wiki.archlinux.org/title/SLiM">Archwiki<a/></b>*
 
+- **Neofetch Image <kbd>by defaults</kbd>**
+  <details>
+  <summary><strong>See</strong></summary>
+  
+  <p align="center"><img width=200 src="https://github.com/vcyzteen/dotbaka/blob/baka/.config/neofetch/images/mawar.png" /> <img width=200 src="https://github.com/vcyzteen/dotbaka/blob/baka/.config/neofetch/images/mawar-sepia.png" />
+
 ```
 |-----------------------|-------------------------|
 |        Keybind        | Fungsi                  |
