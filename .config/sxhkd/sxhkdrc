@@ -164,7 +164,7 @@ XF86AudioMute
 
 # screenshot now
 Print
-        bash ${HOME}/.scripts/screenshot-3sec
+        bash ${HOME}/.scripts/screenshot
 
 # screenshot 3sec
 5 + Print
