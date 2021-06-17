@@ -1,4 +1,5 @@
 #!/bin/bash
 
 scrot '%Y-%m-%d-%T-screenshot.png' -e 'mv $f ~/Pictures/Screenshots'
-notify-send "Chissu! Take Screenshot"
+notify-send -i "SCROT" -u low "" "<span size='small'><u>Pictures/Screenshots</u></span>\nChissu! Take Screenshot"
+
