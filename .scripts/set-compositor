@@ -1,0 +1,21 @@
+#!/bin/bash/env
+
+# Rofi Command
+rofi_command="rofi -theme ${HOME}/.config/rofi/config.rasi"
+
+# Themes
+compositor_1=" Square"
+compositor_2=" Rounded"
+
+# Variable passed to rofi
+options="$compositor_1\n$compositor_2"
+
+chosen="$(echo -e "$options" | $rofi_command -p "Switch TYpe Compositor" -show -dmenu -sync -selected-row 0)"
+case $chosen in
+    $compositor_1)
+        sed -i -e 's/corner-radius = 9/corner-radius = 0/g' ${HOME}/.config/picom/picom.conf
+        ;;
+    $compositor_2)
+        sed -i -e 's/corner-radius = 0/corner-radius = 9/g' ${HOME}/.config/picom/picom.conf
+        ;;
+esac

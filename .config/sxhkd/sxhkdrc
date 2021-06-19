@@ -10,6 +10,10 @@ super + Return
 super + z
 	bash ${HOME}/.scripts/set-theme
 
+# set type compositor
+super + c
+	bash ${HOME}/.scripts/set-compositor
+
 # program launcher
 super + @space
 	rofi -show drun

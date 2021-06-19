@@ -113,7 +113,9 @@ $ fc-cache -rv
 |-----------------------|-------------------------|
 |     Reload sxhkd      | Super + Escape          |
 |-----------------------|-------------------------|
-|     Switch Theme      | Super + Z	          |
+|     Switch Theme      | Super + Z	              |
+|-----------------------|-------------------------|
+|Switch Model Compositor| Super + C	              |
 |-----------------------|-------------------------|
 ```
 <h3><b><p align="center">T H A N K S - F O R</p></b></h3>
