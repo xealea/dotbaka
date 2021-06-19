@@ -100,23 +100,23 @@ $ fc-cache -rv
   <b><p align="center">A little bit infomation about neofetch image. This image im shoot with my phone and im edit with adobe. So point this image is. Image this took by naturally metode</p></b>
 
 ```
-|-----------------------|-------------------------|
-|        Keybind        | Fungsi                  |
-|-----------------------|-------------------------|
-|   Open Rofi - Menu    | Super + Space           |
-|-----------------------|-------------------------|
-|    Open - Terminal    | Super + Enter	          |
-|-----------------------|-------------------------|
-|   Screenshot - Now    | Print [ PrtSc ]         |
-|-----------------------|-------------------------|
-|  Screenshots - Half   | Alt + Print [ PrtSc ]   |
-|-----------------------|-------------------------|
-|     Reload sxhkd      | Super + Escape          |
-|-----------------------|-------------------------|
-|     Switch Theme      | Super + Z	              |
-|-----------------------|-------------------------|
-|Switch Model Compositor| Super + C	              |
-|-----------------------|-------------------------|
+|-------------------------|-------------------------|
+|         Keybind         | Fungsi                  |
+|-------------------------|-------------------------|
+|    Open Rofi - Menu     | Super + Space           |
+|-------------------------|-------------------------|
+|     Open - Terminal     | Super + Enter	    |
+|-------------------------|-------------------------|
+|    Screenshot - Now     | Print [ PrtSc ]         |
+|-------------------------|-------------------------|
+|   Screenshots - Half    | Alt + Print [ PrtSc ]   |
+|-------------------------|-------------------------|
+|      Reload sxhkd       | Super + Escape          |
+|-------------------------|-------------------------|
+|      Switch Theme       | Super + Z	            |
+|-------------------------|-------------------------|
+| Switch Model Compositor | Super + C	            |
+|-------------------------|-------------------------|
 ```
 <h3><b><p align="center">T H A N K S - F O R</p></b></h3>
 
