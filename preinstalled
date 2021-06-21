@@ -49,7 +49,7 @@ do
             echo "--------------------------"
             ;;
         "Remove Unused File")
-            rm -rf ${HOME}/preinstalled && rm -rf ${HOME}/readme.md && rm -rf ${HOME}/LICENCI && rm -rf ${HOME}/preview
+            rm -rf ${HOME}/preinstalled && rm -rf ${HOME}/readme.md && rm -rf ${HOME}/LICENCE && rm -rf ${HOME}/preview
             echo "--------------------------"
             echo "remove unused file finished"
             echo "--------------------------"
