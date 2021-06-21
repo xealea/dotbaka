@@ -1,6 +1,17 @@
 #!/bin/bash
 # Bash Menu Script Installasion Depedency and fish shell
 
+# Banner
+echo -e ""
+echo -e "         dBBBBb  dBBBBP dBBBBBBP dBBBBb dBBBBBb     dBP dBP dBBBBBb
+            dB' dBP.BP              dBP      BB    d8P.dBP       BB
+       dBP dB' dBP.BP    dBP    dBBBK'   dBP BB   dBBBBP     dBP BB
+      dBP dB' dBP.BP    dBP    dB' db   dBP  BB  dBP BB     dBP  BB
+     dBBBBB' dBBBBP    dBP    dBBBBP'  dBBBBBBB dBP dBP    dBBBBBBB"
+echo -e ""
+echo -e "      Script For Installasion Depedency And Some Stuff @vcyzteen"
+echo -e ""
+
 PS3='Please enter your choice:'
 options=("Install Depedency [ Void Linux ]" "Install Depedency [ Artix Linux ]" "Swicth Shell [ All GNU-Linux ]" "Set Chosser File Use Gtk [ Telegram Desktop ]" "Remove Unused File" )
 select opt in "${options[@]}"
@@ -38,7 +49,7 @@ do
             echo "--------------------------"
             ;;
         "Remove Unused File")
-            rm -rf ${HOME}/preinstalled && rm -rf ${HOME}/readme.md
+            rm -rf ${HOME}/preinstalled && rm -rf ${HOME}/readme.md && rm -rf ${HOME}/LICENCI && rm -rf ${HOME}/preview
             echo "--------------------------"
             echo "remove unused file finished"
             echo "--------------------------"
