@@ -9,7 +9,7 @@ echo -e "         dBBBBb  dBBBBP dBBBBBBP dBBBBb dBBBBBb     dBP dBP dBBBBBb
       dBP dB' dBP.BP    dBP    dB' db   dBP  BB  dBP BB     dBP  BB
      dBBBBB' dBBBBP    dBP    dBBBBP'  dBBBBBBB dBP dBP    dBBBBBBB"
 echo -e ""
-echo -e "      Script For Installasion Depedency And Some Stuff @vcyzteen"
+echo -e "      Script For Installasion Depedency And Some Stuff C @vcyzteen"
 echo -e ""
 
 PS3='Please enter your choice:'
