@@ -26,7 +26,7 @@ actions[screenshot-5sec]="bash ${HOME}/.scripts/screenshot-5sec"
 actions[screenshot]="bash ${HOME}/.scripts/selfdraw.sh"
 
 # By default, ask for confirmation for actions that are irreversible
-confirmations=(screenshot-5sec)
+confirmations=( )
 
 # By default, no dry run
 dryrun=false
