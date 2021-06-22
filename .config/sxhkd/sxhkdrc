@@ -14,6 +14,14 @@ super + z
 super + c
 	bash ${HOME}/.scripts/set-compositor
 
+# powermenu
+super + x
+        rofi -show p -modi p:${HOME}/.scripts/powermenu \
+             -theme ${HOME}/.config/rofi/config.rasi \
+             -font "mplus Nerd Font Mono 10" \
+             -width 20 \
+             -lines 2
+
 # program launcher
 super + @space
 	rofi -show drun
