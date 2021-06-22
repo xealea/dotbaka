@@ -4,7 +4,7 @@
 # Banner
 echo -e ""
 echo -e "         dBBBBb  dBBBBP dBBBBBBP dBBBBb dBBBBBb     dBP dBP dBBBBBb
-            dB' dBP.BP              dBP      BB    d8P.dBP       BB
+            dB' dBP.BP    dBp       dBP      BB    d8P.dBP       BB
        dBP dB' dBP.BP    dBP    dBBBK'   dBP BB   dBBBBP     dBP BB
       dBP dB' dBP.BP    dBP    dB' db   dBP  BB  dBP BB     dBP  BB
      dBBBBB' dBBBBP    dBP    dBBBBP'  dBBBBBBB dBP dBP    dBBBBBBB"
