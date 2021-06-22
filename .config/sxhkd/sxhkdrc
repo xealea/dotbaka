@@ -22,6 +22,14 @@ super + x
              -width 20 \
              -lines 2
 
+# simple ss with rofi
+super + r
+	rofi -show p -modi p:${HOME}/.scripts/rofiss \
+             -theme ${HOME}/.config/rofi/config.rasi \
+             -font "mplus Nerd Font Mono 10" \
+             -width 20 \
+             -lines 3
+
 # program launcher
 super + @space
 	rofi -show drun
