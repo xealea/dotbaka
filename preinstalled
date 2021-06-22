@@ -20,7 +20,8 @@ do
         "Install Depedency [ Void Linux ]")
             sudo xbps-install -Su xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
             fish-shell xsettingsd dunst mpv neofetch neovim Thunar rofi viewnior xfce4-power-manager \
-            pcmanfm tint2 ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol polkit xfce-polkit
+            pcmanfm tint2 ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol \
+            scrot polkit xfce-polkit rxvt-unicode xdg-user-dirs
             echo "--------------------------"
             echo "install depedency finished"
             echo "--------------------------"
@@ -28,7 +29,8 @@ do
         "Install Depedency [ Artix Linux ]")
             sudo pacman -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
             fish xsettingsd dunst mpv neofetch neovim thunar rofi viewnior xfce4-power-manager \
-            pcmanfm tint2 ranger fontconfig rsync wget curl w3m w3m-img imagemagick pamixer pavucontrol polkit xfce-polkit
+            pcmanfm tint2 ranger fontconfig rsync wget curl w3m w3m-img imagemagick pamixer pavucontrol \
+            scrot polkit xfce-polkit rxvt-unicode xdg-user-dirs
             echo "--------------------------"
             echo "install depedency finished"
             echo "--------------------------"
