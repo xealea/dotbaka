@@ -11,7 +11,7 @@
      
 <b><p align="center">You are welcome if you want to take the part you want or change it on your own device</p></b>
 
-* **Installasion**
+* **Installasion for latest menthod**
 
 ```sh
 $ git clone https://github.com/vcyzteen/dotbaka && cd dotbaka
