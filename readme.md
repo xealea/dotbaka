@@ -141,7 +141,9 @@ $ fc-cache -rv
   * [@dotfiles_id](https://t.me/dotfiles_id)
   * [R/unixporn](https://www.reddit.com/r/unixporn)
 
-* **By The Way**
-  * I made info like this because if maybe someone wants to use it simply without wanting to be difficult, you can try it (actually I'm a little reluctant because this repo not good) to share this source but after I thought it would be better if I was easy to use it too & and clone became even better easy of course without having to enter the pswd github first :)
+* **Message**
+  * If you like support it, star it or make a PR. Or if there is a problem with configuration (please check previous issues if any) you can make an issue here. Also if you want a discussion.
+   Feel free to modify.. under GPL-3.0
+   Thank you!
 
 <h3><b><p align="center">- - - T H A N K S - F O R - V I S I T I N G - - -</p></b></h3>
