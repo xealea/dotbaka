@@ -1,25 +1,24 @@
 !-----------COLOR-SCHEME-----------
 
-*background: [100]#2F343F
-*foreground: #FFFFFF
-*cursorColor: #2F343F
-*fading: 35
-*fadeColor: #FFFFFF
+*foreground: [100]#D8DEE9
+*background: #2E3440
+*cursorColor: #D8DEE9
+*fading: 5
+*fadeColor: #4C566A
 
 *color0:  #3B4252
-*color1:  #FF247A
-*color2:  #00B241
-*color3:  #FFC800
-*color4:  #83A1E7
-*color5:  #D08EF0
-*color6:  #FFFFFF
-*color7:  #C9CACB
-
+*color1:  #BF616A
+*color2:  #A3BE8C
+*color3:  #EBCB8B
+*color4:  #81A1C1
+*color5:  #B48EAD
+*color6:  #88C0D0
+*color7:  #E5E9F0
 *color8:  #4C566A
-*color9:  #F56B6F
-*color10:  #BAEA81
-*color11:  #FFC957
-*color12:  #7FA5FF
-*color13:  #CE8DEE
-*color14:  #6EDFFF
+*color9:  #BF616A
+*color10:  #A3BE8C
+*color11:  #EBCB8B
+*color12:  #81A1C1
+*color13:  #B48EAD
+*color14:  #8FBCBB
 *color15:  #ECEFF4

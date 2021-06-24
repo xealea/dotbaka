@@ -3,7 +3,7 @@
 *background: [100]#FFFFFF
 *foreground: #F56B6F
 *cursorColor: #FFFFFF
-*fading: 35
+*fading: 5
 *fadeColor: #F56B6F
 
 *color0: #1e1e1e
