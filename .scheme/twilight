@@ -2,7 +2,9 @@
 
 *background: [100]#FFFFFF
 *foreground: #F56B6F
-*cursorColor: #D8DEE9
+*cursorColor: #FFFFFF
+*fading: 35
+*fadeColor: #F56B6F
 
 *color0: #1e1e1e
 *color1: #cf6a4c
@@ -12,7 +14,6 @@
 *color5: #9b859d
 *color6: #afc4db
 *color7: #a7a7a7
-
 *color8: #5f5a60
 *color9: #cf6a4c
 *color10: #8f9d6a
