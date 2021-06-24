@@ -2,7 +2,9 @@
 
 *background: [100]#2F343F
 *foreground: #FFFFFF
-*cursorColor: #D8DEE9
+*cursorColor: #2F343F
+*fading: 35
+*fadeColor: #FFFFFF
 
 *color0:  #3B4252
 *color1:  #FF247A
