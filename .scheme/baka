@@ -1,7 +1,7 @@
 !-----------COLOR-SCHEME-----------
 
-*foreground: [100]#D8DEE9
-*background: #2E3440
+*foreground: #D8DEE9
+*background: [100]#2E3440
 *cursorColor: #D8DEE9
 *fading: 5
 *fadeColor: #4C566A
