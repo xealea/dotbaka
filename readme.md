@@ -96,9 +96,12 @@ $ fc-cache -rv
 - **Neofetch Image <kbd>by defaults</kbd>**
   <details>
   <summary><strong>See</strong></summary>
-  
-  <p align="center"><img width=200 src="https://github.com/vcyzteen/dotbaka/blob/baka/.config/neofetch/images/mawar.png" /> <img width=200 src="https://github.com/vcyzteen/dotbaka/blob/baka/.config/neofetch/images/mawar-sepia.png" />
-  <b><p align="center">A little bit infomation about neofetch image. This image im shoot with my phone and im edit with adobe. So point this image is. Image this took by naturally metode</p></b>
+
+  | Artix | Void | Devuan |
+  |-|-|-|
+  |![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/artix.png)|![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/void.png)|![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/devuan.png)|
+
+  **All Image Neofetch © @vcyzteen**
 
 ```
 |-------------------------|------------------------|
