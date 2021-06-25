@@ -5,7 +5,11 @@
 <img src="https://img.shields.io/badge/MAINTAINED-YES-white?style=for-the-badge">
 <h3><b><p align="center"> H O M E S C R E E N </p></b></h3>
 
-| D O T B A K A |
+| H O M E |
+|-|
+|![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/n1.png)|
+
+| H O M E |
 |-|
 |![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/home.png)|
      
