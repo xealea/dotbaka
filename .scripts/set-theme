@@ -19,7 +19,7 @@ case $chosen in
         sed -i -e 's/baka/twilight/g' ${HOME}/.Xresources
         sed -i -e 's/Baka/Twilight/g' ${HOME}/.xsettingsd
         sed -i -e 's/Tela-grey/Tela-red/g' ${HOME}/.xsettingsd
-	sed -i -e 's/#E56C6C/#F56B6F/g' ${HOME}/.scripts/selfdraw.sh
+	sed -i -e 's/#7E9DBC/#F56B6F/g' ${HOME}/.scripts/selfdraw.sh
         sed -i -e 's/baka/twilight/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/oreo_white_cursors/oreo_red_cursors/g' ${HOME}/.xsettingsd
         sed -i -e 's/background = "#2E3440"/background = "#D1D7E2"/g' ${HOME}/.config/dunst/dunstrc
@@ -41,7 +41,7 @@ case $chosen in
         sed -i -e 's/twilight/baka/g' ${HOME}/.Xresources
         sed -i -e 's/Twilight/Baka/g' ${HOME}/.xsettingsd
         sed -i -e 's/Tela-red/Tela-grey/g' ${HOME}/.xsettingsd
-	sed -i -e 's/#F56B6F/#E56C6C/g' ${HOME}/.scripts/selfdraw.sh
+	sed -i -e 's/#F56B6F/#7E9DBC/g' ${HOME}/.scripts/selfdraw.sh
         sed -i -e 's/twilight/baka/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/oreo_red_cursors/oreo_white_cursors/g' ${HOME}/.xsettingsd
         sed -i -e 's/background = "#D1D7E2"/background = "#2E3440"/g' ${HOME}/.config/dunst/dunstrc
