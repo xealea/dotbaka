@@ -1,4 +1,4 @@
-<p align="center"><img width="300" src="preview/dotbaka.png" />
+<b><h2><p align="center">**D O T B A K A**</p></h2></b>
 
 <p align="center"><img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge">
 <p align="center"><img src="https://badges.pufler.dev/visits/vcyzteen/dotbaka?style=for-the-badge&label=&color=ffffff&label=visiting" /> <img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?style=for-the-badge&label=files&color=ffffff"/> <img src="https://img.shields.io/github/license/vcyzteen/dotbaka?style=for-the-badge&label=licenci&color=ffffff" />
