@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill ${HOME}/.wallpaper/dark.png
+feh --no-fehbg --bg-fill ${HOME}/.wallpaper/void-baka.png
