@@ -39,4 +39,3 @@ function reset_background
         reset_background
     fi
 } &
-
