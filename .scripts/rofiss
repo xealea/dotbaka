@@ -21,9 +21,9 @@ icons[screenshot]="\u2399"
 icons[cancel]="\u00d7"
 
 declare -A actions
-actions[screenshot-normal]="bash ${HOME}/.scripts/screenshot"
-actions[screenshot-5sec]="bash ${HOME}/.scripts/screenshot-5sec"
-actions[screenshot]="bash ${HOME}/.scripts/selfdraw.sh"
+actions[screenshot-normal]="exec ${HOME}/.scripts/screenshot"
+actions[screenshot-5sec]=exec ${HOME}/.scripts/screenshot-5sec"
+actions[screenshot]="exec ${HOME}/.scripts/selfdraw.sh"
 
 # By default, ask for confirmation for actions that are irreversible
 confirmations=( )
