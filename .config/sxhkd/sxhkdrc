@@ -34,6 +34,10 @@ super + r
 super + @space
 	rofi -show drun
 
+# network
+super + n
+	bash ${HOME}/.scripts/network
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
