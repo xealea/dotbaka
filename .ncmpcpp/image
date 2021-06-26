@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 MUSIC_DIR=$HOME/Music
 
