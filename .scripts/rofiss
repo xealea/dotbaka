@@ -22,7 +22,7 @@ icons[cancel]="\u00d7"
 
 declare -A actions
 actions[screenshot-normal]="exec ${HOME}/.scripts/screenshot"
-actions[screenshot-5sec]=exec ${HOME}/.scripts/screenshot-5sec"
+actions[screenshot-5sec]="exec ${HOME}/.scripts/screenshot-5sec"
 actions[screenshot]="exec ${HOME}/.scripts/selfdraw.sh"
 
 # By default, ask for confirmation for actions that are irreversible
