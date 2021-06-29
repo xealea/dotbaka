@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rofi_command="rofi -theme $HOME/.config/rofi/menu/config.rasi"
+rofi_command="rofi -theme $HOME/.config/rofi/config.rasi"
 
 # Gets the current status of mpd (for us to parse it later on)
 status="$(mpc status)"
