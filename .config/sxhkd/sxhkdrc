@@ -38,6 +38,10 @@ super + @space
 super + n
 	bash ${HOME}/.scripts/network
 
+# mpd rofi
+super + m
+	bash ${HOME}/.scripts/mpd
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
