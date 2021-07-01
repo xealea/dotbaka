@@ -6,18 +6,17 @@ rofi_command="rofi -theme $HOME/.config/rofi/config.rasi"
 status="$(mpc status)"
 # Defines the Play / Pause option content
 if [[ $status == *"[playing]"* ]]; then
-    play_pause=" Pause"
+    play_pause="◼ Pause"
 else
-    play_pause=" Play"
+    play_pause="▶ Play"
 fi
 active=""
 urgent=""
-stop=" Stop"
-next=" Next"
-previous=" Previous"
+next="❯ Next"
+previous="❮ Previous"
 
 # Variable passed to rofi
-options="$previous\n$play_pause\n$stop\n$next"
+options="$previous\n$play_pause\n$next"
 
 # Get the current playing song
 current=$(mpc -f "%artist% - %title%" current)
@@ -34,9 +33,6 @@ case $chosen in
         ;;
     $play_pause)
         mpc -q toggle && notify-send -u low -t 1800 " $(mpc current)"
-        ;;
-    $stop)
-        mpc -q stop
         ;;
     $next)
         mpc -q next && notify-send -u low -t 1800 " $(mpc current)"

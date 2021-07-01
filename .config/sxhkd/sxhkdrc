@@ -8,35 +8,11 @@ super + Return
 
 # set theme use rofi
 super + z
-	bash ${HOME}/.scripts/set-theme
-
-# set type compositor
-super + c
-	bash ${HOME}/.scripts/set-compositor
-
-# powermenu
-super + x
-        rofi -show p -modi p:${HOME}/.scripts/powermenu \
-             -theme ${HOME}/.config/rofi/config.rasi \
-             -font "mplus Nerd Font Mono 10" \
-             -width 20 \
-             -lines 2
-
-# simple ss with rofi
-super + r
-	rofi -show p -modi p:${HOME}/.scripts/rofiss \
-             -theme ${HOME}/.config/rofi/config.rasi \
-             -font "mplus Nerd Font Mono 10" \
-             -width 20 \
-             -lines 3
+	bash ${HOME}/.scripts/get-all
 
 # program launcher
 super + @space
 	rofi -show drun
-
-# network
-super + n
-	bash ${HOME}/.scripts/network
 
 # mpd rofi
 super + m
