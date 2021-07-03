@@ -129,6 +129,7 @@ $ fc-cache -rv
 * **Inspiration Resources**
   * [اَدِّيْ](https://github.com/addy-dclxvi)
   * [Harry](https://github.com/owl4ce)
+  * [elenpan](https://github.com/elenapan)
   * [Ibhagwan](https://github.com/ibhagwan)
   * [Aditya Shakya](https://github.com/adi1090x)
   * [Risky Nur Assyaufi](https://github.com/bandithijo)
