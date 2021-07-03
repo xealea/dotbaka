@@ -11,6 +11,11 @@ TIMER_SEC="5"
 QUALITY="100"
 EXNOTIFY_SEND="dunstify"
 
+# Create directory if needed
+if [ ! -d "$SAVE_DIR" ]; then
+    mkdir -p "$SAVE_DIR"
+fi
+
 LC_ALL=C LANG=C
 
 noterr() { $EXNOTIFY_SEND -u low -r 12 "Install scrot!"; exit 1; }
