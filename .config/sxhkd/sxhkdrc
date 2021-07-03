@@ -18,6 +18,10 @@ super + @space
 super + m
 	bash ${HOME}/.scripts/mpd
 
+# youtube rofi
+super + v
+	bash ${HOME}/.scripts/ytvid
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

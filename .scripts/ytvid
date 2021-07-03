@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+# Arguments that will be passed to mpv
+mpv_args="-shuffle --ytdl-raw-options=yes-playlist= --force-window=immediate"
+
+# Rofi prompt
+rofi_prompt="YouTube ❯"
+
+# rofi
+main() {
+    # Get choice from rofi
+    choice=$( rofi -lines 1 -dmenu -i -fuzzy -p "$rofi_prompt" )
+
+  # If user has not picked anything, exit
+  if [[ -z "${choice// }" ]]; then
+      exit 1
+  fi
+
+  # Get URL
+  linktoplay="$(grep -m 1 "$choice" | cut -d '@' -f 2)"
+
+  # If the choice does not exist, try searching for it
+  if [ ${#linktoplay} -eq "0" ]; then
+    yid=$(youtube-dl ytsearch:"$choice" -s | grep "\[youtube\]" | cut -d ']' -f 2 | awk -F ':' '{print $1}' | cut -c 2-)
+    linktoplay=https://www.youtube.com/watch\?v\="$yid"
+  fi
+
+  # Send notification
+  notify-send "Opening YouTube Video :" "$choice"
+
+  # Spawn mpv
+  mpv $mpv_args "$linktoplay"
+}
+
+main &
+
+exit 0
