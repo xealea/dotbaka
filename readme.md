@@ -145,8 +145,6 @@ $ fc-cache -rv
   * [R/unixporn](https://www.reddit.com/r/unixporn)
 
 * **Message**
-  * If you like support it, star it or make a PR. Or if there is a problem with configuration (please check previous issues if any) you can make an issue here. Also if you want a discussion.
-   Feel free to modify.. under GPL-3.0
-   Thank you!
+  * Nothing Important You Can Use/Copy/Give Issue/Feedback or whatever you want. This open source so... Up to you all. because some of the codes I got from people who are already proficient
 
 <h3><b><p align="center">- - - T H A N K S - F O R - V I S I T I N G - - -</p></b></h3>
