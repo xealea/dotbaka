@@ -103,6 +103,13 @@ $ fc-cache -rv
 
   **All Image Neofetch © @vcyzteen**
 
+- **Youtube + Rofi<kbd>feature by default</kbd>**
+  <details>
+  <summary><strong>See</strong></summary>
+
+  **INFO**
+  * you can find videos by using the word you want to search ( without having to copy the link ).
+    because this feature is integrated with youtube-dl. and after you type it later the video will appear using the mpv player as the video player
 ```
 |-------------------------|------------------------|
 |         Keybind         | Typed Key              |
