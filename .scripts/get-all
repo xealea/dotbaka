@@ -27,14 +27,14 @@ case $chosen in
     $power)
         rofi -show p -modi p:${HOME}/.scripts/powermenu \
              -theme ${HOME}/.config/rofi/config.rasi \
-             -font "mplus Nerd Font Mono 10" \
+             -font "Iosevka Nerd Font Complete 10" \
              -width 20 \
              -lines 2
         ;;
     $screenshot)
 	rofi -show p -modi p:${HOME}/.scripts/rofiss \
              -theme ${HOME}/.config/rofi/config.rasi \
-             -font "mplus Nerd Font Mono 10" \
+             -font "Iosevka Nerd Font Complete 10" \
              -width 20 \
              -lines 3
 	;;
