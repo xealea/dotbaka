@@ -6,7 +6,7 @@
     <property name="brightness-switch" type="int" value="0"/>
     <property name="brightness-step-count" type="uint" value="25"/>
     <property name="brightness-exponential" type="bool" value="false"/>
-    <property name="general-notification" type="bool" value="true"/>
-    <property name="show-tray-icon" type="bool" value="true"/>
+    <property name="general-notification" type="bool" value="false"/>
+    <property name="show-tray-icon" type="bool" value="false"/>
   </property>
 </channel>
