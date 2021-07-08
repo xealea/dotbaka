@@ -6,13 +6,13 @@
 # Optional
 # Hapus '#' untuk mengaplikasikan secara manual atau gunakan ekstensi untuk mengaplikasikan secara otomatis
 
-# [Matikan fitur SafeSearch Google dan Youtube]
-# 216.58.211.3 google.com
-# 216.58.211.3 www.google.com
-# 216.58.211.3 google.co.id
-# 216.58.211.3 www.google.co.id
-# 127.0.0.1 forcesafesearch.google.com
-# 127.0.0.1 restrict.youtube.com
+[Matikan fitur SafeSearch Google dan Youtube]
+216.58.211.3 google.com
+216.58.211.3 www.google.com
+216.58.211.3 google.co.id
+216.58.211.3 www.google.co.id
+127.0.0.1 forcesafesearch.google.com
+127.0.0.1 restrict.youtube.com
 
 # [MacOS localhost]
 # 127.0.0.1 localhost
@@ -20,13 +20,13 @@
 # ::1 localhost
 # fe80::1%lo0 localhost
 
-# [Linux localhost]
-# 127.0.0.1 localhost SystemName
-# ::1 localhost ip6-localhost ip6-loopback
-# fe00::0 ip6-localnet
-# ff00::0 ip6-mcastprefix
-# ff02::1 ip6-allnodes
-# ff02::2 ip6-allrouters
+[Linux localhost]
+127.0.0.1 localhost SystemName
+::1 localhost ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
 
 # [Android localhost]
 # 127.0.0.1 localhost
