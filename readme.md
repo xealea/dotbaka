@@ -110,6 +110,13 @@ $ fc-cache -rv
   **INFO**
   * you can find videos by using the word you want to search ( without having to copy the link ).
     because this feature is integrated with youtube-dl. and after you type it later the video will appear using the mpv player as the video player
+
+- **Bebasid Hosts<kbd>suggested - install from preintalled script</kbd>**
+  <details>
+  <summary><strong>See</strong></summary>
+  
+  * Bebasid is a github organization that makes internet hosts neutral for all areas affected by website blocks ( can't access them except via vpn ). Now it will be easier for you if you use the hosts file that was created by bebasid. you can reach a wide area of ​​websites that have been blocked easily. ( without the need for a vpn again )
+  * Credits : [Bebasid](https://github.com/bebasid/bebasid)
 ```
 |-------------------------|------------------------|
 |         Keybind         | Typed Key              |
