@@ -244,3 +244,15 @@ end
 function mdka
     bash $HOME/.scripts/drivers-kernel $argv
 end
+
+functiom off
+    loginctl poweroff $argv
+end
+
+function sleep
+    loginctl suspend $argv
+end
+
+function reboot
+    loginctl reboot $argv
+end
