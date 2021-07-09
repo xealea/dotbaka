@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+MUSIC="$HOME/Music"
+
+# Rofi prompt
+rofi_prompt="Download Mp3 ❯"
+
+# rofi
+main() {
+    # Get choice from rofi
+    choice=$( rofi -lines 1 -dmenu -i -fuzzy -p "$rofi_prompt" )
+
+  # If user has not picked anything, exit
+  if [[ -z "${choice// }" ]]; then
+      exit 1
+  fi
+
+  # Get URL
+  linktoplay="$(grep -m 1 "$choice" | cut -d '@' -f 2)"
+
+  # If the choice does not exist, try searching for it
+  if [ ${#linktoplay} -eq "0" ]; then
+    yid=$(youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 ytsearch:"$choice")
+    mv *mp3 ${HOME}/Music
+  fi
+
+  # Create directory if needed
+  if [ ! -d "$MUSIC" ]; then
+      mkdir -p "$MUSIC"
+  fi
+
+  # Send notification
+  notify-send "Download Music Done!:" "$choice"
+}
+
+main &
+
+exit 0

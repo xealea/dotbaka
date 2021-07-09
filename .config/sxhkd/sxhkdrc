@@ -22,6 +22,10 @@ super + m
 super + v
 	bash ${HOME}/.scripts/ytvid
 
+# mp3 download + rofi
+super + n
+	bash ${HOME}/.scripts/ytmp3
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

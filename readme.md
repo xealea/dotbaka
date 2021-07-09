@@ -136,7 +136,9 @@ $ fc-cache -rv
 |-------------------------|------------------------|
 |      Mpd With Rofi      | Super + M              |
 |-------------------------|------------------------|
-|    Youtube With Rofi    | Super + V              |
+| Watch YoutubeD By Query | Super + V              |
+|--------------------------------------------------|
+| Download Music By Query | Super + N		   |
 |--------------------------------------------------|
 ```
 <h3><b><p align="center">T H A N K S - F O R</p></b></h3>
