@@ -8,6 +8,7 @@
 | H O M E |
 |-|
 |![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/n1.png)|
+|![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/rofi.png)|
 |![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/home.png)|
      
 <b><p align="center">You are welcome if you want to take the part you want or change it on your own device</p></b>
