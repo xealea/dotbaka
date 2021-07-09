@@ -236,3 +236,7 @@ end
 function psyu
     sudo pacman -Syu $argv
 end
+
+function cols
+    bash ${HOME}/.scripts/colors $argv
+end
