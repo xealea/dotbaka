@@ -240,3 +240,7 @@ end
 function cols
     bash ${HOME}/.scripts/colors $argv
 end
+
+function mdka
+    bash ${HOME}/.scripts/drivers-kernel $argv
+end
