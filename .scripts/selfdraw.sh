@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 SAVE_SS="yes"
-SAVE_DIR="${HOME}/Pictures"
+SAVE_DIR="${HOME}/Pictures/Screenshots"
 COPY2CLIP="yes"
 ENABLE_FRAME="yes"
 FRAME_COLOR="#7E9DBC"

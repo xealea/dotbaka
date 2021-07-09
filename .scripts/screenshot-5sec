@@ -1,9 +1,9 @@
 #!?bin/bash
 
 # plug
-SAVE_DIR="${HOME}/Pictures"
+SAVE_DIR="${HOME}/Pictures/Screenshots"
 
-scrot -d 5 '%Y-%m-%d-%T-screenshot.png' -e 'mv $f $SAVE_DIR'
+scrot -d 5 '%Y-%m-%d-%T-screenshot.png' -e 'mv $f ~/Pictures/Screenshots'
 notify-send -i "SCROT" -u low "" "<span size='small'><u>Pictures/Screenshots</u></span>\nChissu! Take Screenshot"
 
 # Create directory if needed
