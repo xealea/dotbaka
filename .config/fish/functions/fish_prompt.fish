@@ -245,7 +245,7 @@ function mdka
     bash $HOME/.scripts/drivers-kernel $argv
 end
 
-functiom off
+function off
     loginctl poweroff $argv
 end
 
@@ -255,4 +255,12 @@ end
 
 function reboot
     loginctl reboot $argv
+end
+
+function c
+    clear $argv
+end
+
+function gt
+    git clone $argv
 end
