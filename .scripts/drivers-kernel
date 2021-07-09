@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# type your branch
+echo -e "\e[33mWrite your branch type!\e[0m"
+read -e BRANCH
+
+# qcacld
+git remote add qcacld https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0
+git fetch qcacld $BRANCH
+git merge -s ours --no-commit FETCH_HEAD --allow-unrelated-histories
+git read-tree --prefix=drivers/staging/qcacld-3.0 -u FETCH_HEAD
+git commit -m "qcacld-3.0 into $BRANCH" --signoff
+
+# message
+echo -e "\e[35mMerged qcacld Done!\e[0m"
+
+# fw-api
+git remote add fw-api https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api
+git fetch fw-api $BRANCH
+git merge -s ours --no-commit FETCH_HEAD --allow-unrelated-histories
+git read-tree --prefix=drivers/staging/fw-api -u FETCH_HEAD
+git commit -m "fw-api into $BRANCH" --signoff
+
+# message
+echo -e "\e[35mMerged fw-api Done!\e[0m"
+
+# qca-wifi-host
+git remote add qca-wifi-host-cmn https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn
+git fetch qca-wifi-host-cmn $BRANCH
+git merge -s ours --no-commit FETCH_HEAD --allow-unrelated-histories
+git read-tree --prefix=drivers/staging/qca-wifi-host-cmn -u FETCH_HEAD
+git commit -m "qca-wifi-host into $BRANCH" --signoff
+
+# message
+echo -e "\e[35mMerged qca-wifi-host Done!\e[0m"
+
+# pushing
+git push
+echo -e "\e[35mAll Done!\e[0m"
