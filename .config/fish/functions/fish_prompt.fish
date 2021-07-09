@@ -176,3 +176,35 @@ function fish_prompt
         set_color normal
     end
 end
+
+function up
+    sudo xbps-install -Su $argv
+end
+
+function q
+    exit $argv
+end
+
+function xi
+    sudo xbps-install $argv
+end
+
+function rmx
+    sudo xbps-remove $argv
+end
+
+function rmxo
+    sudo xbps-remove --remove-orphans $argv
+end
+
+function rmxapp
+    sudo xbps-remove -O $argv
+end
+
+function pg
+    ping 8.8.8.8 $argv
+end
+
+function pc
+    ping 1.1.1.1 $argv
+end
