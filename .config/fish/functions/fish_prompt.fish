@@ -210,7 +210,7 @@ function pc
 end
 
 function gp
-    bash ${HOME}/.scripts/gitpush $argv
+    bash $HOME/.scripts/gitpush $argv
 end
 
 function grh
@@ -238,9 +238,9 @@ function psyu
 end
 
 function cols
-    bash ${HOME}/.scripts/colors $argv
+    bash $HOME/.scripts/colors $argv
 end
 
 function mdka
-    bash ${HOME}/.scripts/drivers-kernel $argv
+    bash $HOME/.scripts/drivers-kernel $argv
 end
