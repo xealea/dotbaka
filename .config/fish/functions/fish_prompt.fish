@@ -208,3 +208,31 @@ end
 function pc
     ping 1.1.1.1 $argv
 end
+
+function gp
+    bash ${HOME}/.scripts/gitpush $argv
+end
+
+function grh
+    git reset --hard $argv
+end
+
+function pi
+    sudo pacman -S $argv
+end
+
+function prpc
+    sudo pacman -Rcns $argv
+end
+
+function pr
+    sudo pacman -R $argv
+end
+
+function yup
+    sudo yay -Syu $argv
+end
+
+function psyu
+    sudo pacman -Syu $argv
+end
