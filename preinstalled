@@ -22,48 +22,48 @@ do
             fish-shell xsettingsd dunst mpv neofetch neovim Thunar rofi viewnior xfce4-power-manager \
             pcmanfm tint2 ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol \
             scrot polkit xfce-polkit rxvt-unicode xdg-user-dirs youtube-dl
-            echo "--------------------------"
-            echo "install depedency finished"
-            echo "--------------------------"
+            echo "----------------------------"
+            echo " install depedency finished "
+            echo "----------------------------"
             ;;
         "Install Depedency [ Artix Linux ]")
             sudo pacman -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
             fish xsettingsd dunst mpv neofetch neovim thunar rofi viewnior xfce4-power-manager \
             pcmanfm tint2 ranger fontconfig rsync wget curl w3m w3m-img imagemagick pamixer pavucontrol \
             scrot polkit xfce-polkit rxvt-unicode xdg-user-dirs youtube-dl
-            echo "--------------------------"
-            echo "install depedency finished"
-            echo "--------------------------"
+            echo "----------------------------"
+            echo " install depedency finished "
+            echo "----------------------------"
             ;;
         "Swicth Shell [ All GNU-Linux ]")
             sudo chsh -s /usr/bin/fish
-            echo "--------------------------"
-            echo "swicth shell fish finished"
-            echo "--------------------------"
+            echo "----------------------------"
+            echo " swicth shell fish finished "
+            echo "----------------------------"
             ;;
         "Set Chosser File Use Gtk [ Telegram Desktop ]")
             sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env TDESKTOP_USE_GTK_FILE_DIALOG=1 telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop
             sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env TDESKTOP_USE_GTK_FILE_DIALOG=1 telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop.desktop
             sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env TDESKTOP_USE_GTK_FILE_DIALOG=1 telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop.desktop.desktop
+            kilall telegram-desktop
             echo "--------------------------------------------------"
             echo " Ignore if it appears. no such files in directory "
             echo "--------------------------------------------------"
             echo " Set File Chosse Finished "
             echo "--------------------------"
-            echo "If not working you can check on [ Desktop Entry ] in the location application of telegram [ /usr/share/applications/ ] you can use command [ ls ] for cheking name of applications missing or not if missing you can edit manualy with add this [ env TDESKTOP_USE_GTK_FILE_DIALOG=1 ] after [ Exec= ]"
-            echo "--------------------------"
+            echo " If not working you can check on [ Desktop Entry ] in the location application of telegram [ /usr/share/applications/ ] you can use command [ ls ] for cheking name of applications missing or not if missing you can edit manualy with add this [ env TDESKTOP_USE_GTK_FILE_DIALOG=1 ] after [ Exec= ] "
             ;;
 	"Change hosts file to bebasid")
 	    sudo mv hosts /etc/hosts
-	    echo "--------------------------"
-            echo "Change hosts file finished"
-            echo "--------------------------"
+	    echo "-----&----------------------"
+            echo " Change hosts file finished "
+            echo "----------------------------"
 	    ;;
         "Remove Unused File")
-            rm -rf ${HOME}/preinstalled && rm -rf ${HOME}/readme.md && rm -rf ${HOME}/LICENCE && rm -rf ${HOME}/preview && rm -rf ${HOME}/.git
-            echo "--------------------------"
-            echo "remove unused file finished"
-            echo "--------------------------"
+            rm -rf ${HOME}/preinstalled && rm -rf ${HOME}/readme.md && rm -rf ${HOME}/LICENCE
+            echo "-----------------------------"
+            echo " remove unused file finished "
+            echo "-----------------------------"
             ;;
         *) echo "Invalid Selection $REPLY";;
     esac
