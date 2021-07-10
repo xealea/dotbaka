@@ -12,7 +12,7 @@ echo -e ""
 echo -e "      Script For Installasion Depedency And Some Stuff © @vcyzteen"
 echo -e ""
 
-PS3='Please enter your choice:'
+PS3='Please enter your choice: '
 options=("Install Depedency [ Void Linux ]" "Install Depedency [ Artix Linux ]" "Swicth Shell [ All GNU-Linux ]" "Set Chosser File Use Gtk [ Telegram Desktop ]" "Change hosts file to bebasid" "Remove Unused File" )
 select opt in "${options[@]}"
 do
