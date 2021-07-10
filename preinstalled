@@ -55,7 +55,7 @@ do
             ;;
 	"Change hosts file to bebasid")
 	    sudo mv hosts /etc/hosts
-	    echo "-----&----------------------"
+	    echo "----------------------------"
             echo " Change hosts file finished "
             echo "----------------------------"
 	    ;;
