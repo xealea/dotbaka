@@ -264,3 +264,7 @@ end
 function gt
     git clone $argv
 end
+
+function dx
+    drone exec
+end
