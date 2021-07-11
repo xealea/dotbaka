@@ -266,5 +266,5 @@ function gt
 end
 
 function dx
-    drone exec
+    drone exec $argv
 end
