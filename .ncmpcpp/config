@@ -3,6 +3,7 @@ visualizer_in_stereo = "yes"
 visualizer_type = "spectrum"
 visualizer_look = ●┃
 visualizer_color = blue, blue, blue, blue, blue
+locked_screen_width_part = "35"
 progressbar_look = "▅▅▅"
 progressbar_elapsed_color = "blue"
 progressbar_color = "black"
