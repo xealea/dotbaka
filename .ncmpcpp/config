@@ -1,9 +1,18 @@
+# MAIN
+mpd_host = "127.0.0.1"
+mpd_port = "6600"
+mpd_crossfade_time = 2
+
+# VIZ
 visualizer_output_name = "my_fifo"
 visualizer_in_stereo = "yes"
 visualizer_type = "spectrum"
 visualizer_look = ●┃
 visualizer_color = blue, blue, blue, blue, blue
-locked_screen_width_part = "35"
+
+# UI
+locked_screen_width_part = "60"
+ask_for_locked_screen_width_part = yes
 progressbar_look = "▅▅▅"
 progressbar_elapsed_color = "blue"
 progressbar_color = "black"
@@ -11,6 +20,8 @@ playlist_display_mode = "columns"
 autocenter_mode = "yes"
 centered_cursor = "yes"
 user_interface = "classic"
+
+# SOME
 follow_now_playing_lyrics = "yes"
 store_lyrics_in_song_dir = yes
 header_visibility = "no"
@@ -19,10 +30,31 @@ titles_visibility = "no"
 enable_window_title = "yes"
 state_flags_color = blue
 main_window_color = blue
+
+# COLS
 current_item_prefix = $(blue)$r
 color1 = blue
 color2 = blue
-song_columns_list_format = "[blue]{NE} (50)[white]{t|f:Title} (7f)[blue]{l}"
+statusbar_color = "white"
+
+# DISPLAY
+cyclic_scrolling = "yes"
+mouse_support = "yes"
+mouse_list_scroll_whole_page = "yes"
+lines_scrolled = "1"
+message_delay_time = "1"
+playlist_shorten_total_times = "yes"
+browser_display_mode = "columns"
+search_engine_display_mode = "columns"
+playlist_editor_display_mode = "columns"
+display_bitrate = "no"
+external_editor = "nano"
+startup_screen = "playlist"
+startup_slave_screen = "visualizer"
+startup_slave_screen_focus = yes
+song_columns_list_format = "(52)[]{t|fr:Title}|(0)[red]{a}"
 window_border_color = blue
-execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
+
+# EXEC
 #execute_on_song_change = ~/.ncmpcpp/image
+execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
