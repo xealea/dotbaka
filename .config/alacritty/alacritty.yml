@@ -59,20 +59,8 @@ colors:
 
 font:
   normal:
-    family: Ubuntu Nerd Fon
+    family: Iosevka Nerd Font Complete
     style: Regular
-
-  bold:
-    family: Ubuntu Nerd Fon
-    style: Bold
-
-  italic:
-    family: Ubuntu Nerd Font
-    style: Italic
-
-  bold_italic:
-    family: Ubuntu Nerd Font
-    style: Bold Italic
 
   size: 7
 
