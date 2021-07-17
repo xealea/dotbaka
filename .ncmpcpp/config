@@ -1,6 +1,4 @@
 # MAIN
-mpd_host = "127.0.0.1"
-mpd_port = "6600"
 mpd_crossfade_time = 2
 
 # VIZ
