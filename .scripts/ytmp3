@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+MENU="$HOME/.config/rofi/menu/config.rasi"
 MUSIC="$HOME/Music"
 
 # Rofi prompt
@@ -8,7 +9,7 @@ rofi_prompt="Download Mp3 ❯"
 # rofi
 main() {
     # Get choice from rofi
-    choice=$( rofi -lines 1 -dmenu -i -fuzzy -p "$rofi_prompt" )
+    choice=$( rofi -lines 1 -dmenu -theme "$MENU" -i -fuzzy -p "$rofi_prompt" )
 
   # If user has not picked anything, exit
   if [[ -z "${choice// }" ]]; then
