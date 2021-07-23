@@ -5,7 +5,7 @@
 configuration {
     lines:							4;
     columns:						2;
-    font: 							"Iosevka Nerd Font Complete 9";
+    font: 							"Iosevka Nerd Font Complete 10";
     bw: 							0;
     location: 						0;
     padding: 						10;
@@ -14,7 +14,7 @@ configuration {
     sidebar-mode: 					false;
     separator-style: 				"none";
     hide-scrollbar: 				true;
-    fullscreen: 					false;
+    fullscreen: 					true;
     fake-transparency: 				false;
     scroll-method: 					0;
     window-format: 					"[{w}] ··· {c} ···   {t}";
