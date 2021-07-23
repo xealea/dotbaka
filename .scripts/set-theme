@@ -1,7 +1,7 @@
 #!/bin/bash/env
 
 # Rofi Command
-rofi_command="rofi -theme ${HOME}/.config/rofi/config.rasi"
+rofi_command="rofi -theme ${HOME}/.config/rofi/menu/config.rasi"
 
 # Themes
 theme_0=" Twilight"
@@ -21,6 +21,7 @@ case $chosen in
         sed -i -e 's/Tela-grey/Tela-red/g' ${HOME}/.xsettingsd
 	sed -i -e 's/#7E9DBC/#F56B6F/g' ${HOME}/.scripts/selfdraw.sh
         sed -i -e 's/baka/twilight/g' ${HOME}/.config/rofi/config.rasi
+        sed -i -e 's/baka/twilight/g' ${HOME}/.config/rofi/menu/config.rasi
         sed -i -e 's/oreo_white_cursors/oreo_red_cursors/g' ${HOME}/.xsettingsd
         sed -i -e 's/background = "#2E3440"/background = "#D1D7E2"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/foreground = "#D1D7E2"/foreground = "#F56B6F"/g' ${HOME}/.config/dunst/dunstrc
@@ -43,6 +44,7 @@ case $chosen in
         sed -i -e 's/Tela-red/Tela-grey/g' ${HOME}/.xsettingsd
 	sed -i -e 's/#F56B6F/#7E9DBC/g' ${HOME}/.scripts/selfdraw.sh
         sed -i -e 's/twilight/baka/g' ${HOME}/.config/rofi/config.rasi
+        sed -i -e 's/twilight/baka/g' ${HOME}/.config/rofi/menu/config.rasi
         sed -i -e 's/oreo_red_cursors/oreo_white_cursors/g' ${HOME}/.xsettingsd
         sed -i -e 's/background = "#D1D7E2"/background = "#2E3440"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/foreground = "#F56B6F"/foreground = "#D1D7E2"/g' ${HOME}/.config/dunst/dunstrc

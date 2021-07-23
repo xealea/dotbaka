@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rofi_command="rofi -lines 5 -theme $HOME/.config/rofi/config.rasi"
+rofi_command="rofi -lines 5 -theme $HOME/.config/rofi/menu/config.rasi"
 
 # option
 theme="☱ : Theme"
@@ -26,14 +26,14 @@ case $chosen in
         ;;
     $power)
         rofi -show p -modi p:${HOME}/.scripts/powermenu \
-             -theme ${HOME}/.config/rofi/config.rasi \
+             -theme ${HOME}/.config/rofi/menu/config.rasi \
              -font "Iosevka Nerd Font Complete 10" \
              -width 20 \
              -lines 2
         ;;
     $screenshot)
 	rofi -show p -modi p:${HOME}/.scripts/rofiss \
-             -theme ${HOME}/.config/rofi/config.rasi \
+             -theme ${HOME}/.config/rofi/menu/config.rasi \
              -font "Iosevka Nerd Font Complete 10" \
              -width 20 \
              -lines 3
