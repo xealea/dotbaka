@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+rofi_command="rofi -lines 5 -theme $HOME/.config/rofi/menu/config.rasi"
+
+# option
+record="record"
+stop="stop"
+
+# Variable passed to rofi
+options="$record\n$stop"
+
+# Spawn menu
+chosen="$(echo -e "$options" | $rofi_command -p "Recording Video Only" -dmenu)"
+case $chosen in
+    $record)
+        bash ${HOME}/.scripts/record
+        ;;
+    $stop)
+        bash ${HOME}/.scripts/stop
+        ;;
+esac

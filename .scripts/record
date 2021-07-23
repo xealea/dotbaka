@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# directory
+DIR="$HOME/Videos"
+
+# file video
+NAME="$DIR/video-$(date '+%y%m%d-%H%M-%S').mp4"
+
+# notify send
+notify-send "Start Recording"
+
+ffmpeg -y -f x11grab -framerate 30 -s 1366x768 \
+       -i :0.0 -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 \
+       -c:v libx264 -pix_fmt yuv420p -preset veryfast -q:v 1 $NAME &
+
+echo $! >/tmp/record

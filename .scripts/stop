@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# kill program
+killall ffmpeg
+
+# notify send
+notify-send "Stop Recording"
