@@ -268,3 +268,7 @@ end
 function dx
     drone exec $argv
 end
+
+function ncmpcpp
+    bash ~/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug $argv
+end

@@ -5,7 +5,7 @@ mpd_crossfade_time = 2
 visualizer_output_name = "my_fifo"
 visualizer_in_stereo = "yes"
 visualizer_type = "spectrum"
-visualizer_look = ●┃
+visualizer_look = "●┃"
 visualizer_color = blue, blue, blue, blue, blue
 
 # UI
@@ -54,5 +54,5 @@ song_columns_list_format = "(52)[]{t|fr:Title}|(0)[red]{a}"
 window_border_color = blue
 
 # EXEC
-#execute_on_song_change = ~/.ncmpcpp/image
-execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
+#execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
+execute_on_song_change = ~/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh
