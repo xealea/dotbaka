@@ -174,9 +174,7 @@ alt + XF86AudioLowerVolume
 	
 # pulseaudio controls mute speaker
 XF86AudioMute
-	pamixer -m \
-        pamixer -u \
-        dunstify "Mute Audio"
+	bash ${HOME}/.scripts/mute
 
 # screenshot now
 Print
