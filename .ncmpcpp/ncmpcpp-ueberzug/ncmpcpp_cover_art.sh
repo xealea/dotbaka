@@ -27,6 +27,7 @@ main() {
     find_cover_image        >/dev/null 2>&1
     display_cover_image     2>/dev/null
     detect_window_resizes   >/dev/null 2>&1
+    send_notify             >/dev/null 2>&1
 }
 
 # ==== Main functions =========================================================
@@ -240,5 +241,8 @@ send_to_ueberzug() {
     IFS=${old_IFS}
 }
 
+send_notify() {
+    dunstify "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
+}
 
 main
