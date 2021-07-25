@@ -55,4 +55,4 @@ window_border_color = blue
 
 # EXEC
 #execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
-execute_on_song_change = ~/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh && notify-send "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
+execute_on_song_change = ~/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp_cover_art.sh
