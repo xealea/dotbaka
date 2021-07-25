@@ -1,3 +1,0 @@
-#include ".scheme/baka"
-#include ".Xresources.d/rxvt-unicode"
-#include ".Xresources.d/font"

@@ -14,9 +14,8 @@ chosen="$(echo -e "$options" | $rofi_command -p "Switch Themes" -show -dmenu -sy
 case $chosen in
     $theme_0)
 	# Kill Process if running ----------------------
-        killall urxvt rofi sxhkd dunst xfce4-power-manager tint2
+        killall alacritty rofi sxhkd dunst xfce4-power-manager tint2
         # ----------------------------------------------
-        sed -i -e 's/baka/twilight/g' ${HOME}/.Xresources
         sed -i -e 's/Baka/Twilight/g' ${HOME}/.xsettingsd
         sed -i -e 's/Tela-grey/Tela-red/g' ${HOME}/.xsettingsd
 	sed -i -e 's/#7E9DBC/#F56B6F/g' ${HOME}/.scripts/selfdraw.sh
@@ -29,17 +28,15 @@ case $chosen in
         sed -i -e 's/gtk-icon-theme-name=Assistance/gtk-theme-name=Lolipop/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/bakarc/twilightrc/g' ${HOME}/.config/bspwm/bspwmrc
         sed -i -e 's/dusk.jpg/light.png/g' ${HOME}/.fehbg
-        xrdb ${HOME}/.Xresources
         # Kill terminal --------------------------------
-        killall $USR1 urxvt
+        killall $USR1 alacritty
         # ----------------------------------------------
         bspc wm -r
         ;;
     $theme_1)
 	# Kill Process if running ----------------------
-        killall urxvt rofi sxhkd dunst xfce4-power-manager tint2
+        killall alacritty rofi sxhkd dunst xfce4-power-manager tint2
         # ----------------------------------------------
-        sed -i -e 's/twilight/baka/g' ${HOME}/.Xresources
         sed -i -e 's/Twilight/Baka/g' ${HOME}/.xsettingsd
         sed -i -e 's/Tela-red/Tela-grey/g' ${HOME}/.xsettingsd
 	sed -i -e 's/#F56B6F/#7E9DBC/g' ${HOME}/.scripts/selfdraw.sh
@@ -52,9 +49,8 @@ case $chosen in
         sed -i -e 's/gtk-icon-theme-name=Lolipop/gtk-theme-name=Assistance/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/twilightrc/bakarc/g' ${HOME}/.config/bspwm/bspwmrc
         sed -i -e 's/light.png/dusk.jpg/g' ${HOME}/.fehbg
-        xrdb ${HOME}/.Xresources
         # Kill terminal --------------------------------
-        killall $USR1 urxvt
+        killall $USR1 alacritty
         # ----------------------------------------------
         bspc wm -r
         ;;

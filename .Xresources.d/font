@@ -1,6 +1,0 @@
-!-----------FONT-------------
-
-URxvt.font: xft:Iosevka Nerd Font Complete:size=8,xft:Monospace:size=11:antialias=true:hinting=true
-URxvt.boldFont: xft:Iosevka Nerd Font Complete:bold:size=8
-URxvt.italicFont: xft:Iosevka Nerd Font Complete:italic:size=8
-URxvt.boldItalicfont: xft:Iosevka Nerd Font Complete:boldItalic:size=8
