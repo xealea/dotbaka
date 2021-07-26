@@ -1,20 +1,25 @@
 #!/usr/bin/env bash
 
-rofi_command="rofi -lines 2 -theme $HOME/.config/rofi/menu/config.rasi"
+rofi_command="rofi -lines 3 -theme $HOME/.config/rofi/menu/config.rasi"
 
 # option
-record="record"
+record="record no audio"
+audio="record with audio"
 stop="stop"
 
 # Variable passed to rofi
-options="$record\n$stop"
+options="$record\n$audio\n$stop"
 
 # Spawn menu
-chosen="$(echo -e "$options" | $rofi_command -p "Recording Video Only" -dmenu)"
+chosen="$(echo -e "$options" | $rofi_command -p "Record" -dmenu)"
 case $chosen in
     $record)
         bash ${HOME}/.scripts/record
         ;;
+    $audio)
+	bash ${HOME}/.scripts/audioVrecord
+	notify-send "Start Recording" "In Time: $(date '+%H:%M:%S')"
+	;;
     $stop)
         bash ${HOME}/.scripts/stop
         ;;

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# directory
+DIR="$HOME/Videos"
+
+# dimensi
+function Greso() {
+	xdpyinfo | grep dimensions | awk '{print $2;}'
+}
+reso=$(Greso)
+
+# rofi
+function Gaudio() {
+	pactl list | grep "Name" | grep "alsa" | awk '{print $2}' | rofi -dmenu -theme $HOME/.config/rofi/menu/config.rasi -p "Input Audio"
+}
+audio=$(Gaudio)
+
+# file video
+NAME="$DIR/video-$(date '+%y%m%d-%H%M-%S').mp4"
+
+# ffmpeg
+ffmpeg -y -f x11grab -framerate 30 -s $reso \
+            -i :0.0 -f pulse -i $audio -ac 1 \
+            -c:v libx264 -pix_fmt yuv420p -preset veryfast -q:v 1 \
+            -c:a aac $NAME &
+
+echo $! >/tmp/record
