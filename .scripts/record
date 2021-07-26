@@ -10,7 +10,7 @@ function Greso() {
 reso=$(Greso)
 
 # file video
-NAME="$DIR/video-$(date '+%H%M-%S').mp4"
+NAME="$DIR/video-$(date '+%y%m%d-%H%M-%S').mp4"
 
 # notify send
 notify-send "Start Recording" "In Time: $(date '+%H:%M:%S')"
