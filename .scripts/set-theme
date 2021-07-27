@@ -12,7 +12,7 @@ options="$theme_0\n$theme_1"
 
 chosen="$(echo -e "$options" | $rofi_command -p "Switch Themes" -show -dmenu -sync -selected-row 0)"
 case $chosen in
-    $theme_0)
+    $theme_0)y
 	# Kill Process if running ----------------------
         killall alacritty rofi sxhkd dunst xfce4-power-manager tint2
         # ----------------------------------------------
@@ -25,10 +25,8 @@ case $chosen in
         sed -i -e 's/oreo_white_cursors/oreo_red_cursors/g' ${HOME}/.xsettingsd
         sed -i -e 's/background = "#2E3440"/background = "#141634"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/foreground = "#141634"/foreground = "#F9F9F9"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/gtk-theme-name=Baka/gtk-theme-name=Twilight/g' ${HOME}/.config/gtk-3.0/settings.ini
-        sed -i -e 's/gtk-icon-theme-name=Assistance/gtk-theme-name=Lolipop/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/bakarc/twilightrc/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i -e 's/dusk.jpg/light.png/g' ${HOME}/.fehbg
+        sed -i -e 's/dusk.jpg/glup.png/g' ${HOME}/.fehbg
         # Kill terminal --------------------------------
         killall $USR1 alacritty
         # ----------------------------------------------
@@ -47,10 +45,8 @@ case $chosen in
         sed -i -e 's/oreo_red_cursors/oreo_white_cursors/g' ${HOME}/.xsettingsd
         sed -i -e 's/background = "#141634"/background = "#2E3440"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/foreground = "#F9F9F9"/foreground = "#141634"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/gtk-theme-name=Twilight/gtk-theme-name=Baka/g' ${HOME}/.config/gtk-3.0/settings.ini
-        sed -i -e 's/gtk-icon-theme-name=Lolipop/gtk-theme-name=Assistance/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/twilightrc/bakarc/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i -e 's/light.png/dusk.jpg/g' ${HOME}/.fehbg
+        sed -i -e 's/glup.png/dusk.jpg/g' ${HOME}/.fehbg
         # Kill terminal --------------------------------
         killall $USR1 alacritty
         # ----------------------------------------------
