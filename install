@@ -2,20 +2,43 @@
 
 function main() {
 	install
-	font
+	verbose
+	font >/dev/null 2>&1
 	reload
 }
 
 function install() {
-	rsync -avxHAXP --exclude '.git*' .* ~/ 
+	rsync -avxHAXP --quiet --exclude '.git*' .* ~/ 
 }
 
-function reload() {
-	bspc wm -r
+function verbose() {
+	echo -ne 'installing:  #           (10%)\r'
+	sleep 1
+	echo -ne 'installing:  ##	   (20%)\r'
+	sleep 1
+	echo -ne 'installing:  ###         (30%)\r'
+        sleep 1
+        echo -ne 'installing:  ####        (40%)\r'
+        sleep 1
+        echo -ne 'installing:  #####       (50%)\r'
+	sleep 1
+	echo -ne 'installing:  ######      (60%)\r'
+        sleep 1
+        echo -ne 'installing:  #######     (70%)\r'
+        sleep 1
+        echo -ne 'installing:  ########    (80%)\r'
+	sleep 1
+	echo -ne 'installing:  #########   (90%)\r'
+	sleep 1
+	echo -ne 'installing:  ##########  (100%)\r'
 }
 
 function font() {
 	fc-cache -rv
+}
+
+function reload() {
+        bspc wm -r
 }
 
 main
