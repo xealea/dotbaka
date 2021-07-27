@@ -28,6 +28,7 @@ $ bash install
 $ bash update
 ```
 </details>
+  
 ```sh
 $ pushd ~/.icons/ &&
      sudo ln -vs ~/.icons/Tela-grey /usr/share/icons/Tela-grey &&
