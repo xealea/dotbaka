@@ -16,8 +16,6 @@ case $chosen in
 	# Kill Process if running ----------------------
         killall alacritty rofi sxhkd dunst xfce4-power-manager tint2
         # ----------------------------------------------
-        sed -i -e 's/Baka/Twilight/g' ${HOME}/.xsettingsd
-        sed -i -e 's/Tela-grey/Tela-red/g' ${HOME}/.xsettingsd
 	sed -i -e 's/#7E9DBC/#141634/g' ${HOME}/.scripts/selfdraw.sh
         sed -i -e 's/baka/twilight/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/baka/twilight/g' ${HOME}/.config/rofi/menu/config.rasi
@@ -36,8 +34,6 @@ case $chosen in
 	# Kill Process if running ----------------------
         killall alacritty rofi sxhkd dunst xfce4-power-manager tint2
         # ----------------------------------------------
-        sed -i -e 's/Twilight/Baka/g' ${HOME}/.xsettingsd
-        sed -i -e 's/Tela-red/Tela-grey/g' ${HOME}/.xsettingsd
 	sed -i -e 's/#141634/#7E9DBC/g' ${HOME}/.scripts/selfdraw.sh
         sed -i -e 's/twilight/baka/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/twilight/baka/g' ${HOME}/.config/rofi/menu/config.rasi
