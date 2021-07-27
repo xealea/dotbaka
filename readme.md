@@ -16,6 +16,7 @@ $ chmod +x preinstalled && ./preinstalled
 **install to your desktop <kbd>suggested</kbd>**
   <details>
   <summary><strong>see</strong></summary>
+    
 ```sh
 $ bash install
 ```
@@ -24,6 +25,7 @@ $ bash install
 **updating dotfiles automatically <kbd>suggested</kbd>**
   <details>
   <summary><strong>see</strong></summary>
+
 ```sh
 $ bash update
 ```
