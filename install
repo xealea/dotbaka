@@ -1,0 +1,21 @@
+#!/bin/bash
+
+function main() {
+	install
+	font
+	reload
+}
+
+function install() {
+	rsync -avxHAXP --exclude '.git*' .* ~/ 
+}
+
+function reload() {
+	bspc wm -r
+}
+
+function font() {
+	fc-cache -rv
+}
+
+main

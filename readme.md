@@ -14,7 +14,7 @@ $ git clone https://github.com/vcyzteen/dotbaka && cd dotbaka
 $ chmod +x preinstalled && ./preinstalled
 ```
 ```sh
-$ rsync -avxHAXP --exclude '.git*' .* ~/
+$ bash install
 ```
 ```sh
 $ pushd ~/.icons/ &&
