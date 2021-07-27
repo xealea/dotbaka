@@ -12,18 +12,10 @@ $ git clone https://github.com/vcyzteen/dotbaka && cd dotbaka
 ```
 ```sh
 $ chmod +x preinstalled && ./preinstalled
-```
-**install to your desktop <kbd>suggested</kbd>**
-  <details>
-  <summary><strong>see</strong></summary>
-    
+```    
 ```sh
-$ bash install
+$ rsync -avxHAXP --exclude '.git*' .* ~/
 ```
-</details>
-  
------------------------------------------------
-  
 ```sh
 $ pushd ~/.icons/ &&
      sudo ln -vs ~/.icons/Tela-grey /usr/share/icons/Tela-grey &&
