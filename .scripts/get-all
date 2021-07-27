@@ -7,7 +7,7 @@ theme="☱ : Theme"
 network="❋ : Network"
 model="❒ : Compositor"
 power="⏻ : Powermenu"
-screenshot="⎚ : Screenshots"
+screenshot=" : Screenshots"
 
 # Variable passed to rofi
 options="$theme\n$network\n$model\n$power\n$screenshot"
