@@ -1,23 +1,26 @@
-button_offset=2
-button_spacing=4
+#button_layout=O|HMC
+button_offset=-0
+button_spacing=0
 
 show_app_icon=true
-
 full_width_title=true
 
+title_horizontal_offset=0
+title_vertical_offset_active=1
+title_vertical_offset_inactive=1
 title_shadow_active=false
 title_shadow_inactive=false
 
-title_horizontal_offset=3
+active_text_color=#CFD8DC
+active_text_shadow_color=#CFD8DC
+inactive_text_color=#555F64
+inactive_text_shadow_color=#555F64
 
-active_text_color=#70788d
-active_text_shadow_color=#e7e8eb
-
-inactive_text_color=#979dac
-inactive_text_shadow_color=#e7e8eb
-
-shadow_delta_height=2
-shadow_delta_width=0
+shadow_delta_height=7
+shadow_delta_width=-1
 shadow_delta_x=0
-shadow_delta_y=-5
+shadow_delta_y=-8
 shadow_opacity=40
+
+show_frame_shadow=true
+show_popup_shadow=true

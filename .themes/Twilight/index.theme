@@ -1,12 +1,14 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Twilight
-Comment=A flat theme white based @Arc
+Name=Baka
+Comment=An adaptive Gtk+ theme based on adapta
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Twilight
-MetacityTheme=Twilight
-IconTheme=Lolipop
+Type=X-GNOME-Metatheme
+GtkTheme=Baka
+MetacityTheme=Baka
+IconTheme=Assistance
 CursorTheme=
-ButtonLayout=menu:minimize,maximize,close
+CursorSize=24
+ButtonLayout=:close
