@@ -1,17 +1,9 @@
-<b><h2><p align="center">**D O T B A K A**</p></h2></b>
-
-<p align="center"><img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge">
-<p align="center"><img src="https://badges.pufler.dev/visits/vcyzteen/dotbaka?style=for-the-badge&label=&color=ffffff&label=visiting" /> <img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?style=for-the-badge&label=files&color=ffffff"/> <img src="https://img.shields.io/github/license/vcyzteen/dotbaka?style=for-the-badge&label=licenci&color=ffffff" />
+<p align="center">
+<img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge">
+<img src="https://badges.pufler.dev/visits/vcyzteen/dotbaka?style=for-the-badge&label=&color=ffffff&label=visiting" />
+<img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?style=for-the-badge&label=files&color=ffffff"/>
+<img src="https://img.shields.io/github/license/vcyzteen/dotbaka?style=for-the-badge&label=licenci&color=ffffff" />
 <img src="https://img.shields.io/badge/MAINTAINED-YES-white?style=for-the-badge">
-<h3><b><p align="center"> H O M E S C R E E N </p></b></h3>
-
-| H O M E |
-|-|
-|![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/n1.png)|
-|![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/rofi.png)|
-|![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/home.png)|
-     
-<b><p align="center">You are welcome if you want to take the part you want or change it on your own device</p></b>
 
 * **Installasion for latest menthod**
 
