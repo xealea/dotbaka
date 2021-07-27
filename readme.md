@@ -21,15 +21,8 @@ $ chmod +x preinstalled && ./preinstalled
 $ bash install
 ```
 </details>
-
-**updating dotfiles automatically <kbd>suggested</kbd>**
-  <details>
-  <summary><strong>see</strong></summary>
-
-```sh
-$ bash update
-```
-</details>
+  
+-----------------------------------------------
   
 ```sh
 $ pushd ~/.icons/ &&
