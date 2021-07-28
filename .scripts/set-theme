@@ -17,7 +17,7 @@ case $chosen in
         killall alacritty rofi sxhkd dunst xfce4-power-manager tint2
         # ----------------------------------------------
         sed -i -e 's/Baka/Twilight/g' ${HOME}/.xsettingsd
-	sed -i -e 's/#7E9DBC/#141634/g' ${HOME}/.scripts/selfdraw.sh
+	sed -i -e 's/#7E9DBC/#E48D7B/g' ${HOME}/.scripts/selfdraw.sh
         sed -i -e 's/baka/twilight/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/baka/twilight/g' ${HOME}/.config/rofi/menu/config.rasi
         sed -i -e 's/#2e3440/#141634/g' ${HOME}/.config/alacritty/alacritty.yml
@@ -36,7 +36,7 @@ case $chosen in
         killall alacritty rofi sxhkd dunst xfce4-power-manager tint2
         # ----------------------------------------------
         sed -i -e 's/Twilight/Baka/g' ${HOME}/.xsettingsd
-	sed -i -e 's/#141634/#7E9DBC/g' ${HOME}/.scripts/selfdraw.sh
+	sed -i -e 's/#E48D7B/#7E9DBC/g' ${HOME}/.scripts/selfdraw.sh
         sed -i -e 's/twilight/baka/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/twilight/baka/g' ${HOME}/.config/rofi/menu/config.rasi
         sed -i -e 's/#141634/#2e3440/g' ${HOME}/.config/alacritty/alacritty.yml
