@@ -1,5 +1,8 @@
 <p align="center">
+<img src="/preview/s2.png">
+     <b>| Baka |</b>
 <img src="/preview/ss.png">
+     <b>| Twilight |</b>
 
 <p align="center">
 <img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge">
