@@ -269,6 +269,10 @@ function dx
     drone exec $argv
 end
 
+function ssh-A
+    bash ~/.scripts/ssh
+end
+
 function ncmpcpp
     bash ~/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug $argv
 end
