@@ -85,6 +85,6 @@ xbacklight -set 25% &
 xrdb merge .Xresources &
 xsetroot -cursor_name left_ptr &
 dbus-launch xfce4-power-manager &
-exec tint2 -c ${HOME}/.config/tint2/twilightrc &
+exec tint2 -c ${HOME}/.config/tint2/bakarc &
 pulseaudio --daemonize=no --exit-idle-time=-1 &
 # End ------------------------------------------------------------------------
