@@ -39,7 +39,7 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 bspc rule -a Alacritty state=floating follow=on focus=on
-bspc rule -a Telegram state=floating follow=on focus=on
+bspc rule -a telegram-desktop state=floating follow=on focus=on
 bspc rule -a Pcmanfm state=floating follow=on focus=on
 bspc rule -a Thunar state=floating follow=on focus=on
 bspc rule -a Onboard state=floating follow=on focus=on
