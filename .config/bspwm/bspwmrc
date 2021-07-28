@@ -38,8 +38,9 @@ bspc rule -a Chromium desktop='^0'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
+bspc rule -a Gpick state=floating follow=on focus=on
 bspc rule -a Alacritty state=floating follow=on focus=on
-bspc rule -a telegram-desktop state=floating follow=on focus=on
+bspc rule -a Telegram-Desktop state=floating follow=on focus=on
 bspc rule -a Pcmanfm state=floating follow=on focus=on
 bspc rule -a Thunar state=floating follow=on focus=on
 bspc rule -a Onboard state=floating follow=on focus=on
@@ -84,6 +85,6 @@ xbacklight -set 25% &
 xrdb merge .Xresources &
 xsetroot -cursor_name left_ptr &
 dbus-launch xfce4-power-manager &
-exec tint2 -c ${HOME}/.config/tint2/bakarc &
+exec tint2 -c ${HOME}/.config/tint2/twilightrc &
 pulseaudio --daemonize=no --exit-idle-time=-1 &
 # End ------------------------------------------------------------------------

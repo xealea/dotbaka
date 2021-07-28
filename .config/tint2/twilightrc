@@ -22,13 +22,13 @@ border_width = 0
 border_sides = 
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #4c566a 100
-border_color = #4c566a 100
+background_color = #e48d7B 100
+border_color = #e48d7B 100
 gradient_id = 0
 background_color_hover = #ededed 82
 border_color_hover = #ededed 82
-background_color_pressed = #4c566a 100
-border_color_pressed = #4c566a 100
+background_color_pressed = #e48d7B 100
+border_color_pressed = #e48d7B 100
 
 # Background 3: Active desktop name, Inactive desktop name, Urgent task
 rounded = 8
@@ -82,8 +82,8 @@ background_content_tint_weight = 0
 background_color = #141634 100
 border_color = #141634 100
 gradient_id = 0
-background_color_hover = #434c5e 100
-border_color_hover = #434c5e 100
+background_color_hover = #437cc1 100
+border_color_hover = #437cc1 100
 background_color_pressed = #373e4d 100
 border_color_pressed = #373e4d 100
 gradient_id_pressed = 0
@@ -107,11 +107,11 @@ border_width = 0
 border_sides = 
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #434c5e 100
+background_color = #437cc1 100
 border_color = #a1a8b9 0
-background_color_hover = #434c5e 100
+background_color_hover = #437cc1 100
 border_color_hover = #a1a8b9 0
-background_color_pressed = #434c5e 100
+background_color_pressed = #437cc1 100
 border_color_pressed = #a1a8b9 0
 
 #-------------------------------------
