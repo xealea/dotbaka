@@ -32,16 +32,16 @@ bspc config focused_border_color "#7FA5FF"
 #bspc config auto_cancel true
 # ----------------------------------------------------------------------------
 
-# Window Rules ---------------------------------------------------------------
+# Special rules --------------------------------------------------------------
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^0'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
-# ----------------------------------------------------------------------------
-
-# Special rules --------------------------------------------------------------
+bspc rule -a Alacritty state=floating follow=on focus=on
+bspc rule -a Telegram state=floating follow=on focus=on
 bspc rule -a Pcmanfm state=floating follow=on focus=on
+bspc rule -a Thunar state=floating follow=on focus=on
 bspc rule -a Onboard state=floating follow=on focus=on
 bspc rule -a Audacious state=floating follow=on focus=on
 bspc rule -a Firefox:Places state=floating follow=on focus=on
@@ -80,8 +80,7 @@ picom --dbus &
 # Some Stuff -----------------------------------------------------------------
 sxhkd &
 nm-applet &
-xrdb .Xresources &
-xbacklight -set 30% &
+xbacklight -set 25% &
 xrdb merge .Xresources &
 xsetroot -cursor_name left_ptr &
 dbus-launch xfce4-power-manager &
