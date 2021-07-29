@@ -242,7 +242,7 @@ send_to_ueberzug() {
 }
 
 send_notify() {
-    dunstify "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
+    dunstify "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)" -t 1500
 }
 
 main
