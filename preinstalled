@@ -42,9 +42,9 @@ do
             echo "----------------------------"
             ;;
         "Set Chosser File Use Gtk [ Telegram Desktop ]")
-            sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env TDESKTOP_USE_GTK_FILE_DIALOG=1 telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop
-            sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env TDESKTOP_USE_GTK_FILE_DIALOG=1 telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop.desktop
-            sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env TDESKTOP_USE_GTK_FILE_DIALOG=1 telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop.desktop.desktop
+            sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env XDG_CURRENT_DESKTOP=gnome telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop
+            sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env XDG_CURRENT_DESKTOP=gnome telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop.desktop
+            sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env XDG_CURRENT_DESKTOP=gnome telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop.desktop.desktop
             kilall telegram-desktop
             echo "--------------------------------------------------"
             echo " Ignore if it appears. no such files in directory "
