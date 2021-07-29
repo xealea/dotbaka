@@ -3,9 +3,9 @@
 rofi_command="rofi -lines 3 -theme $HOME/.config/rofi/menu/config.rasi"
 
 # option
-record="record no audio"
-audio="record with audio"
-stop="stop"
+record=" record no audio "
+audio=" record with audio "
+stop=" stop"
 
 # Variable passed to rofi
 options="$record\n$audio\n$stop"

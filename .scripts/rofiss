@@ -15,9 +15,9 @@ texts[screenshot-5sec]="screenshot 5 second"
 texts[screenshot]="screenshot with border"
 
 declare -A icons
-icons[screenshot-normal]="\u2389"
-icons[screenshot-5sec]="\u2385"
-icons[screenshot]="\u2399"
+icons[screenshot-normal]=""
+icons[screenshot-5sec]=""
+icons[screenshot]=""
 icons[cancel]="\u00d7"
 
 declare -A actions

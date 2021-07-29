@@ -3,10 +3,10 @@
 rofi_command="rofi -lines 5 -theme $HOME/.config/rofi/menu/config.rasi"
 
 # option
-theme="☱ : Theme"
-network="❋ : Network"
-model="❒ : Compositor"
-power="⏻ : Powermenu"
+theme=" : Theme"
+network=" : Network"
+model=" : Compositor"
+power=" : Powermenu"
 screenshot=" : Screenshots"
 
 # Variable passed to rofi
