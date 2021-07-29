@@ -1,7 +1,7 @@
 #!/bin/bash/env
 
 # Rofi Command
-rofi_command="rofi -theme ${HOME}/.config/rofi/config.rasi"
+rofi_command="rofi -lines 2 -theme ${HOME}/.config/rofi/menu/config.rasi"
 
 # Themes
 compositor_1=" Rounded"
