@@ -14,10 +14,6 @@ super + z
 super + @space
 	rofi -show drun
 
-# mpd rofi
-super + m
-	bash ${HOME}/.scripts/mpd
-
 # youtube rofi
 super + v
 	bash ${HOME}/.scripts/ytvid

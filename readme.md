@@ -1,7 +1,10 @@
 <p align="center">
 <img src="/preview/s2.png">
+
      <b>| Baka |</b>
+
 <img src="/preview/ss.png">
+
      <b>| Twilight |</b>
 
 <p align="center">
@@ -131,8 +134,6 @@ $ fc-cache -rv
 |      Reload sxhkd       | Super + Escape         |
 |-------------------------|------------------------|
 |     Get all Menu XD     | Super + Z	           |
-|-------------------------|------------------------|
-|      Mpd With Rofi      | Super + M              |
 |-------------------------|------------------------|
 | Watch YoutubeD By Query | Super + V              |
 |-------------------------|------------------------|
