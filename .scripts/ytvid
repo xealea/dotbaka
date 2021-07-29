@@ -6,7 +6,7 @@ MENU="$HOME/.config/rofi/menu/config.rasi"
 mpv_args="-shuffle --ytdl-raw-options=yes-playlist= --force-window=immediate"
 
 # Rofi prompt
-rofi_prompt="YouTube ❯"
+rofi_prompt="YouTube   ="
 
 # rofi
 main() {

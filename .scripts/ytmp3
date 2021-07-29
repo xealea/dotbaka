@@ -4,7 +4,7 @@ MENU="$HOME/.config/rofi/menu/config.rasi"
 MUSIC="$HOME/Music"
 
 # Rofi prompt
-rofi_prompt="Download Mp3 ❯"
+rofi_prompt="Download Mp3  ="
 
 # rofi
 main() {
