@@ -13,7 +13,7 @@ reso=$(Greso)
 NAME="$DIR/video-$(date '+%y%m%d-%H%M-%S').mp4"
 
 # notify send
-notify-send "Start Recording" "In Time: $(date '+%H:%M:%S')"
+notify-send "Start Recording" "In Time: $(date '+%H:%M:%S')" -t 5000
 
 ffmpeg -y -f x11grab -framerate 30 -s $reso \
        -i :0.0 -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 \

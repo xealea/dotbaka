@@ -18,7 +18,7 @@ case $chosen in
         ;;
     $audio)
 	bash ${HOME}/.scripts/audioVrecord
-	notify-send "Start Recording" "In Time: $(date '+%H:%M:%S')"
+	notify-send "Start Recording" "In Time: $(date '+%H:%M:%S')" -t 5000
 	;;
     $stop)
         bash ${HOME}/.scripts/stop

@@ -4,4 +4,4 @@
 killall ffmpeg
 
 # notify send
-notify-send "Stop Recording" "In Time: $(date '+%H:%M:%S')"
+notify-send "Stop Recording" "In Time: $(date '+%H:%M:%S')" -t 5000
