@@ -1,11 +1,11 @@
 <p align="center">
 <img src="/preview/s2.png">
 
-     <b>| Baka |</b>
+<h2 align="center"> Baka </h2>
 
 <img src="/preview/ss.png">
 
-     <b>| Twilight |</b>
+<h2 align="center"> Twilight </h2>
 
 <p align="center">
 <img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge">
