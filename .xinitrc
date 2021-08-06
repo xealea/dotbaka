@@ -32,9 +32,9 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
+sxhkd &
 pcmanfm -d &
 xscreensaver &
 dbus-launch dunst &
-dbus-launch sxhkd &
 dbus-launch pulseaudio --start &
 exec dbus-launch --exit-with-x11 bspwm &
