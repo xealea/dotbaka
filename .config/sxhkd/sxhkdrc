@@ -28,7 +28,7 @@ super + r
 
 # mpd-rofi
 super + m
-        bash bash ${HOME}/.scripts/rofi-mpd
+        bash ${HOME}/.scripts/rofi-mpd -t
 
 # make sxhkd reload its configuration files:
 super + Escape
