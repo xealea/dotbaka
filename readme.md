@@ -138,7 +138,9 @@ $ fc-cache -rv
 |-------------------------|------------------------|
 | Download Music By Query | Super + N		   |
 |-------------------------|------------------------|
-}   Recording Video Only  | Super + R              |
+|   Recording Video Only  | Super + R              |
+|-------------------------|------------------------|
+|        Mpd Rofi.        | Super + M.             |
 |-------------------------|------------------------|
 ```
 <h3><b><p align="center">T H A N K S - F O R</p></b></h3>
