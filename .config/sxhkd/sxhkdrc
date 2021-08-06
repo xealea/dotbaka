@@ -26,6 +26,10 @@ super + n
 super + r
 	bash ${HOME}/.scripts/get-record
 
+# mpd-rofi
+super + m
+        bash bash ${HOME}/.scripts/rofi-mpd
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
