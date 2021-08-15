@@ -30,16 +30,16 @@ function wireless_interface_state() {
 	WIFI_CON_STATE=$(nmcli device status | grep ${WIRELESS_INTERFACES[WLAN_INT]} |  awk '{print $3}')
 	if [[ "$WIFI_CON_STATE" =~ "unavailable" ]]; then
 		WIFI_LIST="   ***Wi-Fi Disabled***   "
-		WIFI_SWITCH="~Wi-Fi On"
+		WIFI_SWITCH=" Wi-Fi On"
 		LINES=7
 	elif [[ "$WIFI_CON_STATE" =~ "connected" ]]; then
 		WIFI_LIST=$(nmcli --fields IN-USE,SSID,SECURITY,BARS device wifi list ifname ${WIRELESS_INTERFACES[WLAN_INT]} | sed "s/^IN-USE\s//g" | sed "/*/d" | sed "s/^ *//")
 		LINES=$(echo "$WIFI_LIST" | wc -l)
 		if [[ "$ACTIVE_SSID" == "--" ]]; then
-			WIFI_SWITCH="~Wi-Fi Off"
+			WIFI_SWITCH=" Wi-Fi Off"
 			((LINES+=6))
 		else
-			WIFI_SWITCH="~Disconnect\n~Wi-Fi Off"
+			WIFI_SWITCH=" Disconnect\n Wi-Fi Off"
 			((LINES+=7))
 		fi
 	fi
@@ -49,9 +49,9 @@ function wireless_interface_state() {
 function ethernet_interface_state() {
 	WIRE_CON_STATE=$(nmcli device status | grep "ethernet"  |  awk '{print $3}')
 	if [[ "$WIRE_CON_STATE" == "disconnected" ]]; then
-		WIRE_SWITCH="~Eth On"
+		WIRE_SWITCH=" Eth On"
 	elif [[ "$WIRE_CON_STATE" == "connected" ]]; then
-		WIRE_SWITCH="~Eth Off"
+		WIRE_SWITCH=" Eth Off"
 	elif [[ "$WIRE_CON_STATE" == "unavailable" ]]; then
 		WIRE_SWITCH=" ***Wired Unavailable***"
 	fi
@@ -59,13 +59,13 @@ function ethernet_interface_state() {
 function rofi_menu() {
 	if [[ $(nmcli device | awk '$2=="wifi" {print $1}' | wc -l) -ne "1" ]]; then
 		((LINES+=1))
-		SELECTION=$(echo -e "$WIFI_LIST\n~Scan\n~Manual\n$WIFI_SWITCH\n$WIRE_SWITCH\n~Change Wifi Interface\n~Status\n~Restart Network" | uniq -u | \
-		rofi -dmenu -theme "$MENU" -location "$LOCATION" -yoffset "$Y_AXIS" -xoffset "$X_AXIS" -font "$FONT" \
+		SELECTION=$(echo -e "$WIFI_LIST\n Scan\n Manual\n$WIFI_SWITCH\n$WIRE_SWITCH\n Change Wifi Interface\n Status\n Restart Network" | uniq -u | \
+		rofi -dmenu -lines 2 -theme "$MENU" -location "$LOCATION" -yoffset "$Y_AXIS" -xoffset "$X_AXIS" -font "$FONT" \
 		-a "0" -lines "$LINES" -width -"$WIDTH" \
 		-p "${WIRELESS_INTERFACES_PRODUCT[WLAN_INT]}[${WIRELESS_INTERFACES[WLAN_INT]}]")
 	else
-		SELECTION=$(echo -e "$WIFI_LIST\n~Scan\n~Manual\n$WIFI_SWITCH\n$WIRE_SWITCH\n~Status\n~Restart Network" | uniq -u | \
-		rofi -dmenu -theme "$MENU" -location "$LOCATION" -yoffset "$Y_AXIS" -xoffset "$X_AXIS" -font "$FONT" \
+		SELECTION=$(echo -e "$WIFI_LIST\n Scan\n Manual\n$WIFI_SWITCH\n$WIRE_SWITCH\n Status\n Restart Network" | uniq -u | \
+		rofi -dmenu -lines 2 -theme "$MENU" -location "$LOCATION" -yoffset "$Y_AXIS" -xoffset "$X_AXIS" -font "$FONT" \
 		-a "0" -lines "$LINES" -width -"$WIDTH" \
 		-p "${WIRELESS_INTERFACES_PRODUCT[WLAN_INT]}[${WIRELESS_INTERFACES[WLAN_INT]}]")
 	fi
@@ -86,7 +86,7 @@ function change_wireless_interface() {
 		done
 		LINES=$(nmcli device | awk '$2=="wifi" {print $1}' | wc -l)
 		CHANGE_WLAN_INT=$(echo -e  ${LIST_WLAN_INT[@]}| \
-		rofi -dmenu -theme "$MENU" -location "$LOCATION" -yoffset "$Y_AXIS" -xoffset "$X_AXIS" -font "$FONT"\
+		rofi -dmenu -lines 2 -theme "$MENU" -location "$LOCATION" -yoffset "$Y_AXIS" -xoffset "$X_AXIS" -font "$FONT"\
 		-a "0" -lines "$LINES" -width -16\
 		-p ">_")
 		for i in "${!WIRELESS_INTERFACES[@]}"
@@ -154,13 +154,13 @@ function stored_connection() {
 function ssid_manual() {
 	
 	SSID=$(echo "Enter SSID" | \
-	rofi -dmenu -theme "$MENU" -location "$LOCATION" -yoffset "$Y_AXIS" -xoffset "$X_AXIS" -font "$FONT" \
+	rofi -dmenu -lines 2 -theme "$MENU" -location "$LOCATION" -yoffset "$Y_AXIS" -xoffset "$X_AXIS" -font "$FONT" \
 	-a "0" -lines 1 -width 18 \
 	-p ">_")
 	echo $SSID
 	if [[ ! -z $SSID ]]; then
 		PASS=$(echo "Enter Password" | \
-		rofi -dmenu -theme "$MENU" -location "$LOCATION" -yoffset "$Y_AXIS" -xoffset "$X_AXIS" -font "$FONT" \
+		rofi -dmenu -lines 2 -theme "$MENU" -location "$LOCATION" -yoffset "$Y_AXIS" -xoffset "$X_AXIS" -font "$FONT" \
 		-a "0" -lines 1 -width 18 -password \
 		-p ">_")
 		if [ "$PASS" = "" ]; then
@@ -187,38 +187,38 @@ function status() {
 }
 function selection_action () {
 	case "$SELECTION" in
-		"~Disconnect")
+		" Disconnect")
 			disconnect "5" "low" "Connection_Terminated"
 			;;
-		"~Scan")
+		" Scan")
 			scan
 			;;
-		"~Status")
+		" Status")
 			status
 			;;
-		"~Manual")
+		" Manual")
 			ssid_manual
 				;;
-		"~Wi-Fi On")
+		" Wi-Fi On")
 			change_wifi_state "4" "low" "Wi-Fi" "Enabling Wi-Fi connection" "on"
 			;;
-		"~Wi-Fi Off")
+		" Wi-Fi Off")
 			change_wifi_state "4" "low" "Wi-Fi" "Disabling Wi-Fi connection" "off"
 			;;
-		"~Eth Off")
+		" Eth Off")
 			change_wire_state "6" "low" "Ethernet" "Disabling Wired connection" "down"
 			;;
-		"~Eth On")
+		" Eth On")
 			change_wire_state "6" "low" "Ethernet" "Enabling Wired connection" "up"
 			;;
 		"   ***Wi-Fi Disabled***   ")
 			;;
 		" ***Wired Unavailable***")
 			;;
-		"~Change Wifi Interface")
+		" Change Wifi Interface")
 			change_wireless_interface
 			;;
-		"~Restart Network")
+		" Restart Network")
 			net_restart "7" "critical" "Network" "Restarting Network"
 			;;
 		*)

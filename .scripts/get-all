@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rofi_command="rofi -lines 5 -theme $HOME/.config/rofi/menu/config.rasi"
+rofi_command="rofi -lines 2 -theme $HOME/.config/rofi/menu/config.rasi"
 
 # option
 theme=" : Theme"
