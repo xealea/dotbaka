@@ -32,24 +32,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# export environment
-export VISUAL=vim
-export EDITOR=vim
-export GDK_BACKEND=x11
-export BROWSER=chromium
-export TERMINAL=alacritty
-export SHELL=/usr/bin/fish
-export XDG_SESSION_TYPE=x11
-export XDG_RUNTIME_DIR=/tmp
-export SDL_VIDEO_X11_DGAMOUSE=0
-export XDG_CURRENT_DESKTOP=gnome
-export QT_QPA_PLATFORMTHEME=gtk2
-export QT_AUTO_SCREEN_SCALE_FACTOR=0
-export XDG_CACHE_HOME=${XDG_CACHE_HOME:="$HOME/.cache"}
-export XDG_CONFIG_HOME=${XDG_CONFIG_HOME:="$HOME/.config"}
-export XDG_DATA_HOME=${XDG_DATA_HOME:="$HOME/.local/share"}
-export DISABLE_MAGIC_FUNCTIONS=true
-
 # start some service
 sxhkd &
 pcmanfm -d &
