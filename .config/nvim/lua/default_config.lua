@@ -3,12 +3,12 @@
 local M = {}
 
 M.ui = {
-   theme = "onedark",
+   theme = "norchad",
 
    -- theme toggle
    theme_toggler = false,
    fav_themes = {
-      "onedark",
+      "norchad",
       "gruvchad",
    },
    italic_comments = false,

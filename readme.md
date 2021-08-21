@@ -31,6 +31,9 @@ $ pushd ~/.icons/ &&
   popd
 ```
 ```sh
+$ nvim +PackerSync # remember install packer firs
+```
+```sh
 $ fc-cache -rv
 ```
 
