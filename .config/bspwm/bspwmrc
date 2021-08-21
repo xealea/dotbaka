@@ -81,7 +81,7 @@ picom &
 # Some Stuff -----------------------------------------------------------------
 sxhkd &
 nm-applet &
-# xbacklight -set 25% &
+xbacklight -set 25% &
 xsetroot -cursor_name left_ptr &
 dbus-launch xfce4-power-manager &
 exec tint2 -c ${HOME}/.config/tint2/bakarc &
