@@ -181,7 +181,7 @@ end
 export VISUAL=vim
 export EDITOR=vim
 export GDK_BACKEND=x11
-export BROWSER=chromium
+export BROWSER=firefox
 export TERMINAL=alacritty
 export SHELL=/usr/bin/fish
 export XDG_SESSION_TYPE=x11
