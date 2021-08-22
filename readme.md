@@ -1,11 +1,8 @@
 <p align="center">
-<img src="/preview/s2.png">
 
-<h2 align="center"> Baka </h2>
-
-<img src="/preview/ss.png">
-
-<h2 align="center"> Twilight </h2>
+|Baka|Twilight|
+|-|-|
+|![img](/preview/s2.png)|![img](preview/ss.png)|
 
 <p align="center">
 <img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge">
@@ -68,17 +65,6 @@ $ fc-cache -rv
   
   * Picom For Artix [ Aur ] | ```yay -S picom-ibhagwan-git```
 
-- **VSCode Themes & Icons <kbd>optional</kbd>**
-  <details>
-  <summary><strong>See</strong></summary>
-    
-    <p align="center"><img src="preview/vscode.png" alt="Atom&Material" align="center"/>
-    </p>
-    <p align="center"><img src="preview/vscode-light.png" alt="Atom&Material" align="center"/>
-    </p>
-    
-    <p align="center"><a href="https://github.com/PKief/vscode-material-icon-theme" />I C O N - T H E M E </a> | <a href="https://github.com/akamud/vscode-theme-onedark" /> T H E M E - V S C O D E - D A R K </a> | <a href="https://github.com/akamud/vscode-theme-onelight" /> T H E M E - V S C O D E - L I G H T </a></p>
-
 - **Telegram Theme <kbd>optional</kbd>**
   <details>
   <summary><strong>See</strong></summary>
@@ -86,16 +72,6 @@ $ fc-cache -rv
   <p align="center"><img src="preview/telegram.png" alt="Telegram-Theme" align="center"/>
 
   <p align="center"><a href="https://github.com/vcyzteen/Telegram-theme" /> T E L E G R A M - T H E M E </a>
-
-- **SLIM Theme <kbd>optional</kbd>**
-  <details>
-  <summary><strong>See</strong></summary>
-
-  <p align="center"><img src="preview/slim.png" alt="SLIM-Theme" align="center"/>
-
-  <p align="center"><a href="https://drive.google.com/drive/folders/1_Ktq9kGqDi0TNC8Q49AWpLo2HvWkPhnQ" /> S L I M - T H E M E </a>
-  
-  	* *<b>Installasion See <a href="https://wiki.archlinux.org/title/SLiM">Archwiki<a/></b>*
 
 - **Neofetch Image <kbd>by defaults</kbd>**
   <details>
