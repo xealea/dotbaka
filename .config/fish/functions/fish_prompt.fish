@@ -181,7 +181,7 @@ end
 export VISUAL=vim
 export EDITOR=vim
 export USE_CCACHE=1
-export GPG_TTY=$(tty)
+export GPG_TTY=tty
 export TZ=Asia/Jakarta
 export GDK_BACKEND=x11
 export BROWSER=firefox
