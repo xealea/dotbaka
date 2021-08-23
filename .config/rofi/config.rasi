@@ -14,7 +14,7 @@ configuration {
     sidebar-mode: 					false;
     separator-style: 				"none";
     hide-scrollbar: 				true;
-    fullscreen: 					true;
+    fullscreen: 					false;
     fake-transparency: 				false;
     scroll-method: 					0;
     window-format: 					"[{w}] ··· {c} ···   {t}";

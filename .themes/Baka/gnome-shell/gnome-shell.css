@@ -2,7 +2,7 @@
 
 /* COLOR IN HTML #81a1c1*/
 
-/*  BACKGROUND COLOR IN HTML #2E3440*/
+/*  BACKGROUND COLOR IN HTML #1A1B26*/
 
 * {
     transition-property: border-color, border-image, background-color, background-image, box-shadow;
@@ -680,7 +680,7 @@ StScrollBar StButton#hhandle:active {
 .popup-menu-boxpointer,
 .candidate-popup-boxpointer {
     -arrow-border-radius: 2px;
-    -arrow-background-color: #2E3440;
+    -arrow-background-color: #1A1B26;
     -arrow-border-width: 1px;
     -arrow-border-color: rgba(19, 25, 28, 0.5);
     -arrow-base: 24px;
@@ -752,7 +752,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-sub-menu {
-    background-color: #2E3440;
+    background-color: #1A1B26;
     box-shadow: none;
     border-top: 1px solid rgba(19, 25, 28, 0.4);
     border-bottom: 1px solid rgba(19, 25, 28, 0.4);
@@ -1216,7 +1216,7 @@ StScrollBar StButton#hhandle:active {
 
 .datemenu-today-button:hover {
     color: #FAFBFC;
-    background-color: #2E3440;
+    background-color: #1A1B26;
     border-color: rgba(19, 25, 28, 0.4);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
     text-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -1225,7 +1225,7 @@ StScrollBar StButton#hhandle:active {
 
 .datemenu-today-button:active {
     color: #FAFBFC;
-    background-color: #2E3440;
+    background-color: #1A1B26;
     border-color: #161514;
     text-shadow: none;
     icon-shadow: none;
@@ -1251,7 +1251,7 @@ StScrollBar StButton#hhandle:active {
     border-radius: 2px;
     margin: 4px;
     color: #FAFBFC;
-    background-color: #2E3440;
+    background-color: #1A1B26;
     border-color: rgba(19, 25, 28, 0.4);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
     text-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -1268,7 +1268,7 @@ StScrollBar StButton#hhandle:active {
 
 .calendar:hover {
     color: #FAFBFC;
-    background-color: #2E3440;
+    background-color: #1A1B26;
     border-color: rgba(19, 25, 28, 0.4);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
     text-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -1277,7 +1277,7 @@ StScrollBar StButton#hhandle:active {
 
 .calendar:active {
     color: #FAFBFC;
-    background-color: #2E3440;
+    background-color: #1A1B26;
     border-color: #161514;
     text-shadow: none;
     icon-shadow: none;
@@ -1422,7 +1422,7 @@ StScrollBar StButton#hhandle:active {
     border-radius: 2px;
     margin: 4px;
     color: #FAFBFC;
-    background-color: #2E3440;
+    background-color: #1A1B26;
     border-color: rgba(19, 25, 28, 0.4);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
     text-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -1439,7 +1439,7 @@ StScrollBar StButton#hhandle:active {
 
 .weather-button:hover {
     color: #FAFBFC;
-    background-color: #2E3440;
+    background-color: #1A1B26;
     border-color: rgba(19, 25, 28, 0.4);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
     text-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -3732,7 +3732,7 @@ StScrollBar StButton#hhandle:active {
     border-color: transparent;
     border-top: 1px solid rgba(255, 255, 255, 0.07);
     color: rgba(207, 216, 220, 0.87);
-    background-color: #2E3440;
+    background-color: #1A1B26;
     box-shadow: 0 1px 2px rgba(19, 25, 28, 0.28);
     text-shadow: none;
     icon-shadow: none;
@@ -3748,7 +3748,7 @@ StScrollBar StButton#hhandle:active {
     border-color: transparent;
     border-top: 1px solid rgba(255, 255, 255, 0.07);
     color: #CFD8DC;
-    background-color: #2E3440;
+    background-color: #1A1B26;
     box-shadow: 0 2.5px 4.5px rgba(19, 25, 28, 0.34);
     text-shadow: none;
     icon-shadow: none;
@@ -3760,7 +3760,7 @@ StScrollBar StButton#hhandle:active {
     border-color: transparent;
     border-top: 1px solid rgba(255, 255, 255, 0.07);
     color: #FAFBFC;
-    background-color: #2E3440;
+    background-color: #1A1B26;
     box-shadow: 0 2.5px 4.5px rgba(19, 25, 28, 0.34);
     text-shadow: none;
     icon-shadow: none;
@@ -3842,7 +3842,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .main-box {
-    background-color: #2E3440;
+    background-color: #1A1B26;
 }
 
 .main-box .popup-menu:ltr {
@@ -3865,7 +3865,7 @@ StScrollBar StButton#hhandle:active {
     margin-bottom: 6px;
     padding: 0;
     border-width: 1px;
-    background-color: #2E3440;
+    background-color: #1A1B26;
 }
 
 .main-box StScrollView.apps-menu StIcon {
