@@ -268,7 +268,7 @@ button_max_icon_size = 34
 # Button 2
 button = new
 button_text =
-button_icon = 
+button_icon = ~/.config/tint2/icons/baka/terminal.png
 button_tooltip = Terminal
 button_lclick_command = alacritty
 button_rclick_command = alacritty
@@ -286,7 +286,7 @@ button_max_icon_size = 34
 # Button 3
 button = new
 button_text =
-button_icon = 
+button_icon = ~/.config/tint2/icons/baka/thunar.png
 button_tooltip = Filemanager
 button_lclick_command = thunar
 button_rclick_command = thunar
@@ -304,7 +304,7 @@ button_max_icon_size = 34
 # Button 4
 button = new
 button_text =
-button_icon = 
+button_icon = ~/.config/tint2/icons/baka/chromium.png
 button_tooltip = Browser
 button_lclick_command = firefox
 button_rclick_command = firefox
@@ -322,7 +322,7 @@ button_max_icon_size = 34
 # Button 5
 button = new
 button_text =
-button_icon = 
+button_icon = ~/.config/tint2/icons/baka/googlemail.png
 button_tooltip = Gmail
 button_lclick_command = firefox gmail.com
 button_rclick_command = firefox gmail.com
@@ -340,7 +340,7 @@ button_max_icon_size = 34
 # Button 6
 button = new
 button_text =
-button_icon = 
+button_icon = ~/.config/tint2/icons/baka/deviantart.png
 button_tooltip = Devianart
 button_lclick_command = firefox deviantart.com
 button_rclick_command = firefox deviantart.com
@@ -358,7 +358,7 @@ button_max_icon_size = 34
 # Button 7
 button = new
 button_text =
-button_icon = 
+button_icon = ~/.config/tint2/icons/baka/github.png
 button_tooltip = Github
 button_lclick_command = firefox github.com 
 button_rclick_command = firefox github.com
@@ -376,7 +376,7 @@ button_max_icon_size = 34
 # Button 8
 button = new
 button_text =
-button_icon = 
+button_icon = ~/.config/tint2/icons/baka/reddit.png
 button_tooltip = Reddit
 button_lclick_command = firefox reddit.com
 button_rclick_command = firefox reddit.com
