@@ -5,13 +5,13 @@ colors:
     dim_foreground: '#a5abb6'
   cursor:
     text: '#acb0d0'
-    cursor: '#f7768e'
+    cursor: '#a9b1d6'
   vi_mode_cursor:
     text: '#acb0d0'
-    cursor: '#f7768e'
+    cursor: '#a9b1d6'
   selection:
     text: CellForeground
-    background: '#1a1b26'
+    background: '#a9b1d6'
   search:
     matches:
       foreground: CellBackground
