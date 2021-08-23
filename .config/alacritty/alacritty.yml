@@ -1,24 +1,24 @@
 colors:
   primary:
     background: '#1a1b26'
-    foreground: '#a9b1d6'
+    foreground: '#acb0d0'
     dim_foreground: '#a5abb6'
   cursor:
     text: '#acb0d0'
-    cursor: '#a9b1d6'
+    cursor: '#4abaaf'
   vi_mode_cursor:
     text: '#acb0d0'
-    cursor: '#a9b1d6'
+    cursor: '#4abaaf'
   selection:
     text: CellForeground
-    background: '#a9b1d6'
+    background: '#4abaaf'
   search:
     matches:
       foreground: CellBackground
       background: '#1a1b26'
     bar:
       background: '#1a1b26'
-      foreground: '#a9b1d6'
+      foreground: '#4abaaf'
   normal:
     black: '#4e5173'
     red: '#f7768e'

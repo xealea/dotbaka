@@ -25,7 +25,7 @@ case $chosen in
         sed -i -e 's/background = "#1a1b26"/background = "#141634"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/foreground = "#141634"/foreground = "#F9F9F9"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/bakarc/twilightrc/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i -e 's/girl.jpg/glup.jpg/g' ${HOME}/.fehbg
+        sed -i -e 's/calm.png/glup.jpg/g' ${HOME}/.fehbg
         # Kill terminal --------------------------------
         killall $USR1 alacritty
         # ----------------------------------------------
@@ -44,7 +44,7 @@ case $chosen in
         sed -i -e 's/background = "#141634"/background = "#1a1b26"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/foreground = "#F9F9F9"/foreground = "#141634"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/twilightrc/bakarc/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i -e 's/glup.jpg/girl.jpg/g' ${HOME}/.fehbg
+        sed -i -e 's/glup.jpg/calm.png/g' ${HOME}/.fehbg
         # Kill terminal --------------------------------
         killall $USR1 alacritty
         # ----------------------------------------------

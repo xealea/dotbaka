@@ -12,7 +12,7 @@ set linenumbers
 set softwrap
 
 # COLOR SCHEME
-set titlecolor black,red
+set titlecolor black,cyan
 set statuscolor magenta
 set keycolor blue
 set functioncolor white
