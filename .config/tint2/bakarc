@@ -250,7 +250,7 @@ ac_disconnected_cmd =
 # Button 1
 button = new
 button_text =
-button_icon = 
+button_icon = ~/.config/tint2/icons/baka/launch.png
 button_tooltip = Launcher
 button_lclick_command = rofi -show drun
 button_rclick_command = rofi -show drun
