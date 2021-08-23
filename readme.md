@@ -2,7 +2,7 @@
 
 |Baka|Twilight|
 |-|-|
-|![img](/preview/s2.png)|![img](preview/ss.png)|
+|![img](/preview/sss.png)|![img](preview/ss.png)|
 
 <p align="center">
 <img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge">
