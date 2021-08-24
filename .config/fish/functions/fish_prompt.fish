@@ -177,31 +177,6 @@ function fish_prompt
     end
 end
 
-# Export Environment ---------------------------------------------------------
-export VISUAL=vim
-export EDITOR=vim
-export USE_CCACHE=1
-export GPG_TTY=tty
-export TZ=Asia/Jakarta
-export GDK_BACKEND=x11
-export BROWSER=firefox
-export LANG=en_US.UTF-8
-export TERMINAL=alacritty
-export SHELL=/usr/bin/fish
-export XDG_SESSION_TYPE=x11
-export XDG_RUNTIME_DIR=/tmp
-export SDL_VIDEO_X11_DGAMOUSE=0
-export XDG_CURRENT_DESKTOP=gnome
-export QT_QPA_PLATFORMTHEME=gtk2
-export _JAVA_AWT_WM_NONREPARENTING=1
-export QT_AUTO_SCREEN_SCALE_FACTOR=0
-export XDG_CACHE_HOME=$XDG_CACHE_HOME:="$HOME/.cache"
-export XDG_CONFIG_HOME=$XDG_CONFIG_HOME:="$HOME/.config"
-export XDG_DATA_HOME=$XDG_DATA_HOME:="$HOME/.local/share"
-export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=gasp -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
-export DISABLE_MAGIC_FUNCTIONS=true
-# ----------------------------------------------------------------------------
-
 function up
     sudo xbps-install -Su $argv
 end
