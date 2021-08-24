@@ -9,12 +9,12 @@ border_width = 0
 border_sides = 
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #D1D7E2 100
-border_color = #D1D7E2 100
-background_color_hover = #D1D7E2 78
-border_color_hover = #D1D7E2 78
-background_color_pressed = #D1D7E2 100
-border_color_pressed = #D1D7E2 100
+background_color = #4ABAAF 100
+border_color = #4ABAAF 100
+background_color_hover #4ABAAF 78
+border_color_hover = #4ABAAF 78
+background_color_pressed = #4ABAAF 100
+border_color_pressed = #4ABAAF 100
 
 # Background 2: Default task
 rounded = 8
@@ -36,13 +36,13 @@ border_width = 0
 border_sides = 
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #D1D7E2 100
-border_color = #D1D7E2 40
+background_color = #4ABAAF 100
+border_color = #4ABAAF 40
 gradient_id = 0
-background_color_hover = #D1D7E2 88
-border_color_hover = #D1D7E2 40
-background_color_pressed = #D1D7E2 100
-border_color_pressed = #D1D7E2 78
+background_color_hover = #4ABAAF 88
+border_color_hover = #4ABAAF 40
+background_color_pressed = #4ABAAF 100
+border_color_pressed = #4ABAAF 78
 
 # Background 4: Active taskbar, Clock, Inactive taskbar, Panel
 rounded = 0
@@ -63,7 +63,7 @@ border_width = 0
 border_sides = 
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #D1D7E2 0
+background_color = #4ABAAF 0
 border_color = #a1a8b9 0
 gradient_id = 1
 background_color_hover = #63c5ea 0
@@ -260,7 +260,7 @@ button_dwheel_command =
 button_font = Material 17
 button_font_color = #000000 100
 button_padding = 0 0
-button_background_id = 2
+button_background_id = 1
 button_centered = 0
 button_max_icon_size = 34
 
