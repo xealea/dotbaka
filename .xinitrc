@@ -37,7 +37,6 @@ export GPG_TTY=tty
 export TZ=Asia/Jakarta
 export GDK_BACKEND=x11
 export BROWSER=firefox
-export LANG=en_US.UTF-8
 export TERMINAL=alacritty
 export SHELL=/usr/bin/fish
 export XDG_SESSION_TYPE=x11
