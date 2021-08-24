@@ -1,0 +1,4 @@
+# IMPORTANT
+# DONT CHANGE THIS IS IF YOU DONT KNOW WHAT ARE YOU DOING
+
+source $HOME/.config/bspwm/environment

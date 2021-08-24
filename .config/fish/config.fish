@@ -3,3 +3,5 @@ if status is-interactive
 end
 
 set fish_greeting
+set -U SXHKD_SHELL sh
+set -U SXHKD_SHELL /usr/bin/bash
