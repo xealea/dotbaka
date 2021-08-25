@@ -14,21 +14,6 @@
 # if you're sure that you'll never log in via telnet or xterm or a
 # serial line.
 
-# Export Environment Languages
-export LANG="en_US.utf8"
-export LC_COLLATE="C
-export LC_ADDRESS="en_US.utf8"
-export LC_CTYPE="en_US.utf8"
-export LC_IDENTIFICATION="en_US.utf8"
-export LC_MEASUREMENT="id_ID.utf8"
-export LC_MESSAGES="en_US.utf8"
-export LC_MONETARY="id_ID.utf8"
-export LC_NAME="en_US.utf8"
-export LC_NUMERIC="en_US.utf8"
-export LC_PAPER="en_US.utf8"
-export LC_TELEPHONE="id_ID.utf8"
-export LC_TIME="en_US.utf8"
-
 # Export Environment App,File,Etc
 export VISUAL="vim"
 export EDITOR="vim"
