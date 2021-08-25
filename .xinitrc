@@ -14,6 +14,9 @@ then
 	eval "$(dbus-launch --sh-syntax --exit-with-session)"
 fi
 
+# Load .profile
+[ -f ~/.profile ] && . ~/.profile
+
 # Start service
 sxhkd &
 pcmanfm -d &
