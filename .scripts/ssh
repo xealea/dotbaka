@@ -2,3 +2,7 @@
 
 eval `ssh-agent -s`
 ssh-add
+echo ""
+echo "THIS IS YOUR SSH"
+echo ""
+cat ~/.ssh/id_ed25519.pub
