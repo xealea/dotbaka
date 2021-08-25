@@ -13,7 +13,7 @@ echo -e "      Script For Installasion Depedency And Some Stuff © @vcyzteen"
 echo -e ""
 
 PS3='Please enter your choice: '
-options=("Install Depedency [ Void Linux ]" "Install Depedency [ Artix Linux ]" "Swicth Shell [ All GNU-Linux ]" "Change hosts file to bebasid" "Remove Unused File" "Exit" )
+options=("Install Depedency [ Void Linux ]" "Install Depedency [ Artix Linux ]" "Swicth Shell [ All GNU-Linux ]" "Set Chosser File Use Gtk [ Telegram Desktop ]" "Change hosts file to bebasid" "Remove Unused File" "Exit" )
 select opt in "${options[@]}"
 do
     case $opt in
@@ -40,6 +40,18 @@ do
             echo "----------------------------"
             echo " swicth shell fish finished "
             echo "----------------------------"
+            ;;
+        "Set Chosser File Use Gtk [ Telegram Desktop ]")
+            sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env XDG_CURRENT_DESKTOP=gnome QT_QPA_PLATFORMTHEME=gtk3 telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop
+            sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env XDG_CURRENT_DESKTOP=gnome QT_QPA_PLATFORMTHEME=gtk3 telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop.desktop
+            sudo sed -i -e 's/Exec=telegram-desktop -- %u/Exec=env XDG_CURRENT_DESKTOP=gnome QT_QPA_PLATFORMTHEME=gtk3 telegram-desktop -- %u/g' /usr/share/applications/org.telegram.desktop.desktop.desktop
+            kilall telegram-desktop
+            echo "--------------------------------------------------"
+            echo " Ignore if it appears. no such files in directory "
+            echo "--------------------------------------------------"
+            echo " Set File Chosse Finished "
+            echo "--------------------------"
+            echo " If not working you can check on [ Desktop Entry ] in the location application of telegram [ /usr/share/applications/ ] you can use command [ ls ] for cheking name of applications missing or not if missing you can edit manualy with add this [ env TDESKTOP_USE_GTK_FILE_DIALOG=1 ] after [ Exec= ] "
             ;;
 	"Change hosts file to bebasid")
 	    sudo mv hosts /etc/hosts
