@@ -1,4 +1,4 @@
-#!/bin/bash/env
+#!/bin/bash/env bash
 
 # Default Values
 MENU="$HOME/.config/rofi/menu/config.rasi"
