@@ -8,7 +8,7 @@ network=" : Network"
 model=" : Compositor"
 power=" : Powermenu"
 screenshot=" : Screenshots"
-border="类: Border"
+border="类 : Border"
 
 # Variable passed to rofi
 options="$theme\n$network\n$model\n$power\n$screenshot\n$border"
