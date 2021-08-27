@@ -9,7 +9,7 @@ bspc monitor -d I II III IV V VI VII VIII IX X
 # ----------------------------------------------------------------------------
 
 # Window Config --------------------------------------------------------------
-bspc config border_width         5
+bspc config border_width         0
 bspc config window_gap           0
 bspc config top_padding          0
 bspc config bottom_padding       0
