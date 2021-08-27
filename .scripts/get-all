@@ -8,9 +8,10 @@ network=" : Network"
 model=" : Compositor"
 power=" : Powermenu"
 screenshot=" : Screenshots"
+border="类: Border"
 
 # Variable passed to rofi
-options="$theme\n$network\n$model\n$power\n$screenshot"
+options="$theme\n$network\n$model\n$power\n$screenshot\n$border"
 
 # Spawn menu
 chosen="$(echo -e "$options" | $rofi_command -p "Menu" -dmenu)"
@@ -38,4 +39,7 @@ case $chosen in
              -width 20 \
              -lines 3
 	;;
+    $border)
+        bash ${HOME}/.scripts/set-border
+        ;;
 esac
