@@ -9,7 +9,7 @@ bspc monitor -d I II III IV V VI VII VIII IX X
 # ----------------------------------------------------------------------------
 
 # Window Config --------------------------------------------------------------
-bspc config border_width         0
+bspc config border_width         5
 bspc config window_gap           0
 bspc config top_padding          0
 bspc config bottom_padding       0
@@ -29,9 +29,9 @@ bspc config focus_follows_pointer true
 #bspc config ignore_ewmh_focus false
 bspc config remove_disabled_monitors true
 bspc config remove_unplugged_monitors true
-bspc config normal_border_color "#413A63"
-bspc config active_border_color "#413A63"
-bspc config focused_border_color "#7FA5FF"
+bspc config normal_border_color "#acb0d0"
+bspc config active_border_color "#acb0d0"
+bspc config focused_border_color "#4abaaf"
 #bspc config auto_alternate true
 #bspc config auto_cancel true
 # ----------------------------------------------------------------------------
