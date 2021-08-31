@@ -131,6 +131,9 @@ $ fc-cache -rv
   * [Aditya Shakya](https://github.com/adi1090x)
   * [Risky Nur Assyaufi](https://github.com/bandithijo)
 
+* **Nvim Config**
+  * [@NvChad](https://github.com/NvChad)
+
 * **© All artist who make icons, illustrations, and wallpapers.**
 
   * [Tela-Icons](https://github.com/vinceliuice/Tela-icon-theme)
