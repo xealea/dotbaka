@@ -6,13 +6,13 @@ visualizer_output_name = "my_fifo"
 visualizer_in_stereo = "yes"
 visualizer_type = "spectrum"
 visualizer_look = "●┃"
-visualizer_color = blue, blue, blue, blue, blue
+visualizer_color = white, white, white, white, white
 
 # UI
 locked_screen_width_part = "60"
 ask_for_locked_screen_width_part = yes
 progressbar_look = "▅▅▅"
-progressbar_elapsed_color = "blue"
+progressbar_elapsed_color = "white"
 progressbar_color = "black"
 playlist_display_mode = "columns"
 autocenter_mode = "yes"
@@ -26,13 +26,13 @@ header_visibility = "no"
 statusbar_visibility = "no"
 titles_visibility = "no"
 enable_window_title = "yes"
-state_flags_color = blue
-main_window_color = blue
+state_flags_color = white
+main_window_color = white
 
 # COLS
-current_item_prefix = $(blue)$r
-color1 = blue
-color2 = blue
+current_item_prefix = $(white)$r
+color1 = white
+color2 = white
 statusbar_color = "white"
 
 # DISPLAY
@@ -51,7 +51,7 @@ startup_screen = "playlist"
 startup_slave_screen = "visualizer"
 startup_slave_screen_focus = yes
 song_columns_list_format = "(52)[]{t|fr:Title}|(0)[red]{a}"
-window_border_color = blue
+window_border_color = white
 
 # EXEC
 #execute_on_song_change = notify-send "Now Playing" "$(mpc --format '%title% \n%artist% - %album%' current)"
