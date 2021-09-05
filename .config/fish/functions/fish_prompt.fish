@@ -273,6 +273,10 @@ function ssh-A
     bash ~/.scripts/ssh
 end
 
+function uwu
+    bash ~/.scripts/uwu $argv
+end
+
 function ncmpcpp
     bash ~/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug $argv
 end
