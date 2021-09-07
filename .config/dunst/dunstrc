@@ -169,7 +169,7 @@
     icon_position = left
 
     # Scale larger icons down to this size, set to 0 to disable
-    max_icon_size = 32
+    max_icon_size = 54
 
     # Paths to default icons.
     icon_path = /usr/share/icons/Tela-grey/16x16/actions/:/usr/share/icons/Tela-grey/16x16/apps/:/usr/share/icons/Tela-grey/16x16/devices/:/usr/share/icons/Tela-grey/16x16/emblems/:/usr/share/icons/Tela-grey/16x16/mimetypes/:/usr/share/icons/Tela-grey/16x16/places/:/usr/share/icons/Tela-grey/16x16/status/
