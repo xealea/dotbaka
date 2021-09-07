@@ -28,11 +28,15 @@ super + r
 
 # mpd-rofi
 super + m
-        bash ${HOME}/.scripts/rofi-mpd -t
+    bash ${HOME}/.scripts/rofi-mpd -t
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
+
+# i3lock
+super + alt + l
+    bash ${HOME}/.scripts/lockscreen
 
 #
 # bspwm hotkeys
