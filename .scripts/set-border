@@ -10,7 +10,7 @@ border_2="窱 Remove Border"
 # Variable passed to rofi
 options="$border_1\n$border_2"
 
-chosen="$(echo -e "$options" | $rofi_command -p "Switch Type Compositor" -show -dmenu -sync -selected-row 0)"
+chosen="$(echo -e "$options" | $rofi_command -p "Switch Type Border" -show -dmenu -sync -selected-row 0)"
 case $chosen in
     $border_1)
         sed -i -e 's/bspc config border_width         0/bspc config border_width         5/g' ${HOME}/.config/bspwm/bspwmrc
