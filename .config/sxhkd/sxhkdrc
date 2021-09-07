@@ -146,21 +146,21 @@ super + {Left,Down,Up,Right}
 
 # brightness
 XF86MonBrightnessUp
-	xbacklight -inc 1; \
-	dunstify "Brigthness:" (xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
+	xbacklight -inc 5; \
+	dunstify "盛 Brigthness Up:" -h int:value:(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
 
 XF86MonBrightnessDown
-	xbacklight -dec 1; \
-	dunstify "Brigthness:" (xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
+	xbacklight -dec 5; \
+	dunstify "滛 Brigthness Down:" -h int:value:(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
 
 # pulseaudio controls speaker volume up & down
 XF86AudioRaiseVolume
-	pamixer --increase 1; \
-	dunstify "Volume:" (pamixer --get-volume) -t 1000 -r 1
+	pamixer --increase 5; \
+	dunstify "  Increase Volume:" -h int:value:(pamixer --get-volume) -t 1000 -r 1
 
 XF86AudioLowerVolume
-	pamixer --decrease 1; \
-	dunstify "Volume:" (pamixer --get-volume) -t 1000 -r 1
+	pamixer --decrease 5; \
+	dunstify "奔 Decrease Volume:" -h int:value:(pamixer --get-volume) -t 1000 -r 1
 
 # pulseaudio controls mic volume up & down
 shift + XF86AudioRaiseVolume
@@ -182,12 +182,12 @@ XF86AudioMute
 
 # screenshot now
 Print
-        bash ${HOME}/.scripts/screenshot
+    bash ${HOME}/.scripts/screenshot
 
 # screenshot 3sec
 5 + Print
-        bash ${HOME}/.scripts/screenshot-5sec
+    bash ${HOME}/.scripts/screenshot-5sec
 
 # screenshot with border
 alt + Print
-        bash ${HOME}/.scripts/selfdraw.sh
+    bash ${HOME}/.scripts/selfdraw.sh
