@@ -32,6 +32,10 @@ $ nvim +PackerSync # remember install packer firs
 $ fc-cache -rv
 ```
 
+```
+NOTE: DON'T USE ROFI 1.7+ IF YOU DONT WANT BREAK THE LAUNCHER. BECAUSE THE NEW ROFI HAS NEW CONFIG SETTING
+```
+
 - **Compositor <kbd>suggested</kbd>**
   <details>
   <summary><strong>See</strong></summary>
