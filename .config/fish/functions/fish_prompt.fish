@@ -277,6 +277,10 @@ function uwu
     bash ~/.scripts/uwu $argv
 end
 
+function xd
+    sudo xdowngrade /var/cache/xbps/ $argv
+end
+
 function ncmpcpp
     bash ~/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug $argv
 end
