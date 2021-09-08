@@ -278,7 +278,7 @@ function uwu
 end
 
 function xd
-    sudo xdowngrade /var/cache/xbps/ $argv
+    sudo xdowngrade $argv
 end
 
 function ncmpcpp
