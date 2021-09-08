@@ -242,7 +242,8 @@ send_to_ueberzug() {
 }
 
 send_notify() {
-    dunstify "$(mpc --format '%title% \n%artist% - %album%' current)" -t 5000 -i "$cover_path" -r 1
+    dunstify "$(mpc --format '%title%' current)" \
+    "$(mpc --format '%artist% - %album%' current)" -t 5000 -i "$cover_path" -r 1
 }
 
 main
