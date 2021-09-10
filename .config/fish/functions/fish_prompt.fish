@@ -278,7 +278,7 @@ function uwu
 end
 
 function xd
-    sudo xdowngrade $argv
+    sudo xdowngrade
 end
 
 function ncmpcpp
