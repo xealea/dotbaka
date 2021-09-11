@@ -13,7 +13,7 @@ echo -e "      Script For Installasion Depedency And Some Stuff © @vcyzteen"
 echo -e ""
 
 PS3='Please enter your choice: '
-options=("Install Depedency [ Void Linux ]" "Install Depedency [ Artix Linux ]" "Swicth Shell [ All GNU-Linux ]" "Change hosts file to bebasid" "Remove Unused File" "Exit" )
+options=("Install Depedency [ Void Linux ]" "Install Depedency [ Artix Linux ]" "Swicth Shell [ All GNU-Linux ]" "Change hosts file to bebasid" "Install Spicetify-cli [ Spotify ]" "Remove Unused File" "Exit" )
 select opt in "${options[@]}"
 do
     case $opt in
@@ -41,12 +41,18 @@ do
             echo " swicth shell fish finished "
             echo "----------------------------"
             ;;
-	"Change hosts file to bebasid")
-	    sudo mv hosts /etc/hosts
-	    echo "----------------------------"
+	    "Change hosts file to bebasid")
+	        sudo mv hosts /etc/hosts
+	        echo "----------------------------"
             echo " Change hosts file finished "
             echo "----------------------------"
-	    ;;
+	        ;;
+	    "Install Spicetify-cli [ Spotify ]")
+	        curl -fsSL https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.sh | sh
+	        echo "----------------------------"
+            echo "  Installasion - finished   "
+            echo "----------------------------"
+	        ;;
         "Remove Unused File")
             rm -rf ${HOME}/preinstalled && rm -rf ${HOME}/readme.md && rm -rf ${HOME}/LICENCE
             echo "-----------------------------"
