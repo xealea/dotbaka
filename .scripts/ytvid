@@ -28,7 +28,7 @@ main() {
   fi
 
   # Send notification
-  notify-send "Opening YouTube Video :" "$choice"
+  notify-send "Opening YouTube Video :" "$linktoplay"
 
   # Spawn mpv
   mpv $mpv_args "$linktoplay"
