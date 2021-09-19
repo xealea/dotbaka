@@ -38,10 +38,8 @@ bspc config focused_border_color "#4abaaf"
 
 # Special rules --------------------------------------------------------------
 bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a Chromium desktop='^0'
-bspc rule -a mplayer2 state=floating
-bspc rule -a Kupfer.py focus=on
-bspc rule -a Screenkey manage=off
+bspc rule -a Chromium follow=on focus=on
+bspc rule -a Screenkey manage=off state=floating
 bspc rule -a Gpick state=floating follow=on focus=on
 bspc rule -a Alacritty state=floating follow=on focus=on
 bspc rule -a Telegram-Desktop state=floating follow=on focus=on
