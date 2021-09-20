@@ -1,6 +1,3 @@
-![img](/preview/lockscreen.png)|
-|-|
-![img](/preview/ss.png)
 
 <p align="center">
 <img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge">
@@ -26,7 +23,7 @@ $ pushd ~/.icons/ &&
   popd
 ```
 ```sh
-$ nvim +PackerSync # remember install packer firs
+$ nvim +PackerSync # remember install packer first
 ```
 ```sh
 $ fc-cache -rv
@@ -75,16 +72,6 @@ NOTE: DON'T USE ROFI 1.7+ IF YOU DONT WANT BREAK THE LAUNCHER. BECAUSE THE NEW R
 
   <p align="center"><a href="https://github.com/vcyzteen/Telegram-theme" /> T E L E G R A M - T H E M E </a>
 
-- **Neofetch Image <kbd>by defaults</kbd>**
-  <details>
-  <summary><strong>See</strong></summary>
-
-  | Artix | Void | Devuan |
-  |-|-|-|
-  |![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/artix.png)|![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/void.png)|![img](https://github.com/vcyzteen/dotbaka/blob/baka/preview/devuan.png)|
-
-  **All Image Neofetch © @vcyzteen**
-
 - **Youtube + Rofi<kbd>feature by default</kbd>**
   <details>
   <summary><strong>See</strong></summary>
@@ -126,30 +113,7 @@ NOTE: DON'T USE ROFI 1.7+ IF YOU DONT WANT BREAK THE LAUNCHER. BECAUSE THE NEW R
 |   Lockscreen - i3lock   | Super + Alt + L        |
 |-------------------------|------------------------|
 ```
-<h3><b><p align="center">T H A N K S - F O R</p></b></h3>
 
-* **Inspiration Resources**
-  * [اَدِّيْ](https://github.com/addy-dclxvi)
-  * [Harry](https://github.com/owl4ce)
-  * [elenpan](https://github.com/elenapan)
-  * [Ibhagwan](https://github.com/ibhagwan)
-  * [Aditya Shakya](https://github.com/adi1090x)
-  * [Risky Nur Assyaufi](https://github.com/bandithijo)
-
-* **Nvim Config**
-  * [@NvChad](https://github.com/NvChad)
-
-* **© All artist who make icons, illustrations, and wallpapers.**
-
-  * [Tela-Icons](https://github.com/vinceliuice/Tela-icon-theme)
-  * [マネージャー](https://github.com/vcyzteen)
-  * [Void 0 世界の鎮魂歌 - 雪](https://www.pixiv.net/member_illust.php?mode=medium&illust_id=89927268)
-
-* **Our local linux art community**
-  * [@dotfiles_id](https://t.me/dotfiles_id)
-  * [R/unixporn](https://www.reddit.com/r/unixporn)
-
-* **Message**
-  * Nothing Important You Can Use/Copy/Give Issue/Feedback or whatever you want. This open source so... Up to you all. because some of the codes I got from people who are already proficient
-
-<h3><b><p align="center">- - - T H A N K S - F O R - V I S I T I N G - - -</p></b></h3>
+```sh
+If you = like give me star for appreciate "thank you"
+```
