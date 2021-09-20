@@ -9,24 +9,24 @@
 * **Installasion for latest menthod**
 
 ```sh
-$ git clone https://github.com/vcyzteen/dotbaka && cd dotbaka
+git clone https://github.com/vcyzteen/dotbaka && cd dotbaka
 ```
 ```sh
-$ chmod +x preinstalled && ./preinstalled
+chmod +x preinstalled && ./preinstalled
 ```    
 ```sh
-$ rsync -avxHAXP --exclude '.git*' .* ~/
+rsync -avxHAXP --exclude '.git*' .* ~/
 ```
 ```sh
-$ pushd ~/.icons/ &&
-     sudo ln -vs ~/.icons/Tela-grey /usr/share/icons/Tela-grey &&
-  popd
+pushd ~/.icons/ &&
+   sudo ln -vs ~/.icons/Tela-grey /usr/share/icons/Tela-grey &&
+popd
 ```
 ```sh
-$ nvim +PackerSync # remember install packer first
+nvim +PackerSync # remember install packer first
 ```
 ```sh
-$ fc-cache -rv
+fc-cache -rv
 ```
 
 ```
