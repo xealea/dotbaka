@@ -52,6 +52,7 @@ bspc rule -a Viewnior state=floating follow=on focus=on
 bspc rule -a Nm-connection-editor state=floating follow=on focus=on
 bspc rule -a Conky state=floating manage=off
 bspc rule -a stalonetray state=floating manage=off
+bspc rule -a Xfce4-power-manager state=floating follow=on focus=on
 # ----------------------------------------------------------------------------
 
 # Kill Process if running ----------------------------------------------------
@@ -86,6 +87,10 @@ sxhkd &
 
 # Applet ---------------------------------------------------------------------
 nm-applet &
+# ----------------------------------------------------------------------------
+
+# Pwr Manager ----------------------------------------------------------------
+xfce4-power-manager &
 # ----------------------------------------------------------------------------
 
 # Brightness Set -------------------------------------------------------------
