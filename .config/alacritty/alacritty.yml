@@ -1,6 +1,6 @@
 colors:
   primary:
-    background: '#1a1b26'
+    background: '#16161E'
     foreground: '#acb0d0'
     dim_foreground: '#a5abb6'
   cursor:
@@ -15,9 +15,9 @@ colors:
   search:
     matches:
       foreground: CellBackground
-      background: '#1a1b26'
+      background: '#16161E'
     bar:
-      background: '#1a1b26'
+      background: '#16161E'
       foreground: '#4abaaf'
   normal:
     black: '#4e5173'
