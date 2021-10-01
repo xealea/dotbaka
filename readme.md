@@ -1,7 +1,7 @@
 ## <p align="center">`WARNING!! NSFW WALLPAPER`</p>
 
 <kbd>
-  <img src"preview/ss.png" />
+  <img src="preview/ss.png" />
 </kbd>
 
 ### <p align="center">`Dotbaka`</p>
