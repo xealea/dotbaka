@@ -1,4 +1,10 @@
-# <p align="center">`Dotbaka`</p>
+## <p align="center">`WARNING!! NSFW WALLPAPER`</p>
+
+<kbd>
+  <img src"preview/ss.png" />
+</kbd>
+
+### <p align="center">`Dotbaka`</p>
 
 <p align="center">
 <img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge">
