@@ -1,17 +1,13 @@
-## <p align="center">`WARNING!! NSFW WALLPAPER`</p>
-
 <kbd>
-  <img src="preview/ss.png" />
-</kbd>
 
-### <p align="center">`Dotbaka`</p>
+![dotbaka](https://socialify.git.ci/vcyzteen/dotbaka/image?description=1&font=KoHo&forks=1&issues=1&language=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
 
 <p align="center">
-<img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge">
-<img src="https://badges.pufler.dev/visits/vcyzteen/dotbaka?style=for-the-badge&label=&color=ffffff&label=visiting" />
-<img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?style=for-the-badge&label=files&color=ffffff"/>
-<img src="https://img.shields.io/github/license/vcyzteen/dotbaka?style=for-the-badge&label=licenci&color=ffffff" />
-<img src="https://img.shields.io/badge/MAINTAINED-YES-white?style=for-the-badge">
+<img src="https://img.shields.io/github/downloads/vcyzteen/dotbaka/total?color=FFFFFF&style=for-the-badge&labelColor=1A1B26&logo=Files"/>
+<img src="https://badges.pufler.dev/visits/vcyzteen/dotbaka?style=for-the-badge&label=visiting&color=ffffff&labelColor=1A1B26&logo=Opsgenie" />
+<img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?style=for-the-badge&label=files&color=ffffff&labelColor=1A1B26&logo=Files"/>
+<img src="https://img.shields.io/github/license/vcyzteen/dotbaka?style=for-the-badge&label=license&color=ffffff&labelColor=1A1B26&logo=GNU"/>
+<img src="https://img.shields.io/badge/MAINTAINED-YES-white?style=for-the-badge&labelColor=1A1B26&logo=Home Assistant"/>
 
 * **Installasion for latest menthod**
 
@@ -124,3 +120,9 @@ NOTE: DON'T USE ROFI 1.7+ IF YOU DONT WANT BREAK THE LAUNCHER. BECAUSE THE NEW R
 ```sh
 If you = like give me star for appreciate "thank you"
 ```
+
+```sh
+WARNING!!! NSFW WALLPAPER
+```
+
+</kbd>
