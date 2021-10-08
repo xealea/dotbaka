@@ -22,7 +22,7 @@ do
             fish-shell xsettingsd dunst mpv neofetch neovim Thunar rofi viewnior xfce4-power-manager \
             pcmanfm tint2 ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol \
             scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock ueberzug \
-            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy
+            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname
             echo "----------------------------"
             echo " install depedency finished "
             echo "----------------------------"
@@ -32,7 +32,7 @@ do
             fish xsettingsd dunst mpv neofetch neovim thunar rofi viewnior xfce4-power-manager \
             pcmanfm tint2 ranger fontconfig rsync wget curl w3m w3m-img imagemagick pamixer pavucontrol \
             scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock ueberzug \
-            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy
+            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname
             echo "----------------------------"
             echo " install depedency finished "
             echo "----------------------------"
