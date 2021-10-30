@@ -37,7 +37,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_RUNTIME_DIR="/run/user/$UID"
 export XDG_DATA_HOME="$HOME/.local/share"
 export SPICETIFY_INSTALL="$HOME/spicetify-cli"
-export PATH="$SPICETIFY_INSTALL:$PATH"
+# export PATH="$SPICETIFY_INSTALL:$PATH"
 export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=gasp -Dswing.defaultlaf=com.sun.java.swing
 .plaf.gtk.GTKLookAndFeel"
 export DISABLE_MAGIC_FUNCTIONS="true"
