@@ -1,0 +1,150 @@
+/*
+ *
+ * Author  : Vixel View
+ * Mail    : vcyzscape@gmail.com
+ * Github  : @vcyzteen
+ *
+ */
+
+@import "dark.rasi"
+
+window {
+    background-color:               @BG;
+    border:                  		0px;
+    border-color:                  	@BGA;
+    border-radius:                  10px;
+    width:                          600px;
+    height:                         400px;
+    x-offset:                       0px;
+    y-offset:                       0px;
+}
+
+prompt {
+    enabled: 			    true;
+    margin: 		            0px 0px 0px 8px;
+    padding: 			    8px;
+    background-color: 		    @BGA;
+    text-color: 		    @FG;
+    border:                  	    0px 0px 0px 0px;
+    border-color:                   @BDR;
+    border-radius:                  6px;
+}
+
+textbox-prompt-colon {
+    expand: 		            false;
+    str: 			    "";
+    border-radius:                  6px;
+    background-color:               @SEL;
+    text-color:                     @BGA;
+    padding:                        8px 12px 8px 12px;
+    font:			    "Noto Sans 10";
+}
+
+entry {
+    background-color:               @BGA;
+    text-color:                     @FG;
+    placeholder-color:              @FG;
+    expand:                         true;
+    horizontal-align:               0;
+    placeholder:                    "Search Apps...";
+    blink:                          true;
+    border:                  		0px 0px 0px 0px;
+    border-color:                  	@BDR;
+    border-radius:                  10px;
+    padding:                        8px;
+}
+
+inputbar {
+    children: 			            [ textbox-prompt-colon,prompt ];
+    background-color:               #00000000;
+    text-color:                     @FG;
+    expand:                         false;
+    border:                  	    0px 0px 0px 0px;
+    border-radius:                  0px;
+    border-color:                   @BDR;
+    margin:                         0px 0px 0px 0px;
+    padding:                        0px;
+    position:                       center;
+}
+
+case-indicator {
+    background-color:               @BG;
+    text-color:                     @FG;
+    spacing:                        0;
+}
+
+listview {
+    background-color:               #00000000;
+    columns:                        4;
+    lines:			    4;
+    spacing:                        5px;
+    cycle:                          false;
+    dynamic:                        true;
+    layout:                         vertical;
+    scrollbar:                      false;
+}
+
+mainbox {
+    background-color:               rgba(0,0,0,0);
+    children:                       [ inputbar, listview ];
+    spacing:                        15px;
+    padding:                        30px;
+}
+
+element {
+    background-color:   rgba(0,0,0,0);
+    padding:	5px;
+    border-radius:	8px;
+}
+element-icon {
+    background-color:               inherit;
+    text-color:                     inherit;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    size:                           20px;
+    border:                         0px;
+}
+element-text {
+    background-color:               inherit;
+    text-color:                     inherit;
+    expand:                         true;
+    horizontal-align:               0;
+    vertical-align:                 0;
+    margin:                         2px 0px 2px 2px;
+}
+element.normal.normal {
+    background-color: @UGT;
+    text-color:       @FG;
+}
+element.normal.urgent {
+    background-color: @UGT;
+    text-color:       @BGA;
+}
+element.normal.active {
+    background-color: @UGT;
+    text-color:       @BGA;
+}
+element.selected.normal {
+    background-color: @SEL;
+    text-color:       @BGA;
+}
+element.selected.urgent {
+    background-color: @UGT;
+    text-color:       @BGA;
+}
+element.selected.active {
+    background-color: @BG;
+    text-color:       @FG;
+}
+element.alternate.normal {
+    background-color: @BG;
+    text-color:       @FG;
+}
+element.alternate.urgent {
+    background-color: @BG;
+    text-color:       @FG;
+}
+element.alternate.active {
+    background-color: @BG;
+    text-color:       @FG;
+}

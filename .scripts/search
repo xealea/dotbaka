@@ -1,0 +1,71 @@
+#!/usr/bin/env bash
+
+# -----------------------------------------------------------------------------
+# Info:
+#   author:    Miroslav Vidovic
+#   file:      web-search.sh
+#   created:   24.02.2017.-08:59:54
+#   revision:  ---
+#   version:   1.0
+# -----------------------------------------------------------------------------
+# Requirements:
+#   rofi
+# Description:
+#   Use rofi to search the web.
+# Usage:
+#   web-search.sh
+# -----------------------------------------------------------------------------
+# Script:
+
+THEMER="$HOME/.config/rofi/misc/search.rasi"
+
+declare -A URLS
+
+URLS=(
+  [""]="https://www.google.com/search?q="
+  [""]="https://www.bing.com/search?q="
+  [""]="https://search.yahoo.com/search?p="
+  [""]="https://www.duckduckgo.com/?q="
+  [""]="https://yandex.ru/yandsearch?text="
+  [""]="https://github.com/search?q="
+  ["牢"]="https://www.goodreads.com/search?q="
+  [""]="http://stackoverflow.com/search?q="
+  [""]="http://symbolhound.com/?q="
+  [""]="https://searchcode.com/?q="
+  ["龎"]="https://www.openhub.net/p?ref=homepage&query="
+  [""]="http://superuser.com/search?q="
+  [""]="http://askubuntu.com/search?q="
+  [""]="http://www.imdb.com/find?ref_=nv_sr_fn&q="
+  [""]="https://www.youtube.com/results?search_query="
+)
+
+# List for rofi
+gen_list() {
+    for i in "${!URLS[@]}"
+    do
+      echo "$i"
+    done
+}
+
+main() {
+  # Pass the list to rofi
+  platform=$( (gen_list) | rofi -dmenu -modi drun -theme $THEMER -show -matching fuzzy -no-custom -p "Search Via " )
+
+  if [[ -n "$platform" ]]; then
+    query=$( (echo ) | rofi -dmenu -modi drun -theme $THEMER -show -matching fuzzy -p "Query > " )
+
+    if [[ -n "$query" ]]; then
+      url=${URLS[$platform]}$query
+      xdg-open "$url"
+    else
+      exit
+    fi
+
+  else
+    exit
+  fi
+}
+
+main
+
+exit 0

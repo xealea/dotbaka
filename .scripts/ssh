@@ -1,8 +1,43 @@
 #!/bin/bash
 
-eval `ssh-agent -s`
-ssh-add
-echo ""
-echo "THIS IS YOUR SSH"
-echo ""
-cat ~/.ssh/id_ed25519.pub
+# Function to show an informational message
+msg() {
+    echo -e "\e[1;32m$*\e[0m"
+}
+
+# Run all argument
+function do_all() {
+    do_make
+    do_agent
+    do_grep
+    do_test
+}
+    
+# Init Make
+function do_make() {
+    msg "Write Your Account here: Example 12345@gmail.com"
+    read -e ACCOUNT
+    ssh-keygen -t ed25519 -C "$ACCOUNT"
+}
+
+# Agent ssh
+function do_agent() {
+    msg "Connect To Agent"
+    eval `ssh-agent -s`
+    ssh-add
+}
+
+# Grep and show ssh
+function do_grep() {
+    msg "Grep Your Ssh"
+    cat ~/.ssh/id_ed25519.pub
+}
+
+# Testing connection
+function do_test() {
+    msg "Testing Connect Ssh Github"
+    ssh -T git@github.com
+    msg "Yeayy Your Ssh Working Properly Now"
+}
+
+do_all

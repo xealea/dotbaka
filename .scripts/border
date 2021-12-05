@@ -1,0 +1,23 @@
+#!/bin/bash/env bash
+
+# Rofi Command
+rofi_command="rofi -modi drun -theme ${HOME}/.config/rofi/misc/misc.rasi -show"
+
+# Border
+border_1="Showing Border Bspwm"
+border_2="Remove Border Bspwm"
+
+# Variable passed to rofi
+options="$border_1\n$border_2"
+
+chosen="$(echo -e "$options" | $rofi_command -p "switch the type of border" -show -dmenu -sync -selected-row 0)"
+case $chosen in
+    $border_1)
+        sed -i -e 's/bspc config border_width         0/bspc config border_width         5/g' ${HOME}/.config/bspwm/bspwmrc
+        bspc wm -r
+        ;;
+    $border_2)
+        sed -i -e 's/bspc config border_width         5/bspc config border_width         0/g' ${HOME}/.config/bspwm/bspwmrc
+        bspc wm -r
+        ;;
+esac

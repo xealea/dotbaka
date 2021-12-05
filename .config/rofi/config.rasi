@@ -1,158 +1,162 @@
 /*
  *
+ * Author  : Vixel View
+ * Mail    : vcyzscape@gmail.com
+ * Github  : @vcyzteen
+ *
  */
-
+ 
 configuration {
-    lines:							4;
-    columns:						2;
-    font: 							"Iosevka Nerd Font Complete 10";
-    bw: 							0;
-    location: 						0;
-    padding: 						10;
-    fixed-num-lines: 				true;
-    show-icons: 					true;
-    sidebar-mode: 					false;
-    separator-style: 				"none";
-    hide-scrollbar: 				true;
-    fullscreen: 					false;
-    fake-transparency: 				false;
-    scroll-method: 					0;
-    window-format: 					"[{w}] ··· {c} ···   {t}";
-    click-to-exit: 					true;
-    show-match: 					false;
-    combi-hide-mode-prefix: 		false;
-    display-window: 				"";
-    display-windowcd: 				"";
-    display-run: 					"";
-    display-ssh: 					"";
-    display-drun: 					"";
-    display-combi: 					"";
+    show-icons:                     true;
+    display-drun: 					"applications";
+    drun-display-format:            "{icon}";
+    disable-history:                false;
+	click-to-exit: 					true;
+    location:                       center;
+    font:				 	        "Noto Sans 10";
 }
 
-@import "baka.rasi"
-
-* {
-    background-color:             	@bg;
-}
+@import "dark.rasi"
+@theme "clean.rasi"
 
 window {
-    border: 						0px;
-    border-color: 					@ac;
-    border-radius: 					0px;
-    padding: 						100px;
-    width: 							50%;
+    background-color:               @BG;
+    border:                  		0px;
+    border-color:                  	@BGA;
+    border-radius:                  10px;
+    width:                          390px;
+    height:                         400px;
+    x-offset:                       0px;
+    y-offset:                       0px;
 }
 
 prompt {
-    spacing: 						0;
-    border: 						0;
-    text-color: 					@fg;
+    enabled: 			    true;
+    margin: 		            0px 0px 0px 8px;
+    padding: 			    8px;
+    background-color: 		    @BGA;
+    text-color: 		    @FG;
+    border:                  	    0px 0px 0px 0px;
+    border-color:                   @BDR;
+    border-radius:                  6px;
 }
 
 textbox-prompt-colon {
-    expand: 						false;
-    str: 							" ";
-    margin:							0px 0px 0px 0px;
-    text-color: 					inherit;
+    expand: 		            false;
+    str: 			    "";
+    border-radius:                  6px;
+    background-color:               @SEL;
+    text-color:                     @BGA;
+    padding:                        8px 12px 8px 12px;
+    font:			    "Noto Sans 10";
 }
 
 entry {
-    spacing:    					0;
-    text-color: 					@fg;
-}
-
-case-indicator {
-    spacing:    					0;
-    text-color: 					@fg;
+    background-color:               @BGA;
+    text-color:                     @FG;
+    placeholder-color:              @FG;
+    expand:                         true;
+    horizontal-align:               0;
+    placeholder:                    "Search Apps...";
+    blink:                          true;
+    border:                  		0px 0px 0px 0px;
+    border-color:                  	@BDR;
+    border-radius:                  8px;
+    padding:                        8px;
 }
 
 inputbar {
-    spacing:    					0px;
-    text-color: 					@fg;
-    padding:    					1px;
-    children: 						[ prompt,textbox-prompt-colon,entry,case-indicator ];
+    children: 			            [ textbox-prompt-colon,entry,case-indicator ];
+    background-color:               #00000000;
+    text-color:                     @FG;
+    expand:                         false;
+    border:                  	    0px 0px 0px 0px;
+    border-radius:                  0px;
+    border-color:                   @BDR;
+    margin:                         0px 0px 0px 0px;
+    padding:                        0px;
+    position:                       center;
 }
 
-mainbox {
-    border: 						0px;
-    border-color: 					@ac;
-    padding: 						0;
+case-indicator {
+    background-color:               @BG;
+    text-color:                     @FG;
+    spacing:                        0;
 }
 
 listview {
-    fixed-height: 					0;
-    border: 						0px;
-    border-color: 					@ac;
-    spacing: 						5px;
-    scrollbar: 						false;
-    padding: 						0px 0px 0px 0px;
+    background-color:               #00000000;
+    columns:                        6;
+    lines:			    4;
+    spacing:                        5px;
+    cycle:                          false;
+    dynamic:                        true;
+    layout:                         vertical;
+    scrollbar:                      false;
+}
+
+mainbox {
+    background-color:               rgba(0,0,0,0);
+    children:                       [ inputbar, listview ];
+    spacing:                        15px;
+    padding:                        30px;
 }
 
 element {
-    border: 						4px;
-    border-radius: 					5px;
-    padding: 						5px;
+    background-color:   rgba(0,0,0,0);
+    padding:	5px;
+    border-radius:	8px;
 }
-element normal.normal {
-    background-color: 				@bg;
-    text-color:       				@fg;
+element-icon {
+    background-color:               inherit;
+    text-color:                     inherit;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    size:                           40px;
+    border:                         0px;
 }
-element normal.urgent {
-    background-color: 				@bg;
-    text-color:       				@red;
+element-text {
+    background-color:               inherit;
+    text-color:                     inherit;
+    expand:                         true;
+    horizontal-align:               0;
+    vertical-align:                 0;
+    margin:                         2px 0px 2px 2px;
 }
-element normal.active {
-    background-color: 				@bg;
-    text-color:       				@fg;
-    border-color: 					@green;
+element.normal.normal {
+    background-color: @UGT;
+    text-color:       @FG;
 }
-element selected.normal {
-    background-color: 				@fg;
-    text-color:       				@bg;
-    border-color: 					@fg;
+element.normal.urgent {
+    background-color: @UGT;
+    text-color:       @BGA;
 }
-element selected.urgent {
-    background-color: 				@bg;
-    text-color:       				@red;
+element.normal.active {
+    background-color: @UGT;
+    text-color:       @BGA;
 }
-element selected.active {
-    background-color: 				@bg;
-    text-color:       				@fg;
-    border-color: 					@fg;
+element.selected.normal {
+    background-color: @SEL;
+    text-color:       @BGA;
 }
-element alternate.normal {
-    background-color: 				@bg;
-    text-color:       				@fg;
+element.selected.urgent {
+    background-color: @UGT;
+    text-color:       @BGA;
 }
-element alternate.urgent {
-    background-color: 				@bg;
-    text-color:       				@fg;
+element.selected.active {
+    background-color: @BG;
+    text-color:       @FG;
 }
-element alternate.active {
-    background-color: 				@bg;
-    text-color:       				@fg;
+element.alternate.normal {
+    background-color: @BG;
+    text-color:       @FG;
 }
-
-sidebar {
-    border:       					0px;
-    border-color: 					@ac;
-    border-radius: 					0px;
+element.alternate.urgent {
+    background-color: @BG;
+    text-color:       @FG;
 }
-
-scrollbar {
-    width:        					4px;
-    border:       					0px;
-    handle-color: 					@fg;
-    handle-width: 					8px;
-    padding:      					0;
-}
-
-message {
-    border: 						0px;
-    border-color: 					@ac;
-    padding: 						1px;
+element.alternate.active {
+    background-color: @BG;
+    text-color:       @FG;
 }
 
-textbox {
-    text-color: 					@fg;
-}

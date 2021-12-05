@@ -42,8 +42,10 @@ bspc rule -a Chromium follow=on focus=on
 bspc rule -a Screenkey manage=off state=floating
 bspc rule -a Gpick state=floating follow=on focus=on
 bspc rule -a Alacritty state=floating follow=on focus=on
+bspc rule -a kitty state=floating follow=on focus=on
 bspc rule -a Telegram-Desktop state=floating follow=on focus=on
 bspc rule -a Pcmanfm state=floating follow=on focus=on
+bspc rule -a Org.gnome.Nautilus state=floating follow=on focus=on
 bspc rule -a Thunar state=floating follow=on focus=on
 bspc rule -a Onboard state=floating follow=on focus=on
 bspc rule -a Audacious state=floating follow=on focus=on
@@ -56,7 +58,7 @@ bspc rule -a xfce4-power-manager state=floating follow=on focus=on
 # ----------------------------------------------------------------------------
 
 # Kill Process if running ----------------------------------------------------
-killall -9 sxhkd xfce4-power-manager tint2 
+kill -9 sxhkd xfce4-power-manager tint2 nautilus
 # ----------------------------------------------------------------------------
 
 # Set wall -------------------------------------------------------------------
@@ -107,6 +109,10 @@ xsetroot -cursor_name left_ptr &
 
 # Xfce Pwr -------------------------------------------------------------------
 dbus-launch xfce4-power-manager &
+# ----------------------------------------------------------------------------
+
+# Plank ----------------------------------------------------------------------
+# plank &
 # ----------------------------------------------------------------------------
 
 # Tint2 ----------------------------------------------------------------------

@@ -6,37 +6,37 @@
 super + Return
 	alacritty
 
-# set theme use rofi
-super + z
-	bash ${HOME}/.scripts/get-all
-
 # program launcher
 super + @space
-	rofi -show drun
+	exec rofi -modi drun -show
 
-# youtube rofi
-super + v
-	bash ${HOME}/.scripts/ytvid
-
-# mp3 download + rofi
-super + n
-	bash ${HOME}/.scripts/ytmp3
-
-# ffmpeg record + rofi
-super + r
-	bash ${HOME}/.scripts/get-record
-
-# mpd-rofi
+# program search
 super + m
-    bash ${HOME}/.scripts/rofi-mpd -t
+    bash ${HOME}/.scripts/search
+
+# program screenshots
+super + p
+    bash ${HOME}/.scripts/screenshots
+
+# program powermenu
+super + x
+    bash ${HOME}/.scripts/powermenu
+
+# program network
+super + n
+    bash ${HOME}/.scripts/network
+
+# program compositor
+super + c
+    bash ${HOME}/.scripts/comp
+
+# program border
+super + b
+    bash ${HOME}/.scripts/border
 
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
-
-# i3lock
-super + alt + l
-    bash ${HOME}/.scripts/lockscreen
 
 #
 # bspwm hotkeys
@@ -146,20 +146,20 @@ super + {Left,Down,Up,Right}
 
 # brightness
 XF86MonBrightnessUp
-	xbacklight -inc 5; \
+	xbacklight -inc 1; \
 	dunstify "盛 Brigthness Up:" -h int:value:(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
 
 XF86MonBrightnessDown
-	xbacklight -dec 5; \
+	xbacklight -dec 1; \
 	dunstify "滛 Brigthness Down:" -h int:value:(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
 
 # pulseaudio controls speaker volume up & down
 XF86AudioRaiseVolume
-	pamixer --increase 5; \
+	pamixer --increase 1; \
 	dunstify "  Increase Volume:" -h int:value:(pamixer --get-volume) -t 1000 -r 1
 
 XF86AudioLowerVolume
-	pamixer --decrease 5; \
+	pamixer --decrease 1; \
 	dunstify "奔 Decrease Volume:" -h int:value:(pamixer --get-volume) -t 1000 -r 1
 
 # pulseaudio controls mic volume up & down
@@ -180,14 +180,3 @@ alt + XF86AudioLowerVolume
 XF86AudioMute
 	bash ${HOME}/.scripts/mute
 
-# screenshot now
-Print
-    bash ${HOME}/.scripts/screenshot
-
-# screenshot 3sec
-5 + Print
-    bash ${HOME}/.scripts/screenshot-5sec
-
-# screenshot with border
-alt + Print
-    bash ${HOME}/.scripts/selfdraw.sh
