@@ -1,3 +1,11 @@
+*
+ *
+ * Author  : Vixel View
+ * Mail    : vcyzscape@gmail.com
+ * Github  : @vcyzteen
+ *
+ */
+ 
 configuration {
     show-icons:                     true;
     display-drun: 					"";
