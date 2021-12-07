@@ -23,6 +23,7 @@ options="$s1\n$s2\n$s3\n$s4"
 chosen="$(echo -e "$options" | $rofi_command -p "screenshots" -dmenu -sync -selected-row 0)"
 case $chosen in
     $s1)
+        sleep 0.5
         scrot '%Y-%m-%d-%T-screenshot.png' -e 'mv $f ~/Pictures/Screenshots'
         dunstify -i "SCROT" -u low "" "<span size='small'><u>Pictures/Screenshots</u></span>\nChissu! Take Screenshot"
         ;;

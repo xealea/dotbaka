@@ -58,7 +58,7 @@ bspc rule -a xfce4-power-manager state=floating follow=on focus=on
 # ----------------------------------------------------------------------------
 
 # Kill Process if running ----------------------------------------------------
-kill -9 sxhkd xfce4-power-manager tint2 nautilus
+pkill -9 sxhkd xfce4-power-manager polybar nautilus
 # ----------------------------------------------------------------------------
 
 # Set wall -------------------------------------------------------------------

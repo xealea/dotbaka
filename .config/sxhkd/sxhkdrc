@@ -38,6 +38,10 @@ super + c
 super + b
     bash ${HOME}/.scripts/border
 
+# program border
+super + z
+    bash ${HOME}/.scripts/theme
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

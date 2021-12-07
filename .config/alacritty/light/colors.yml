@@ -1,0 +1,30 @@
+colors:
+  primary:
+    background: '#2A1F22'
+    foreground: '#DFD6CF'
+    dim_foreground: '#DFD6CF'
+  cursor:
+    text: '#DFD6CF'
+    cursor: '#DFD6CF'
+  vi_mode_cursor:
+    text: '#DFD6CF'
+    cursor: '#DFD6CF'
+  selection:
+    text: CellForeground
+    background: '#DFD6CF'
+  search:
+    matches:
+      foreground: CellBackground
+      background: '#2A1F22'
+    bar:
+      background: '#2A1F22'
+      foreground: '#DFD6CF'
+  normal:
+    black: '#2A1F22'
+    red: '#DB8C8C'
+    green: '#96DB8C'
+    yellow: '#DBD98C'
+    blue: '#938CDB'
+    magenta: '#BE8CDB'
+    cyan: '#8CCFDB'
+    white: '#DFD6CF'

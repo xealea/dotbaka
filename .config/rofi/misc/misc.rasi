@@ -1,4 +1,4 @@
-*
+/*
  *
  * Author  : Vixel View
  * Mail    : vcyzscape@gmail.com
@@ -16,7 +16,7 @@ configuration {
     font:				 	        "Noto Sans 10";
 }
 
-@import "dark.rasi"
+@import "light.rasi"
 
 window {
     transparency:                   "real";

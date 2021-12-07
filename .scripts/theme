@@ -1,61 +1,57 @@
 #!/bin/bash/env
 
 # Rofi Command
-rofi_command="rofi -lines 2 -theme ${HOME}/.config/rofi/misc/theme.rasi"
+rofi_command="rofi -lines 2 -theme ${HOME}/.config/rofi/misc/misc.rasi"
 
 # Themes
-theme_0="dark"
-theme_1="light"
+theme_0="raisinblack"
+theme_1="timberwolf"
 
 # Variable passed to rofi
 options="$theme_0\n$theme_1"
 
 chosen="$(echo -e "$options" | $rofi_command -p "themes" -show -dmenu -sync -selected-row 0)"
 case $chosen in
-    $theme_0)y
-	# Kill Process if running ----------------------
-        kill kitty sxhkd dunst tint2
+    $theme_0)
+	    # Kill Process if running ----------------------
+        pkill alacritty sxhkd dunst polybar
         # ----------------------------------------------
-        sed -i -e 's/light/dark/g' ${HOME}/.xsettingsd
+        sed -i -e 's/black,white/black,cyan/g' ${HOME}/.nanorc
+        sed -i -e 's/Timberwolf/Raisinblack/g' ${HOME}/.xsettingsd
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/clean.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/config.rasi
-        sed -i -e 's/light/dark/g' ${HOME}/.config/kitty/kitty.conf
-        sed -i -e 's/light/dark/g' ${HOME}/.config/gtk-3.0/settings.ini
+        sed -i -e 's/Timberwolf/Raisinblack/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/misc.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/search.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/network.rasi
+        sed -i -e 's/light/dark/g' ${HOME}/.config/alacritty/alacritty.yml
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/powermenu.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/screenshot.rasi
-        sed -i -e 's/background = "#FAFAFA"/background = "#030303"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/foreground = "#030303"/foreground = "#FAFAFA"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/light/dark/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i -e 's/mountain.jpg/tree.jpg/g' ${HOME}/.fehbg
-        # Kill terminal --------------------------------
-        kill $USR1 kitty
-        # ----------------------------------------------
+        sed -i -e 's/background = "#DFD6CF"/background = "#16161E"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/foreground = "#16161E"/foreground = "#DFD6CF"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/light/dark/g' ${HOME}/.config/polybar/config.ini
+        sed -i -e 's/nsfw-boobs.png/original-character.jpg/g' ${HOME}/.fehbg
         bspc wm -r
         ;;
     $theme_1)
-	    # Kill Process if running ----------------------
-        kill kitty sxhkd dunst tint2
+        # Kill Process if running ----------------------
+        pkill alacritty sxhkd dunst polybar
         # ----------------------------------------------
-        sed -i -e 's/dark/light/g' ${HOME}/.xsettingsd
+        sed -i -e 's/black,cyan/black,white/g' ${HOME}/.nanorc
+        sed -i -e 's/Timberwolf/Raisinblack/g' ${HOME}/.xsettingsd
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/clean.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/config.rasi
-        sed -i -e 's/dark/light/g' ${HOME}/.config/kitty/kitty.conf
-        sed -i -e 's/dark/light/g' ${HOME}/.config/gtk-3.0/settings.ini
+        sed -i -e 's/Raisinblack/Timberwolf/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/misc.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/search.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/network.rasi
+        sed -i -e 's/dark/light/g' ${HOME}/.config/alacritty/alacritty.yml
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/powermenu.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/screenshot.rasi
-        sed -i -e 's/background = "#030303"/background = "#FAFAFA"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/foreground = "#FAFAFA"/foreground = "#030303"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/dark/light/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i -e 's/tree.jpg/mountain.jpg/g' ${HOME}/.fehbg
-        # Kill terminal --------------------------------
-        kill $USR1 kitty
-        # ----------------------------------------------
+        sed -i -e 's/background = "#16161E"/background = "#DFD6CF"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/foreground = "#DFD6CF"/foreground = "#16161E"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/dark/light/g' ${HOME}/.config/polybar/config.ini
+        sed -i -e 's/original-character.jpg/nsfw-boobs.png/g' ${HOME}/.fehbg
         bspc wm -r
         ;;
 esac
