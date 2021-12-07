@@ -1,7 +1,0 @@
-#!/bin/bash
-
-# kill program
-killall ffmpeg
-
-# notify send
-notify-send "Stop Recording" "In Time: $(date '+%H:%M:%S')" -t 5000

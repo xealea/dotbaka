@@ -16,22 +16,22 @@ chosen="$(echo -e "$options" | $rofi_command -p "powermenu" -dmenu -sync -select
 case $chosen in
     $s1)
         dunstify "logout the system"
-        sleep 1
+        sleep 0.5
         loginctl exit
         ;;
     $s2)
         dunstify "reboot the system"
-        sleep 1
+        sleep 0.5
         loginctl reboot
         ;;
     $s3)
         dunstify "suspend the system"
-        sleep 1
+        sleep 0.5
         loginctl suspend
         ;;
     $s4)
         dunstify "poweroff the system"
-        sleep 1
+        sleep 0.5
         loginctl poweroff
         ;;
 esac

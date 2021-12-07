@@ -20,9 +20,9 @@ do
         "Install Depedency [ Void Linux ]")
             sudo xbps-install -Su xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
             fish-shell xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
-            nautilus tint2 ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol \
-            scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock ueberzug \
-            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname
+            nautilus ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol \
+            scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
+            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd
             echo "----------------------------"
             echo " install depedency finished "
             echo "----------------------------"
@@ -30,9 +30,9 @@ do
         "Install Depedency [ Artix Linux ]")
             sudo pacman -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
             fish xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
-            nautilus tint2 ranger fontconfig rsync wget curl w3m w3m-img imagemagick pamixer pavucontrol \
-            scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock ueberzug \
-            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname
+            nautilus ranger fontconfig rsync wget curl w3m w3m-img imagemagick pamixer pavucontrol \
+            scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
+            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd
             echo "----------------------------"
             echo " install depedency finished "
             echo "----------------------------"

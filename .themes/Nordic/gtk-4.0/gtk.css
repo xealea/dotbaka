@@ -2166,7 +2166,7 @@ GraniteWidgetsWelcome {
 .titlebar:not(headerbar), .titlebar, headerbar {
   padding: 0 13px;
   min-height: 34px;
-  background: #4ABAAF;
+  background: #ACB0D0;
   color: #d8dee9;
   border-radius: 0; }
   .titlebar:backdrop,
@@ -2551,7 +2551,7 @@ window.csd > .titlebar:not(headerbar) {
   border-color: transparent;
   box-shadow: none; }
 .titlebar:not(headerbar) > separator {
-  background: #4ABAAF; }
+  background: #ACB0D0; }
 
 /**************
  * GtkInfoBar *
@@ -2752,7 +2752,7 @@ row {
  *********/
 menubar,
 .menubar {
-  background-color: #4ABAAF;
+  background-color: #ACB0D0;
   color: #d8dee9;
   padding: 0px;
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.1); }
@@ -6029,7 +6029,7 @@ ConversationListView .view .cell, ConversationListView iconview .cell {
   padding-top: 20px;
   padding-bottom: 0px;
   border-style: none;
-  background-color: #4ABAAF;
+  background-color: #ACB0D0;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
   border: solid rgba(0, 0, 0, 0.1);
@@ -6108,7 +6108,7 @@ ConversationListView .view .cell, ConversationListView iconview .cell {
     color: #d8dee9; }
 .nemo-window toolbar.primary-toolbar {
   margin-bottom: -1px;
-  background: #4ABAAF; }
+  background: #ACB0D0; }
   .nemo-window toolbar.primary-toolbar button {
     color: #d8dee9;
     border-radius: 4px;
@@ -6143,7 +6143,7 @@ ConversationListView .view .cell, ConversationListView iconview .cell {
 
 /* thunar */
 .thunar toolbar {
-  background-color: #4ABAAF; }
+  background-color: #ACB0D0; }
 
 /* buttons in toolbar */
 .thunar toolbar.horizontal button image {
