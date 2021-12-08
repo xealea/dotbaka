@@ -44,14 +44,15 @@ do
             echo "----------------------------"
             ;;
 	    "Change hosts file to bebasid")
-	        sudo mv hosts /etc/hosts
-	        echo "----------------------------"
+            wget https://github.com/bebasid/bebasid/blob/master/releases/hosts
+	    sudo mv hosts /etc/hosts
+	    echo "----------------------------"
             echo " Change hosts file finished "
             echo "----------------------------"
 	        ;;
-	    "Install Spicetify-cli [ Spotify ]")
-	        curl -fsSL https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.sh | sh
-	        echo "----------------------------"
+        "Install Spicetify-cli [ Spotify ]")
+	    curl -fsSL https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.sh | sh
+	    echo "----------------------------"
             echo "  Installasion - finished   "
             echo "----------------------------"
 	        ;;
