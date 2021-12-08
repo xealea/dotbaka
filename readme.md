@@ -29,18 +29,23 @@ I hope you understand what I'm saying and some of the files that will be used or
 ### Theme 🎨
 Two themes that are presented in these dotfiles
 
-### <p align="center">━━━━━━━━━━━━</p>
+### <p align="center">━━━━ • Timberwolf • ━━━━</p>
 <p align="center">
   <kbd><img src="https://i.postimg.cc/k4Kb4RzM/2021-12-08-08-52-29-screenshot.png"/></kbd>
 
    * I blurted this wallpaper image because it wasn't good for display. but in the original wallpaper there is no blur like i made in this picture
-### <p align="center">━━━━━━━━━━━━</p>
+### <p align="center">━━━━ • Pallete • ━━━━</p>
+  <kbd><img src="https://i.postimg.cc/LX8WFfs7/IMG-20211208-105550.png"/></kbd>
+
+### <p align="center">━━━━ • Raisinblack • ━━━━</p>
   
 <p align="center">
   <kbd><img src="https://i.postimg.cc/nVmxwGbw/2021-12-08-08-52-20-screenshot.png"/></kbd>
-  
-### <p align="center">━━━━━━━━━━━━</p>
-  
+
+   * This wallpaper is the original wallpaper or you could say without editing. I found this wallpaper on a wallpaper site but I forgot the name of the artist who drew this. if you know maybe you can tell me
+### <p align="center">━━━━ • Pallete • ━━━━</p>
+  <kbd><img src="https://i.postimg.cc/d0mvn87T/IMG-20211208-103924.png"/></kbd>
+
 ### Installation 🍙
 >Firstly. clone the repo and go to file
 ```sh
