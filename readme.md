@@ -108,6 +108,9 @@ some scripts or tools that I use do not all come from me and this is why I inclu
   - [@dotfiles_id](https://t.me/dotfiles_id) indonesia
   - also the great one [r/unixporn](https://www.reddit.com/r/unixporn).
 
-### © All artists who create icons, illustrations, and wallpapers. 🖼
+### All artists who create icons, illustrations, and wallpapers. 🖼
   - [vinceliuice](https://github.com/vinceliuice) Tela-Circle Icons
   - [kapatarou](https://safebooru.donmai.us/posts?tags=kapatarou) Avatar-Original NSFW
+
+### © Owner dotfile
+[![IMG-20211208-105846.png](https://i.postimg.cc/pLZbNPZm/IMG-20211208-105846.png)](https://postimg.cc/sMv07dbz)
