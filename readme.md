@@ -32,7 +32,8 @@ Two themes that are presented in these dotfiles
 ### <p align="center">━━━━━━━━━━━━</p>
 <p align="center">
   <kbd><img src="https://i.postimg.cc/k4Kb4RzM/2021-12-08-08-52-29-screenshot.png"/></kbd>
-  
+
+   * I blurted this wallpaper image because it wasn't good for display. but in the original wallpaper there is no blur like i made in this picture
 ### <p align="center">━━━━━━━━━━━━</p>
   
 <p align="center">
