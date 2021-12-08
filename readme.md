@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?color=%23e7ac7e&labelColor=%23101415&style=flat-square">
 </a>
   
-### Hello There! 🔺
+### Hello There! 👋
 this is my bspwm config. what I made as interesting and simple as possible and not everyone will be like it but if you are interested you can use it
 
 I hope you understand what I'm saying and some of the files that will be used or `called` dotfiles
@@ -26,7 +26,7 @@ I hope you understand what I'm saying and some of the files that will be used or
    * <b>File Manager</b> : [Nautilus](https://github.com/GNOME/nautilus) 🟦
    * <b>Text Editor</b> : [neovim](https://neovim.io/) 💻
 
-### Theme
+### Theme 🎨
 Two themes that are presented in these dotfiles
 
 ### <p align="center">━━━━━━━━━━━━</p>
@@ -40,7 +40,7 @@ Two themes that are presented in these dotfiles
   
 ### <p align="center">━━━━━━━━━━━━</p>
   
-### Installation
+### Installation 🍙
 >Firstly. clone the repo and go to file
 ```sh
 git clone https://github.com/vcyzteen/dotbaka.git && cd dotbaka
@@ -54,7 +54,7 @@ git clone https://github.com/vcyzteen/dotbaka.git && cd dotbaka
 rsync -avxHAXP --exclude '.git*' .* ~/
 ```
 
-### Keybinds
+### Keybinds ⌨️
 
    I only listed the important shortcuts. There's still more but have fun discovering it.
 
@@ -78,17 +78,17 @@ rsync -avxHAXP --exclude '.git*' .* ~/
    | <kbd>Super</kbd> + <kbd>S</kbd>                                      | Open Recent                 |
 
   
-### Notes
+### Notes 📖
   * Run `nvim +PackerSync` upon starting neovim.
   * Run `fc-cache -rv` for refresh font caches
   * Run `pushd ~/.icons/ && sudo ln -vs ~/.icons/Tela-circle /usr/share/icons/Tela-circle && popd` to linked icon into symlink
 
-### System Info
+### System Info 💻
 This is the linux os i use in my daily life
 
 <kbd><img src="https://i.postimg.cc/fLQRL2Yp/2021-12-08-09-38-17-screenshot.png"/></kbd>
 
-### Credits
+### Credits 🏷
 some scripts or tools that I use do not all come from me and this is why I include credits as a form of my respect for the owners
   - [Elena](https://github.com/elenapan)
   - [Adhi Pambudi](https://github.com/addy-dclxvi)
@@ -97,11 +97,11 @@ some scripts or tools that I use do not all come from me and this is why I inclu
   - [Harry](https://github.com/owl4ce)
   - ?
  
-### Our local linux community 
+### Our local linux community 🌏
   - [Linuxer Desktop Art](https://facebook.com/groups/linuxart)
   - [@dotfiles_id](https://t.me/dotfiles_id) indonesia
   - also the great one [r/unixporn](https://www.reddit.com/r/unixporn).
 
-### © All artists who create icons, illustrations, and wallpapers.
+### © All artists who create icons, illustrations, and wallpapers. 🖼
   - [vinceliuice](https://github.com/vinceliuice) Tela-Circle Icons
   - [kapatarou](https://safebooru.donmai.us/posts?tags=kapatarou) Avatar-Original NSFW
