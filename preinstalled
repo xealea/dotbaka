@@ -1,6 +1,9 @@
 #!/bin/bash
 # Bash Menu Script Installasion Depedency and fish shell
 
+# update first
+sudo xbps-install -SUy || error "Error syncing the repos."
+
 # Banner
 echo -e ""
 echo -e "         dBBBBb  dBBBBP dBBBBBBP dBBBBb dBBBBBb     dBP dBP dBBBBBb
@@ -12,13 +15,14 @@ echo -e ""
 echo -e "      Script For Installasion Depedency And Some Stuff © @vcyzteen"
 echo -e ""
 
+# Main
 PS3='Please enter your choice: '
 options=("Install Depedency [ Void Linux ]" "Install Depedency [ Artix Linux ]" "Swicth Shell [ All GNU-Linux ]" "Change hosts file to bebasid" "Install Spicetify-cli [ Spotify ]" "Remove Unused File" "Exit" )
 select opt in "${options[@]}"
 do
     case $opt in
         "Install Depedency [ Void Linux ]")
-            sudo xbps-install -Su xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
+            xbps-install -Su xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
             fish-shell xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
             nautilus ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol \
             scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
@@ -28,7 +32,7 @@ do
             echo "----------------------------"
             ;;
         "Install Depedency [ Artix Linux ]")
-            sudo pacman -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
+            pacman -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
             fish xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
             nautilus ranger fontconfig rsync wget curl w3m w3m-img imagemagick pamixer pavucontrol \
             scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
@@ -38,14 +42,14 @@ do
             echo "----------------------------"
             ;;
         "Swicth Shell [ All GNU-Linux ]")
-            sudo chsh -s /usr/bin/fish
+            chsh -s /usr/bin/fish
             echo "----------------------------"
             echo " swicth shell fish finished "
             echo "----------------------------"
             ;;
 	    "Change hosts file to bebasid")
             wget https://github.com/bebasid/bebasid/blob/master/releases/hosts
-	    sudo mv hosts /etc/hosts
+	     mv hosts /etc/hosts
 	    echo "----------------------------"
             echo " Change hosts file finished "
             echo "----------------------------"
@@ -69,3 +73,8 @@ do
     esac
   break
 done
+
+if [ "$(id -u)" != "0" ]; then
+   echo "preinstalled scripts must run as root" 1>&2
+   exit 1
+fi
