@@ -100,7 +100,7 @@ some scripts or tools that I use do not all come from me and this is why I inclu
   - [Adhi Pambudi](https://github.com/addy-dclxvi)
   - [Rizqi Nur Assyaufi](https://github.com/bandithijo)
   - [Aditya Shakya](https://github.com/adi1090x)
-  - [Harry](https://github.com/owl4ce)
+  - [Harry Elric](https://github.com/owl4ce)
   - ?
  
 ### Our local linux community 🌏
@@ -112,5 +112,5 @@ some scripts or tools that I use do not all come from me and this is why I inclu
   - [vinceliuice](https://github.com/vinceliuice) Tela-Circle Icons
   - [kapatarou](https://safebooru.donmai.us/posts?tags=kapatarou) Avatar-Original NSFW
 
-### © Owner dotfile
+### © Owner dotfiles
 [![IMG-20211208-105846.png](https://i.postimg.cc/pLZbNPZm/IMG-20211208-105846.png)](https://postimg.cc/sMv07dbz)
