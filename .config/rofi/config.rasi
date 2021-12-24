@@ -12,7 +12,7 @@ configuration {
     drun-display-format:            "{icon}";
     disable-history:                false;
 	click-to-exit: 					true;
-    location:                       center;
+    location:                       0;
     font:				 	        "Noto Sans 10";
 }
 
@@ -75,7 +75,7 @@ inputbar {
     border-color:                   @BDR;
     margin:                         0px 0px 0px 0px;
     padding:                        0px;
-    position:                       center;
+    position:                       0;
 }
 
 case-indicator {

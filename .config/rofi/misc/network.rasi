@@ -75,7 +75,7 @@ inputbar {
     border-color:                  	@BDR;
     margin:                         0px 0px 0px 0px;
     padding:                        0px;
-    position:                       center;
+    position:                       0;
 }
 
 case-indicator {
