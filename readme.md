@@ -19,7 +19,7 @@ I hope you understand what I'm saying and some of the files that will be used or
    * <b>DM</b> : [lxdm](https://blog.lxde.org/2009/09/10/lxdm-new-display-manager/) 🌼 minimaliDM!
    * <b>Shell</b> : [fish](https://github.com/fish-shell/fish-shell) 🐟 with some aliasing!
    * <b>Terminal</b> : [alacritty](https://github.com/alacritty/alacritty) 🚀 OpenGL TERM!
-   * <b>Panel</b> : [polybar](https://github.com/polybar/polybar) 🍧 using [nerd fonts](https://www.nerdfonts.com/) glyphs as icons!
+   * > <b>Panel</b> : [polybar](https://github.com/polybar/polybar) please read the notes in bellow! 
    * <b>Compositor</b> : [picom](https://github.com/yshui/picom) ✨ lightweight!
    * <b>Notify Daemon</b> : [Dunst](https://github.com/dunst-project/dunst) 🍃 minimalism!
    * <b>Application Launcher</b> : [Rofi](https://github.com/davatorium/rofi) 🚀 apps & sidebar menu!
@@ -85,6 +85,7 @@ rsync -avxHAXP --exclude '.git*' .* ~/
 ### Notes 📖
   * Run `nvim +PackerSync` upon starting neovim.
   * Run `fc-cache -rv` for refresh font caches
+  * Uncomment / delete the `#` [`in this line`](https://github.com/vcyzteen/dotbaka/blob/5e1e32230d9eb33500aa40f87da46f6586534f43/.config/bspwm/bspwmrc#L115) if you want use bar
   * Run `pushd ~/.icons/ && sudo ln -vs ~/.icons/Tela-circle /usr/share/icons/Tela-circle && popd` to linked icon into symlink
 
 ### System Info 💻
