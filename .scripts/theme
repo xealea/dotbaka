@@ -30,7 +30,7 @@ case $chosen in
         sed -i -e 's/background = "#DFD6CF"/background = "#16161E"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/foreground = "#16161E"/foreground = "#DFD6CF"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/light/dark/g' ${HOME}/.config/polybar/config.ini
-        sed -i -e 's/nsfw-boobs.png/original-character.jpg/g' ${HOME}/.fehbg
+        sed -i -e 's/office-lady.png/blue-archive.png/g' ${HOME}/.fehbg
         bspc wm -r
         ;;
     $theme_1)
@@ -51,7 +51,7 @@ case $chosen in
         sed -i -e 's/background = "#16161E"/background = "#DFD6CF"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/foreground = "#DFD6CF"/foreground = "#16161E"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/dark/light/g' ${HOME}/.config/polybar/config.ini
-        sed -i -e 's/original-character.jpg/nsfw-boobs.png/g' ${HOME}/.fehbg
+        sed -i -e 's/blue-archive.png/office-lady.png/g' ${HOME}/.fehbg
         bspc wm -r
         ;;
 esac
