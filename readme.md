@@ -31,7 +31,7 @@ Two themes that are presented in these dotfiles
 
 ### <p align="center">━━━━ • Timberwolf • ━━━━</p>
 <p align="center">
-  <kbd><img src="https://i.postimg.cc/k4Kb4RzM/2021-12-08-08-52-29-screenshot.png"/></kbd>
+  <kbd><img src="https://i.postimg.cc/s2ddtXYG/office-lady.png"/></kbd>
 
    * I blurted this wallpaper image because it wasn't good for display. but in the original wallpaper there is no blur like i made in this picture
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
@@ -40,7 +40,7 @@ Two themes that are presented in these dotfiles
 ### <p align="center">━━━━ • Raisinblack • ━━━━</p>
   
 <p align="center">
-  <kbd><img src="https://i.postimg.cc/nVmxwGbw/2021-12-08-08-52-20-screenshot.png"/></kbd>
+  <kbd><img src="https://i.postimg.cc/gjkPNTvM/2021-12-25-18-26-07-screenshot.png"/></kbd>
 
    * This wallpaper is the original wallpaper or you could say without editing. I found this wallpaper on a wallpaper site but I forgot the name of the artist who drew this. if you know maybe you can tell me
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
