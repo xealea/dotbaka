@@ -90,7 +90,7 @@ rsync -avxHAXP --exclude '.git*' .* ~/
 ### System Info 💻
 This is the linux os i use in my daily life
 
-<kbd><img src="https://i.postimg.cc/fLQRL2Yp/2021-12-08-09-38-17-screenshot.png"/></kbd>
+<kbd><img src="https://i.postimg.cc/y8LGQ3Wz/2021-12-25-23-18-14-screenshot.png"/></kbd>
 
 ### Credits 🏷
 some scripts or tools that I use do not all come from me and this is why I include credits as a form of my respect for the owners
