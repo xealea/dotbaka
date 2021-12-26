@@ -9,7 +9,7 @@ BAR="tint2" # polybar / tint2
 COMPOSITOR="ON"
 
 # xbacklight ( value automatically set to 25% )
-BACKLIGHT-SET="ON"
+BACKLIGHT_SET="ON"
 
 # java app fix ( for developer java )
-FIX-JAVA-APP="ON"
+FIX_JAVA_APP="ON"
