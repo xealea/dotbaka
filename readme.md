@@ -103,7 +103,6 @@ if you want to activate it then just fill it with `ON` but if not you can BLANK 
 ### Notes 📖
   * Run `nvim +PackerSync` upon starting neovim.
   * Run `fc-cache -rv` for refresh font caches
-  * Uncomment / delete the `#` [`in this line`](https://github.com/vcyzteen/dotbaka/blob/5e1e32230d9eb33500aa40f87da46f6586534f43/.config/bspwm/bspwmrc#L115) if you want use bar
   * Run `pushd ~/.icons/ && sudo ln -vs ~/.icons/Tela-circle /usr/share/icons/Tela-circle && popd` to linked icon into symlink
 
 ### System Info 💻
