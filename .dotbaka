@@ -1,7 +1,6 @@
 #!/bin/bash/env
-
-# hello. this is a little variable file to enable and disable some programs
-# if you want to activate it then just fill it with "ON" but if not you can blank it
+# PLEASE READ THE README
+# BEFORE EDIT THIS FILE
 
 # bar
 POLYBAR=""
