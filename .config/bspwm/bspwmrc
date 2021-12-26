@@ -119,11 +119,11 @@ xsetroot -cursor_name left_ptr &
 # ----------------------------------------------------------------------------
 
 # BAR ------------------------------------------------------------------------
-if [ BAR = "polybar" ];
+if [ $BAR = "polybar" ];
 then
     bash ~/.config/polybar/launch &
 fi
-if [ BAR = "tint2" ];
+if [ $BAR = "tint2" ];
 then
     bash ~/.config/tint2/launch &
 fi
