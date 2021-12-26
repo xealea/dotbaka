@@ -12,7 +12,7 @@ super + s
 
 # program launcher
 super + @space
-	exec rofi -modi drun -show
+	rofi -modi drun -show
 
 # program search
 super + m

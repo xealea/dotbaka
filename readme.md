@@ -58,6 +58,24 @@ sudo bash preinstalled
 rsync -avxHAXP --exclude '.git*' .* ~/
 ```
 
+### Variable
+You can edit file `.dotbaka` for edit some variable config. this is still relatively small and just a normal configuration but I hope I can add more in the future
+```
+ 6 # bar
+ 7 POLYBAR=""
+ 8
+ 9 # compositor ( shaddow for wm )
+10 COMPOSITOR="ON"
+11
+12 # xbacklight ( value automatically set to 25% )
+13 BACKLIGHT-SET="ON"
+14
+15 # java app fix ( for developer java )
+16 FIX-JAVA-APP="ON"
+```
+This is a little variable file to enable and disable some programs
+if you want to activate it then just fill it with `ON` but if not you can BLANK it
+
 ### Keybinds ⌨️
 
    I only listed the important shortcuts. There's still more but have fun discovering it.

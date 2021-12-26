@@ -1,0 +1,16 @@
+#!/bin/bash/env
+
+# hello. this is a little variable file to enable and disable some programs
+# if you want to activate it then just fill it with "ON" but if not you can blank it
+
+# bar
+POLYBAR=""
+
+# compositor ( shaddow for wm )
+COMPOSITOR="ON"
+
+# xbacklight ( value automatically set to 25% )
+BACKLIGHT-SET="ON"
+
+# java app fix ( for developer java )
+FIX-JAVA-APP="ON"
