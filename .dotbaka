@@ -3,7 +3,7 @@
 # BEFORE EDIT THIS FILE
 
 # bar
-POLYBAR=""
+BAR="tint2" # polybar / tint2
 
 # compositor ( shaddow for wm )
 COMPOSITOR="ON"

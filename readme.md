@@ -62,7 +62,7 @@ rsync -avxHAXP --exclude '.git*' .* ~/
 You can edit file `.dotbaka` for edit some variable config. this is still relatively small and just a normal configuration but I hope I can add more in the future
 ```
  6 # bar
- 7 POLYBAR=""
+ 7 BAR="tint2" # polybar / tint2
  8
  9 # compositor ( shaddow for wm )
 10 COMPOSITOR="ON"

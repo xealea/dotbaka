@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# ENV
+CONFIG_DIR="$XDG_CONFIG_HOME/tint2"
+
+# program
+launch() {
+  if [[ "$(pidof tint2)" != "" ]]; then 
+    pkill tint2
+  fi
+
+  tint2 -c "$CONFIG_DIR/clockrc" &> /dev/null &
+  tint2 -c "$CONFIG_DIR/tasksrc" &> /dev/null &
+}
+
+launch
