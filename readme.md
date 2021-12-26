@@ -58,7 +58,7 @@ sudo bash preinstalled
 rsync -avxHAXP --exclude '.git*' .* ~/
 ```
 
-### Variable
+### Variable 📝
 You can edit file `.dotbaka` for edit some variable config. this is still relatively small and just a normal configuration but I hope I can add more in the future
 ```
  6 # bar
