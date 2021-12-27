@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+LOADAVG="$(awk '{print $1 * 100}' /proc/loadavg)"
+echo "<span foreground=\"#16161E\\"> </span><span foreground=\"#16161E\">$LOADAVG%</span>"

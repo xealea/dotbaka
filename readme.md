@@ -61,18 +61,23 @@ rsync -avxHAXP --exclude '.git*' .* ~/
 ### Variable 📝
 You can edit file `.dotbaka` for edit some variable config. this is still relatively small and just a normal configuration but I hope I can add more in the future
 ```sh
- 6 # bar
- 7 BAR="tint2" # polybar / tint2
- 8
- 9 # compositor ( shaddow for wm )
-10 COMPOSITOR="ON"
-11
-12 # xbacklight ( set value for first time boot )
-13 VALUE="25"
-14 BACKLIGHT_SET="ON"
-15
-16 # java app fix ( for developer java )
-17 FIX_JAVA_APP="ON"
+ 5 # bar
+ 6 BAR="tint2" # polybar / tint2
+ 7
+ 8 # compositor ( shaddow for wm )
+ 9 COMPOSITOR="ON"
+10
+11 # xbacklight ( set value for first time boot )
+12 VALUE="25"
+13 BACKLIGHT_SET="ON"
+14
+15 # java app fix ( for developer java )
+16 FIX_JAVA_APP="ON"
+17
+18 # Battery ( ls /sys/class/power_supply/ ) and see what type of file in your comp
+19 # if mine is BAT0 you can check it by typing cat /sys/class/power_supply/BAT0/capacity
+20 # NOTE: ADP Is the status of battery
+21 BATTERY="BAT0"
 ```
 This is a little variable file to enable and disable some programs
 if you want to activate it then just fill it with `ON` but if not you can BLANK it
