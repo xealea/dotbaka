@@ -68,10 +68,10 @@ You can edit file `.dotbaka` for edit some variable config. this is still relati
 10 COMPOSITOR="ON"
 11
 12 # xbacklight ( value automatically set to 25% )
-13 BACKLIGHT-SET="ON"
+13 BACKLIGHT_SET="ON"
 14
 15 # java app fix ( for developer java )
-16 FIX-JAVA-APP="ON"
+16 FIX_JAVA_APP="ON"
 ```
 This is a little variable file to enable and disable some programs
 if you want to activate it then just fill it with `ON` but if not you can BLANK it
