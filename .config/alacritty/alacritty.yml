@@ -1,6 +1,6 @@
 ## Import files (Colors,Etc)
 import:
-  - ~/.config/alacritty/light/colors.yml
+  - ~/.config/alacritty/dark/colors.yml
 
 ## Set environment variables
 env:
@@ -13,17 +13,69 @@ font:
     family: JetBrainsMono Nerd Font
     style: medium
 
+  bold:
+    family: JetBrainsMono Nerd Font
+    style: Bold
+
+  italic:
+    family: JetBrainsMono Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: JetBrainsMono Nerd Font
+    style: Bold Italic
+
   size: 9
+
+draw_bold_text_with_bright_colors: true
 
 ## Terminal window settings
 window:
   padding:
     x: 20
     y: 20
+
   dynamic_padding: true
   decorations: full
   startup_mode: Windowed
   dynamic_title: true
+  title: Alacritty
 
 ## Live config reload
 live_config_reload: true
+
+class:
+  instance: Alacritty
+  general: Alacritty
+
+## Scroll
+scrolling:
+  history: 5000
+
+# Visual
+visual_bell:
+  animation: EaseOutExpo
+  duration: 0.5
+  color: "#ffffff"
+
+background_opacity: 1.0
+
+##Selection
+selection:
+  semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
+  save_to_clipboard: true
+
+## Cs
+cursor:
+  style: Block
+
+## Shell
+shell:
+  program: /usr/bin/fish
+
+## Mouse
+mouse:
+  double_click: { threshold: 300 }
+  triple_click: { threshold: 300 }
+
+  hide_when_typing: true
