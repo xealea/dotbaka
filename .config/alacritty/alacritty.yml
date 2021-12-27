@@ -1,6 +1,6 @@
 ## Import files (Colors,Etc)
 import:
-  - ~/.config/alacritty/dark/colors.yml
+  - ~/.config/alacritty/light/colors.yml
 
 ## Set environment variables
 env:
