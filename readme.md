@@ -31,7 +31,7 @@ Two themes that are presented in these dotfiles
 
 ### <p align="center">━━━━ • Timberwolf • ━━━━</p>
 <p align="center">
-  <kbd><img src="https://i.postimg.cc/s2ddtXYG/office-lady.png"/></kbd>
+  <kbd><img src="https://i.postimg.cc/pTd03qxg/2021-12-27-18-00-06-screenshot.png"/></kbd>
 
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
   <kbd><img src="https://i.postimg.cc/LX8WFfs7/IMG-20211208-105550.png"/></kbd>
@@ -39,7 +39,7 @@ Two themes that are presented in these dotfiles
 ### <p align="center">━━━━ • Raisinblack • ━━━━</p>
   
 <p align="center">
-  <kbd><img src="https://i.postimg.cc/gjkPNTvM/2021-12-25-18-26-07-screenshot.png"/></kbd>
+  <kbd><img src="https://i.postimg.cc/44SMRkYw/2021-12-27-18-03-44-screenshot.png"/></kbd>
 
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
   <kbd><img src="https://i.postimg.cc/d0mvn87T/IMG-20211208-103924.png"/></kbd>
@@ -114,7 +114,7 @@ if you want to activate it then just fill it with `ON` but if not you can BLANK 
 ### System Info 💻
 This is the linux os i use in my daily life
 
-<kbd><img src="https://i.postimg.cc/y8LGQ3Wz/2021-12-25-23-18-14-screenshot.png"/></kbd>
+<kbd><img src="https://i.postimg.cc/rwmNVz7r/2021-12-27-18-36-25-screenshot.png"/></kbd>
 
 ### Credits 🏷
 some scripts or tools that I use do not all come from me and this is why I include credits as a form of my respect for the owners
