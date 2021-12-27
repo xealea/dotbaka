@@ -67,11 +67,12 @@ You can edit file `.dotbaka` for edit some variable config. this is still relati
  9 # compositor ( shaddow for wm )
 10 COMPOSITOR="ON"
 11
-12 # xbacklight ( value automatically set to 25% )
-13 BACKLIGHT_SET="ON"
-14
-15 # java app fix ( for developer java )
-16 FIX_JAVA_APP="ON"
+12 # xbacklight ( set value for first time boot )
+13 VALUE="25"
+14 BACKLIGHT_SET="ON"
+15
+16 # java app fix ( for developer java )
+17 FIX_JAVA_APP="ON"
 ```
 This is a little variable file to enable and disable some programs
 if you want to activate it then just fill it with `ON` but if not you can BLANK it

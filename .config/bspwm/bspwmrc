@@ -1,6 +1,6 @@
 #! /bin/sh
 
-# ini dotbaka
+# init dotbaka
 . "${HOME}/.dotbaka"
 
 # Make Null Sxhkd -----------------------------------------------------------
@@ -110,7 +110,7 @@ fi
 # Brightness Set -------------------------------------------------------------
 if [ $BACKLIGHT_SET = "ON" ];
 then
-    xbacklight -set 25% &
+    xbacklight -set $VALUE &
 fi
 # ----------------------------------------------------------------------------
 

@@ -8,7 +8,8 @@ BAR="tint2" # polybar / tint2
 # compositor ( shaddow for wm )
 COMPOSITOR="ON"
 
-# xbacklight ( value automatically set to 25% )
+# xbacklight ( set value for first time boot )
+VALUE="25"
 BACKLIGHT_SET="ON"
 
 # java app fix ( for developer java )
