@@ -13,6 +13,7 @@ launch() {
   tint2 -c "$CONFIG_DIR/tasksrc" &> /dev/null &
   tint2 -c "$CONFIG_DIR/menusrc" &> /dev/null &
   tint2 -c "$CONFIG_DIR/confsrc" &> /dev/null &
+  tint2 -c "$CONFIG_DIR/networc" &> /dev/null &
 }
 
 launch

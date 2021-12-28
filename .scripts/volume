@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+up() {
+  pamixer --increase 1; \
+  dunstify "  Increase Volume:" -h int:value:$(pamixer --get-volume) -t 1000 -r 1
+}
+
+down() {
+  pamixer --decrease 1; \
+  dunstify "奔 Decrease Volume:" -h int:value:$(pamixer --get-volume) -t 1000 -r 1
+}
+
+if [[ "$1" == "--i" ]];
+then
+  up 
+fi
+if [[ "$1" == "--d" ]];
+then
+  down
+fi
