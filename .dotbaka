@@ -15,6 +15,9 @@ BACKLIGHT_SET="ON"
 # java app fix ( for developer java )
 FIX_JAVA_APP="ON"
 
+# Xfce4 power manager ( for battery efficiency )
+XFCE4_POWER="ON"
+
 # Battery ( ls /sys/class/power_supply/ ) and see what type of file in your comp
 # if mine is BAT0 you can check it by typing cat /sys/class/power_supply/BAT0/capacity
 # NOTE: ADP Is the status of battery

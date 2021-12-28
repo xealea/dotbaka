@@ -74,10 +74,13 @@ You can edit file `.dotbaka` for edit some variable config. this is still relati
 15 # java app fix ( for developer java )
 16 FIX_JAVA_APP="ON"
 17
-18 # Battery ( ls /sys/class/power_supply/ ) and see what type of file in your comp
-19 # if mine is BAT0 you can check it by typing cat /sys/class/power_supply/BAT0/capacity
-20 # NOTE: ADP Is the status of battery
-21 BATTERY="BAT0"
+18 # Xfce4 power manager ( for battery efficiency )
+19 XFCE4_POWER="ON"
+20
+21 # Battery ( ls /sys/class/power_supply/ ) and see what type of file in your comp
+22 # if mine is BAT0 you can check it by typing cat /sys/class/power_supply/BAT0/capacity
+23 # NOTE: ADP Is the status of battery
+24 BATTERY="BAT0"
 ```
 This is a little variable file to enable and disable some programs
 if you want to activate it then just fill it with `ON` but if not you can BLANK it
