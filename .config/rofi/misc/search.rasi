@@ -19,35 +19,35 @@ configuration {
 @import "light.rasi"
 
 window {
-    transparency:                   "real";
     background-color:               @BG;
-    text-color:                     @FG;
+    border:                  		0px;
+    border-color:                  	@BGA;
     border-radius:                  10px;
     width:                          400px;
-    height:                         170px;
+    height:                         200px;
     x-offset:                       0px;
     y-offset:                       0px;
 }
 
 prompt {
-    enabled: 						true;
-	margin: 						0px 0px 0px 8px;
-	padding: 						8px;
-	background-color: 				@BGA;
-	text-color: 					@FG;
-    border:                  		0px 0px 0px 0px;
-    border-color:                  	@BDR;
+    enabled: 			    true;
+    margin: 		            0px 0px 0px 8px;
+    padding: 			    8px;
+    background-color: 		    @BGA;
+    text-color: 		    @FG;
+    border:                  	    1px 1px 1px 1px;
+    border-color:                   @BDR;
     border-radius:                  6px;
 }
 
 textbox-prompt-colon {
-	expand: 						false;
-	str: 							"";
+    expand: 		            false;
+    str: 			    "";
     border-radius:                  6px;
     background-color:               @SEL;
     text-color:                     @BGA;
     padding:                        8px 12px 8px 12px;
-	font:				 	        "Noto Sans 10";
+    font:			    "Noto Sans 10";
 }
 
 entry {
@@ -58,23 +58,23 @@ entry {
     horizontal-align:               0;
     placeholder:                    "Search...";
     blink:                          true;
-    border:                  		0px 0px 0px 0px;
+    border:                  		1px 1px 1px 1px;
     border-color:                  	@BDR;
-    border-radius:                  10px;
+    border-radius:                  8px;
     padding:                        8px;
 }
 
 inputbar {
-	children: 						[ textbox-prompt-colon, prompt ];
+    children: 			            [ textbox-prompt-colon,entry,case-indicator ];
     background-color:               #00000000;
     text-color:                     @FG;
     expand:                         false;
-    border:                  		0px 0px 0px 0px;
+    border:                  	    0px 0px 0px 0px;
     border-radius:                  0px;
-    border-color:                  	@BDR;
+    border-color:                   @BDR;
     margin:                         0px 0px 0px 0px;
     padding:                        0px;
-    position:                       0;
+    position:                       center;
 }
 
 case-indicator {
@@ -83,78 +83,79 @@ case-indicator {
     spacing:                        0;
 }
 
-
 listview {
     background-color:               #00000000;
-    line:	    					1;
-    columns:                        4;
+    columns:                        1;
+    lines:			    1;
     spacing:                        5px;
     cycle:                          false;
     dynamic:                        true;
     layout:                         vertical;
+    scrollbar:                      false;
 }
 
 mainbox {
-    background-color:               @BG;
+    background-color:               rgba(0,0,0,0);
     children:                       [ inputbar, listview ];
-    spacing:                       	15px;
+    spacing:                        15px;
     padding:                        30px;
 }
 
 element {
-    background-color:               @BGA;
-    text-color:                     @FG;
-    orientation:                    horizontal;
-    border:                  		0px;
-    border-color:                  	@BDR;
-    border-radius:                  6px;
-    padding:                        15px 6px 15px 6px;
+    background-color:   rgba(0,0,0,0);
+    padding:	5px;
+    border-radius:	8px;
 }
-
 element-icon {
-    background-color: 				inherit;
-    text-color:       				inherit;
+    background-color:               inherit;
+    text-color:                     inherit;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
-    size:                           0px;
+    size:                           20px;
     border:                         0px;
 }
-
 element-text {
-    background-color: 				inherit;
-    text-color:       				inherit;
+    background-color:               inherit;
+    text-color:                     inherit;
     expand:                         true;
-    horizontal-align:               0.5;
-    vertical-align:                 0.5;
-    margin:                         0px;
+    horizontal-align:               0;
+    vertical-align:                 0;
+    margin:                         2px 0px 2px 2px;
 }
-
-element selected {
-    background-color:               @SEL;
-    text-color:                     @BGA;
-    border:                  		0px 0px 0px 0px;
-    border-radius:                  6px;
-    border-color:                  	@BDR;
+element.normal.normal {
+    background-color: @UGT;
+    text-color:       @FG;
 }
-
-element.active,
+element.normal.urgent {
+    background-color: @UGT;
+    text-color:       @BGA;
+}
+element.normal.active {
+    background-color: @UGT;
+    text-color:       @BGA;
+}
+element.selected.normal {
+    background-color: @SEL;
+    text-color:       @BGA;
+}
 element.selected.urgent {
-  background-color: @ON;
-  text-color: @BGA;
-  border-color: @ON;
+    background-color: @UGT;
+    text-color:       @BGA;
 }
-
-element.selected.urgent {
-  border-color: @BDR;
-}
-
-element.urgent,
 element.selected.active {
-  background-color: @OFF;
-  text-color: @BGA;
-  border-color: @OFF;
+    background-color: @BG;
+    text-color:       @FG;
+}
+element.alternate.normal {
+    background-color: @BG;
+    text-color:       @FG;
+}
+element.alternate.urgent {
+    background-color: @BG;
+    text-color:       @FG;
+}
+element.alternate.active {
+    background-color: @BG;
+    text-color:       @FG;
 }
 
-element.selected.active {
-  border-color: @BDR;
-}
