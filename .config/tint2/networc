@@ -4,7 +4,7 @@
 #-------------------------------------
 
 # Panel
-panel_items = PPP
+panel_items = PPPP
 panel_size = 60% 35
 panel_margin = 100 0 10
 panel_padding = 4 4 8
@@ -73,6 +73,23 @@ button_rclick_command = pavucontrol
 button_mclick_command =
 button_uwheel_command = ~/.scripts/volume --i
 button_dwheel_command = ~/.scripts/volume --d
+button_font = Iosevka 25
+button_font_color = #16161E 50
+button_padding = 4 0
+button_background_id = 3
+button_centered = 1
+button_max_icon_size = 0
+#------------------------------------
+
+# Button 4
+button = new
+button_text = 襤
+button_tooltip = Powermenu
+button_lclick_command = bash ~/.scripts/powermenu
+button_rclick_command = bash ~/.scripts/powermenu
+button_mclick_command =
+button_uwheel_command = 
+button_dwheel_command = 
 button_font = Iosevka 25
 button_font_color = #16161E 50
 button_padding = 4 0
