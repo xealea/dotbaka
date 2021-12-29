@@ -31,7 +31,7 @@ Two themes that are presented in these dotfiles
 
 ### <p align="center">━━━━ • Timberwolf • ━━━━</p>
 <p align="center">
-  <kbd><img src="https://i.postimg.cc/pTd03qxg/2021-12-27-18-00-06-screenshot.png"/></kbd>
+  <kbd><img src="https://i.postimg.cc/7hqB6Gb6/2021-12-29-17-29-38-screenshot.png"/></kbd>
 
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
   <kbd><img src="https://i.postimg.cc/LX8WFfs7/IMG-20211208-105550.png"/></kbd>
@@ -39,7 +39,7 @@ Two themes that are presented in these dotfiles
 ### <p align="center">━━━━ • Raisinblack • ━━━━</p>
   
 <p align="center">
-  <kbd><img src="https://i.postimg.cc/44SMRkYw/2021-12-27-18-03-44-screenshot.png"/></kbd>
+  <kbd><img src="https://i.postimg.cc/t44LkfqT/2021-12-29-17-29-23-screenshot.png"/></kbd>
 
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
   <kbd><img src="https://i.postimg.cc/d0mvn87T/IMG-20211208-103924.png"/></kbd>
