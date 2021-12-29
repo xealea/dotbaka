@@ -114,10 +114,11 @@ if you want to activate it then just fill it with `ON` but if not you can BLANK 
    | <kbd>Super</kbd> + <kbd>C</kbd>                                      | On/off compositor           |
    | <kbd>Super</kbd> + <kbd>B</kbd>                                      | On/off border bspwm         |
    | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>M</kbd>                    | Download music from yt      |
-  
+
 ### Notes 📖
   * Run `nvim +PackerSync` upon starting neovim.
   * Run `fc-cache -rv` for refresh font caches
+  * See file `.alias` to see command abbreviation
   * Run `pushd ~/.icons/ && sudo ln -vs ~/.icons/Tela-circle /usr/share/icons/Tela-circle && popd` to linked icon into symlink
 
 ### System Info 💻
