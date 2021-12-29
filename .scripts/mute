@@ -4,5 +4,5 @@ XF86AudioMute
     --toggle-mute; \
     ou_mute=$(pamixer --get-mute); \
     icon_on="  Speaker"; icon_off="  Speaker"; \
-    [ $ou_mute   = "true"  ] && dunstify "$icon_off" "X  =   MUTED" -t 1000 -r 1; \
-    [ $ou_mute   = "false" ] && dunstify "$icon_on" "V  =   UNMUTED" -t 1000 -r 1
+    [ $ou_mute   = "true"  ] && dunstify "$icon_off" "MUTED" -t 1000 -r 1; \
+    [ $ou_mute   = "false" ] && dunstify "$icon_on"  "UNMUTED" -t 1000 -r 1

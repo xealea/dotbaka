@@ -16,39 +16,39 @@ super + @space
 
 # program search
 super + m
-    bash ${HOME}/.scripts/search
+    ~/.scripts/search
 
 # program screenshots
 super + p
-    bash ${HOME}/.scripts/screenshots
+    ~/.scripts/screenshots
 
 # program powermenu
 super + x
-    bash ${HOME}/.scripts/powermenu
+    ~/.scripts/powermenu
 
 # program network
 super + n
-    bash ${HOME}/.scripts/network
+    ~/.scripts/network
 
 # program compositor
 super + c
-    bash ${HOME}/.scripts/comp
+    ~/.scripts/comp
 
 # program border
 super + b
-    bash ${HOME}/.scripts/border
+    ~/.scripts/border
 
 # program border
 super + z
-    bash ${HOME}/.scripts/theme
+    ~/.scripts/theme
 
 # download music
 super + ctrl + m
-    bash ${HOME}/.scripts/ytmp3
+    ~/.scripts/ytmp3
 
 # yt video mpv
 super + y
-    bash ${HOME}/.scripts/ytvid
+    ~/.scripts/ytvid
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -162,21 +162,19 @@ super + {Left,Down,Up,Right}
 
 # brightness
 XF86MonBrightnessUp
-	xbacklight -inc 1; \
-	dunstify "盛 Brigthness Up:" -h int:value:(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
+    xbacklight -inc 1; \
+    dunstify "盛 Brigthness Up:" -h int:value:$(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
 
 XF86MonBrightnessDown
 	xbacklight -dec 1; \
-	dunstify "滛 Brigthness Down:" -h int:value:(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
+    dunstify "滛 Brigthness Down:" -h int:value:$(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
 
 # pulseaudio controls speaker volume up & down
 XF86AudioRaiseVolume
-	pamixer --increase 1; \
-	dunstify "  Increase Volume:" -h int:value:(pamixer --get-volume) -t 1000 -r 1
+	~/.scripts/volume --i
 
 XF86AudioLowerVolume
-	pamixer --decrease 1; \
-	dunstify "奔 Decrease Volume:" -h int:value:(pamixer --get-volume) -t 1000 -r 1
+	~/.scripts/volume --d
 
 # pulseaudio controls mic volume up & down
 shift + XF86AudioRaiseVolume
@@ -194,5 +192,5 @@ alt + XF86AudioLowerVolume
 	
 # pulseaudio controls mute speaker
 XF86AudioMute
-	bash ${HOME}/.scripts/mute
+	~/.scripts/mute
 

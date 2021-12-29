@@ -1,20 +1,31 @@
 #!/usr/bin/env bash
 
-up() {
-  pamixer --increase 1; \
-  dunstify "  Increase Volume:" -h int:value:$(pamixer --get-volume) -t 1000 -r 1
+type -p pamixer &>/dev/null || dunstify -u low -r 15 'Install pamixer!'
+
+VOLUME="$(pamixer --get-volume)"
+
+notify() {
+  if [ "$VOLUME" -lt 0 ];then
+    ICON="ﱝ"
+  elif [ "$VOLUME" -lt 30 ];then
+    ICON=""
+  elif [ "$VOLUME" -lt 70 ];then
+    ICON="墳"
+  else 
+    ICON=""
+  fi
+  dunstify "$ICON Volume:" -h int:value:$VOLUME -t 1000 -r 1
 }
 
-down() {
-  pamixer --decrease 1; \
-  dunstify "奔 Decrease Volume:" -h int:value:$(pamixer --get-volume) -t 1000 -r 1
-}
+case ${1} in
+    --i)
+        pamixer --increase 5
+      ;; 
+    --d)
+        pamixer --decrease 5
+      ;;
+esac
+      
+notify
 
-if [[ "$1" == "--i" ]];
-then
-  up 
-fi
-if [[ "$1" == "--d" ]];
-then
-  down
-fi
+exit ${?}
