@@ -6,7 +6,4 @@ end
 # fish optimize
 set fish_greeting
 set -U SXHKD_SHELL sh
-set -U SXHKD_SHELL /usr/bin/bash
-
-# load alias
-[ -f ~/.alias ] && . ~/.alias
+set -U SXHKD_SHELL /usr/bin/fish

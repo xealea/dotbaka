@@ -176,3 +176,6 @@ function fish_prompt
         set_color normal
     end
 end
+
+# init alias
+. $HOME/.alias
