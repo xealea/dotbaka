@@ -42,9 +42,17 @@ super + b
 super + z
     bash ${HOME}/.scripts/theme
 
+# download music
+super + ctrl + m
+    bash ${HOME}/.scripts/ytmp3
+
+# yt video mpv
+super + y
+    bash ${HOME}/.scripts/ytvid
+
 # make sxhkd reload its configuration files:
 super + Escape
-	pkill -USR1 -x sxhkd
+    pkill -USR1 -x sxhkd
 
 #
 # bspwm hotkeys

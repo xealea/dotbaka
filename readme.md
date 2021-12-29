@@ -104,10 +104,16 @@ if you want to activate it then just fill it with `ON` but if not you can BLANK 
    | <kbd>Super</kbd> + <kbd>X</kbd>                                      | Open powermenu              |                                                                    |                             |
    |                                                                      |                             | 
    | <kbd>Super</kbd> + <kbd>Enter</kbd>                                  | Open an terminal instance   |
-   | <kbd>Super</kbd> + <kbd>N</kbd>                                      | Open Network Manager        |
+   | <kbd>Super</kbd> + <kbd>N</kbd>                                      | Open network manager        |
    | <kbd>Super</kbd> + <kbd>Alt</kbd> + <kbd>Q</kbd>                     | Restart bspwm               |
+   |                                                                      |                             |
+   | <kbd>Super</kbd> + <kbd>M</kbd>                                      | Web searching direcly       |
+   | <kbd>Super</kbd> + <kbd>Y</kbd>                                      | Search video yt -> mpv      |
    | <kbd>Super</kbd> + <kbd>S</kbd>                                      | Open Recent                 |
-
+   |                                                                      |                             |
+   | <kbd>Super</kbd> + <kbd>C</kbd>                                      | On/off compositor           |
+   | <kbd>Super</kbd> + <kbd>B</kbd>                                      | On/off border bspwm         |
+   | <kbd>Super</kbd> + <kbd>Ctrl</kbd> + <kbd>M</kbd>                    | Download music from yt      |
   
 ### Notes 📖
   * Run `nvim +PackerSync` upon starting neovim.
