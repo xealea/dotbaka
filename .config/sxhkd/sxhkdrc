@@ -20,11 +20,11 @@ super + m
 
 # program screenshots
 super + p
-    ~/.scripts/screenshots
+    bash ~/.scripts/screenshots
 
 # program powermenu
 super + x
-    ~/.scripts/powermenu
+    bash ~/.scripts/powermenu
 
 # program network
 super + n
@@ -32,15 +32,15 @@ super + n
 
 # program compositor
 super + c
-    ~/.scripts/comp
+    bash ~/.scripts/comp
 
 # program border
 super + b
-    ~/.scripts/border
+    bash  ~/.scripts/border
 
 # program border
 super + z
-    ~/.scripts/theme
+    bash ~/.scripts/theme
 
 # download music
 super + ctrl + m
