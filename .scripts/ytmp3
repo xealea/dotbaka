@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-MENU="$HOME/.config/rofi/misc/misc.rasi"
+MENU="$HOME/.config/rofi/misc/ytdl.rasi"
 MUSIC="$HOME/Music"
 
 # Rofi prompt
@@ -22,9 +22,11 @@ main() {
   # If the choice does not exist, try searching for it
   if [ ${#linktoplay} -eq "0" ]; then
     yid=$(youtube-dl -q --get-title --embed-thumbnail --extract-audio --audio-format mp3 --audio-quality 0 ytsearch:"$choice")
-    notify-send -i "Move" -u low "" "<span size='small'><u>$HOME/Music</u></span>\n$yid"
+    dunstify -i "~/.icons/Tela-circle/scalable/apps/music_icon-24.svg" -u low "" "<span size='small'><u>$HOME/Music</u></span>\n$yid"
   fi
+}
 
+initdir() {
   # Create directory if needed
   if [ ! -d "$MUSIC" ]; then
       mkdir -p "$MUSIC"
@@ -39,6 +41,7 @@ movefile() {
     mv $getname ${HOME}/Music
 }
 
+initdir &
 main &
 getname &
 movefile &

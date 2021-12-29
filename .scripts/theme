@@ -22,6 +22,7 @@ case $chosen in
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/Timberwolf/Raisinblack/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/misc.rasi
+        sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/ytdl.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/search.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/network.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/alacritty/alacritty.yml
@@ -43,6 +44,7 @@ case $chosen in
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/Raisinblack/Timberwolf/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/misc.rasi
+        sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/ytdl.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/search.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/network.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/alacritty/alacritty.yml
