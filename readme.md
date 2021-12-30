@@ -51,7 +51,7 @@ git clone https://github.com/vcyzteen/dotbaka.git && cd dotbaka
 ```
 > Then, run the script preinstalled for install depedenxy
 ```sh
-sudo bash preinstalled
+sudo bash deps --help
 ```
 > Finally, run rsync for copying all file into your dot folder
 ```sh

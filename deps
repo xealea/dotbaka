@@ -1,0 +1,88 @@
+#!/bin/bash
+# Bash Menu Script Installasion Depedency and fish shell
+
+# blue
+blue='\033[0;34m' 
+
+# Banner
+echo -e ""
+echo -e "         dBBBBb  dBBBBP dBBBBBBP dBBBBb dBBBBBb     dBP dBP dBBBBBb
+            dB' dBP.BP    dBp       dBP      BB    d8P.dBP       BB
+       dBP dB' dBP.BP    dBP    dBBBK'   dBP BB   dBBBBP     dBP BB
+      dBP dB' dBP.BP    dBP    dB' db   dBP  BB  dBP BB     dBP  BB
+     dBBBBB' dBBBBP    dBP    dBBBBP'  dBBBBBBB dBP dBP    dBBBBBBB"
+echo -e ""
+echo -e "      Script For Installasion Depedency And Some Stuff © @vcyzteen"
+echo -e ""
+
+
+voidlinux() {
+    xbps-install -SUy || error "Error syncing the repos."
+    xbps-install -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
+    fish-shell xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
+    nautilus ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol \
+    scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
+    xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd slop rsync
+    # fish
+    chsh -s /usr/bin/fish
+}
+
+archlinux() {
+  type -p paru &>/dev/null || error "Install paru!"
+    paru -Syu || error "Error syncing the repos"
+    paru -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
+    fish xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
+    nautilus ranger fontconfig rsync wget curl w3m w3m-imgcat imagemagick pamixer pavucontrol \
+    scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
+    xfce4-power-manager xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd-git slop rsync
+    # fish
+    chsh -s /usr/bin/fish
+}
+
+bebasid() {
+    wget https://github.com/bebasid/bebasid/blob/master/releases/hosts
+    mv hosts /etc/hosts
+}
+
+unused() {
+    rm -rf ${HOME}/preinstalled && rm -rf ${HOME}/readme.md && rm -rf ${HOME}/LICENCE
+}
+
+help() {
+    echo "" "" OPTIONS:
+    echo -e "$blue"
+    echo -e " " " ""      "--voidlinux" for depedency voidlinux os " " "
+    echo -e " " " ""      "--archlinux" for depedency archlinux os " " "
+    echo -e " " " ""      "--bebasid" for install hosts bebasid " " "
+    echo -e " " " ""      "--rm" for remove file unused " " "
+}
+
+if [[ "$1" == "--voidlinux" ]];
+then
+  voidlinux
+fi
+
+if [[ "$1" == "--arch" ]];
+then
+  archlinux
+fi
+
+if [[ "$1" == "--bebasid" ]];
+then
+  bebasid
+fi
+
+if [[ "$1" == "--rm" ]];
+then
+  unused
+fi
+
+if [[ "$1" == "--help" ]];
+then
+    help
+fi
+
+if [ "$(id -u)" != "0" ]; then
+   echo "preinstalled scripts must run as root" 1>&2
+   exit 1
+fi
