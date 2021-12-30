@@ -41,9 +41,11 @@ movefile() {
     mv $getname ${HOME}/Music
 }
 
-initdir &
-main &
-getname &
-movefile &
+initdir
+main
 
-exit 0
+while [ $? -ne 0 ]; do
+   getname & movefile
+done
+
+exit ${?}
