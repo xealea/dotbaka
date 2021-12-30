@@ -22,7 +22,7 @@ main() {
   # If the choice does not exist, try searching for it
   if [ ${#linktoplay} -eq "0" ]; then
     yid=$(youtube-dl -q --get-title --embed-thumbnail --extract-audio --audio-format mp3 --audio-quality 0 ytsearch:"$choice")
-    dunstify -i "~/.icons/Tela-circle/scalable/apps/music_icon-24.svg" -u low "" "<span size='small'><u>$HOME/Music</u></span>\n$yid"
+    dunstify -i "~/.icons/Tela-grey/scalable/apps/music_icon-24.svg" -u low "" "<span size='small'><u>$HOME/Music</u></span>\n$yid"
   fi
 }
 

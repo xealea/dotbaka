@@ -141,7 +141,7 @@ some scripts or tools that I use do not all come from me and this is why I inclu
   - also the great one [r/unixporn](https://www.reddit.com/r/unixporn).
 
 ### All artists who create icons, illustrations, and wallpapers. 🖼
-  - [vinceliuice](https://github.com/vinceliuice) Tela-Circle Icons
+  - [vinceliuice](https://github.com/vinceliuice) Tela-grey Icons
   - [kapatarou](https://safebooru.donmai.us/posts?tags=kapatarou) Avatar-Original NSFW
 
 ### © Owner dotfiles

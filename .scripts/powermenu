@@ -15,22 +15,22 @@ options="$s1\n$s2\n$s3\n$s4"
 chosen="$(echo -e "$options" | $rofi_command -p "powermenu" -dmenu -sync -selected-row 0)"
 case $chosen in
     $s1)
-        dunstify -i "~/.icons/Tela-circle/24/actions/application-exit.svg" "logout the system"
+        dunstify -i "~/.icons/Tela-grey/24/actions/application-exit.svg" "logout the system"
         sleep 0.5
         loginctl exit
         ;;
     $s2)
-        dunstify -i "~/.icons/Tela-circle/scalable/apps/system-restart.svg" "reboot the system"
+        dunstify -i "~/.icons/Tela-grey/scalable/apps/system-restart.svg" "reboot the system"
         sleep 0.5
         loginctl reboot
         ;;
     $s3)
-        dunstify -i "~/.icons/Tela-circle/scalable/apps/system-suspend.svg" "suspend the system"
+        dunstify -i "~/.icons/Tela-grey/scalable/apps/system-suspend.svg" "suspend the system"
         sleep 0.5
         loginctl suspend
         ;;
     $s4)
-        dunstify -i "~/.icons/Tela-circle/scalable/apps/system-log-out.svg" "poweroff the system"
+        dunstify -i "~/.icons/Tela-grey/scalable/apps/system-log-out.svg" "poweroff the system"
         sleep 0.5
         loginctl poweroff
         ;;

@@ -28,7 +28,7 @@ main() {
   fi
 
   # Send notification
-  dunstify -i "~/.icons/Tela-circle/scalable/apps/youtube.svg" "Opening YouTube Video :" "$linktoplay"
+  dunstify -i "~/.icons/Tela-grey/scalable/apps/youtube.svg" "Opening YouTube Video :" "$linktoplay"
 
   # Spawn mpv
   mpv $mpv_args "$linktoplay"
