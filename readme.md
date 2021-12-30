@@ -58,7 +58,7 @@ sudo bash deps --help
 rsync -avxHAXP --exclude '.git*' .* ~/
 ```
 
-### Updates
+### Updates ⬆️
 > Fistly go to the dir and pull
 ```sh
 cd dotbaka && git pull
