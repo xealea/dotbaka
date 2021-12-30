@@ -1,5 +1,5 @@
 Net/ThemeName "Timberwolf"
-Net/IconThemeName "Tela-circle"
+Net/IconThemeName "Tela-grey"
 Gtk/CursorThemeName "Vimix-white-cursors"
 Net/EnableEventSounds "0"
 Net/EnableInputFeedbackSounds "0"
