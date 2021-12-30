@@ -1,4 +1,4 @@
-#!/bin/bash/env
+#!/bin/bash/env bash
 
 # Rofi Command
 rofi_command="rofi -lines 2 -theme ${HOME}/.config/rofi/misc/misc.rasi"
