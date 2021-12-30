@@ -2,7 +2,8 @@
 # Bash Menu Script Installasion Depedency and fish shell
 
 # update first
-sudo xbps-install -SUy || error "Error syncing the repos."
+xbps-install -SUy || error "Error syncing the repos."
+pacman -Syu || error "Error syncing the repos."
 
 # Banner
 echo -e ""
