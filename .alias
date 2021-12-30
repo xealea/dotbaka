@@ -1,4 +1,4 @@
-#!/bin/fish/alias
+#!/bin/fish alias
 
 # alias for xbps
 alias q="exit"
