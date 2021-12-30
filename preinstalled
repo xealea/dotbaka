@@ -26,7 +26,7 @@ do
             fish-shell xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
             nautilus ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol \
             scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
-            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd screenkey slop
+            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd screenkey slop rsync
             echo "----------------------------"
             echo " install depedency finished "
             echo "----------------------------"
@@ -36,7 +36,7 @@ do
             fish xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
             nautilus ranger fontconfig rsync wget curl w3m w3m-img imagemagick pamixer pavucontrol \
             scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
-            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd screenkey slop
+            xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd screenkey slop rsync
             echo "----------------------------"
             echo " install depedency finished "
             echo "----------------------------"
