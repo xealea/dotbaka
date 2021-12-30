@@ -65,7 +65,7 @@ then
   voidlinux
 fi
 
-if [[ "$1" == "--arch" ]];
+if [[ "$1" == "--archlinux" ]];
 then
   archlinux
 fi
