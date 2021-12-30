@@ -23,8 +23,6 @@ voidlinux() {
     nautilus ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol \
     scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
     xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd slop rsync
-    # fish
-    chsh -s /usr/bin/fish
 }
 
 archlinux() {
@@ -38,8 +36,6 @@ archlinux() {
     echo ""
     echo -e "$blue" "you need paru on your arch. here the link: https://github.com/Morganamilo/paru"
     echo ""
-    # fish
-    chsh -s /usr/bin/fish
 }
 
 bebasid() {
@@ -51,13 +47,19 @@ unused() {
     rm -rf ${HOME}/preinstalled && rm -rf ${HOME}/readme.md && rm -rf ${HOME}/LICENCE
 }
 
+fish() {
+    chsh -s /usr/bin/fish
+}
+
 help() {
     echo "" "" OPTIONS:
     echo -e "$blue"
     echo -e " " " ""      "--voidlinux" for depedency voidlinux os " " "
     echo -e " " " ""      "--archlinux" for depedency archlinux os " " "
     echo -e " " " ""      "--bebasid" for install hosts bebasid " " "
+    echo -e " " " ""      "--fish" for install fish shell " " "
     echo -e " " " ""      "--rm" for remove file unused " " "
+    
 }
 
 if [[ "$1" == "--voidlinux" ]];
@@ -78,6 +80,11 @@ fi
 if [[ "$1" == "--rm" ]];
 then
   unused
+fi
+
+if [[ "$1" == "--fish" ]];
+then
+    fish
 fi
 
 if [[ "$1" == "--help" ]];
