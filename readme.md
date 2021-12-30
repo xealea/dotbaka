@@ -55,7 +55,7 @@ sudo xbps-install -S \
      scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
      xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd slop rsync
 ```
-> Dependencies for [archlinux](https://archlinux.org) | use [paru](https://github.com/Morganamilo/paru) for installasion <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="30" height="20" />
+> Dependencies for [archlinux](https://archlinux.org) | use [paru](https://github.com/Morganamilo/paru) for installasi <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="30" height="20" />
 ```sh
 sudo paru -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
      fish xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
