@@ -35,6 +35,9 @@ archlinux() {
     nautilus ranger fontconfig rsync wget curl w3m w3m-imgcat imagemagick pamixer pavucontrol \
     scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
     xfce4-power-manager xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd-git slop rsync
+    echo ""
+    echo -e "$blue" "you need paru on your arch"
+    echo ""
     # fish
     chsh -s /usr/bin/fish
 }
