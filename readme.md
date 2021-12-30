@@ -44,18 +44,38 @@ Two themes that are presented in these dotfiles
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
   <kbd><img src="https://i.postimg.cc/d0mvn87T/IMG-20211208-103924.png"/></kbd>
 
+### Dependency 📦
+Before we go to installasion dotfiles we need some package to run the dotfiles properly and correctly. and below are some linux and its dependencies that I've used to install these dotfiles
+> Dependencies for [voidlinux](https://voidlinux.org) <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Void_Linux_logo.svg" width="30" height="20" />
+```sh
+sudo xbps-install -S \
+     xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
+     fish-shell xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
+     nautilus ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol \
+     scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
+     xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd slop rsync
+```
+> Dependencies for [archlinux](https://archlinux.org) | use [paru](https://github.com/Morganamilo/paru) for installasion <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="30" height="20" />
+```sh
+sudo paru -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
+     fish xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
+     nautilus ranger fontconfig rsync wget curl w3m w3m-imgcat imagemagick pamixer pavucontrol \
+     scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
+     xfce4-power-manager xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd-git slop rsync
+```
+
 ### Installation 🍙
 >Firstly. clone the repo and go to file
 ```sh
 git clone https://github.com/vcyzteen/dotbaka.git && cd dotbaka
 ```
-> Then, run the script preinstalled for install depedenxy
-```sh
-sudo bash deps --help
-```
-> Finally, run rsync for copying all file into your dot folder
+> Then, run rsync for copying all file into your dot folder
 ```sh
 rsync -avxHAXP --exclude '.git*' .* ~/
+```
+> Finally, run chsh for change shell
+```sh
+chsh -s /usr/bin/fish
 ```
 
 ### Updates ⬆️
@@ -148,7 +168,7 @@ some scripts or tools that I use do not all come from me and this is why I inclu
 ### Our local linux community 🌏
   - [Linuxer Desktop Art](https://facebook.com/groups/linuxart)
   - [@dotfiles_id](https://t.me/dotfiles_id) indonesia
-  - also the great one [r/unixporn](https://www.reddit.com/r/unixporn).
+  - Also the great one [r/unixporn](https://www.reddit.com/r/unixporn).
 
 ### All artists who create icons, illustrations, and wallpapers. 🖼
   - [vinceliuice](https://github.com/vinceliuice) Tela-grey Icons
