@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/bin/bash/env bash
+
 # Default Values
 Y_AXIS=0
 X_AXIS=0
