@@ -12,6 +12,8 @@
 ### Hello There! 👋
 this is my bspwm config. what I made as interesting and simple as possible and not everyone will be like it but if you are interested you can use it
 
+before going deeper into these dotfiles I hope you can master the basics of dotfiles or wm `window manager` for linux before. if you have mastered it then it will be easier to install these dofiles
+
 I hope you understand what I'm saying and some of the files that will be used or `called` dotfiles
 
 ### Some Detail About My Setup 📝
@@ -77,9 +79,6 @@ rsync -avxHAXP --exclude '.git*' .* ~/
 ```sh
 chsh -s /usr/bin/fish
 ```
-> PLEASE READ!!
-
-Ok maybe you are confused after doing the above command and ask. why nothing happens after I run the command above? yes because you did not select `bspwm` as the default WM/DE ( windows manager ). and how i can change the WM/DE? you just log out of your current DE/WM and when on the lock screen choose bspwm as the default WM. `BUT` is your default WM/DE is bspwm is automatically change after you run command in above for refresh just logout and login again 
 ### Updates ⬆️
 > Fistly go to the dir and pull
 ```sh
@@ -89,7 +88,6 @@ cd dotbaka && git pull
 ```sh
 rsync -avxHAXP --exclude '.git*' .* ~/
 ```
-
 ### Variable 📝
 You can edit file `.dotbaka` for edit some variable config. this is still relatively small and just a normal configuration but I hope I can add more in the future
 ```sh
