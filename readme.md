@@ -79,7 +79,7 @@ chsh -s /usr/bin/fish
 ```
 > PLEASE READ!!
 
-Ok maybe you are confused after doing the above command and ask. why nothing happens after I run the command above? yes because you did not select `bspwm` as the default WM/DE ( windows manager ). and how i can cahnge the WM/DE? you just log out of your current DE/WM and when on the lock screen choose bspwm as the default WM. `BUT` is your default WM/DE is bspwm is automatically change after you run command in above for refresh just logout and login again 
+Ok maybe you are confused after doing the above command and ask. why nothing happens after I run the command above? yes because you did not select `bspwm` as the default WM/DE ( windows manager ). and how i can change the WM/DE? you just log out of your current DE/WM and when on the lock screen choose bspwm as the default WM. `BUT` is your default WM/DE is bspwm is automatically change after you run command in above for refresh just logout and login again 
 ### Updates ⬆️
 > Fistly go to the dir and pull
 ```sh
