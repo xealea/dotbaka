@@ -36,7 +36,7 @@ Two themes that are presented in these dotfiles
   <kbd><img src="https://i.postimg.cc/7hqB6Gb6/2021-12-29-17-29-38-screenshot.png"/></kbd>
 
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
-  <kbd><img src="https://i.postimg.cc/LX8WFfs7/IMG-20211208-105550.png"/></kbd>
+  <kbd><img src="https://i.postimg.cc/jjgYG1n8/IMG-20220101-194749.png"/></kbd>
 
 ### <p align="center">━━━━ • Raisinblack • ━━━━</p>
   
@@ -44,7 +44,7 @@ Two themes that are presented in these dotfiles
   <kbd><img src="https://i.postimg.cc/t44LkfqT/2021-12-29-17-29-23-screenshot.png"/></kbd>
 
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
-  <kbd><img src="https://i.postimg.cc/d0mvn87T/IMG-20211208-103924.png"/></kbd>
+  <kbd><img src="https://i.postimg.cc/L6j8VRdH/IMG-20220101-193532.png"/></kbd>
 
 ### Dependency 📦
 Before we go to installasion dotfiles we need some package to run the dotfiles properly and correctly. and below are some linux and its dependencies that I've used to install these dotfiles
