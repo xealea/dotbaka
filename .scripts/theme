@@ -14,9 +14,8 @@ chosen="$(echo -e "$options" | $rofi_command -p "themes" -show -dmenu -sync -sel
 case $chosen in
     $theme_0)
 	    # Kill Process if running ----------------------
-        pkill alacritty sxhkd dunst polybar
+        pkill alacritty sxhkd dunst polybar tint2
         # ----------------------------------------------
-        sed -i -e 's/black,white/black,cyan/g' ${HOME}/.nanorc
         sed -i -e 's/Timberwolf/Raisinblack/g' ${HOME}/.xsettingsd
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/clean.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/config.rasi
@@ -36,9 +35,8 @@ case $chosen in
         ;;
     $theme_1)
         # Kill Process if running ----------------------
-        pkill alacritty sxhkd dunst polybar
+        pkill alacritty sxhkd dunst polybar tint2
         # ----------------------------------------------
-        sed -i -e 's/black,cyan/black,white/g' ${HOME}/.nanorc
         sed -i -e 's/Timberwolf/Raisinblack/g' ${HOME}/.xsettingsd
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/clean.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/config.rasi
