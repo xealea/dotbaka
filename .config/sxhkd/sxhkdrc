@@ -162,12 +162,11 @@ super + {Left,Down,Up,Right}
 
 # brightness
 XF86MonBrightnessUp
-    xbacklight -inc 1; \
-    dunstify "盛 Brigthness Up:" -h int:value:$(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
+    ~/.scripts/brightness --i
 
 XF86MonBrightnessDown
 	xbacklight -dec 1; \
-    dunstify "滛 Brigthness Down:" -h int:value:$(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
+    ~/.scripts/brightness --d
 
 # pulseaudio controls speaker volume up & down
 XF86AudioRaiseVolume
