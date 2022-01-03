@@ -112,6 +112,10 @@ You can edit file `.dotbaka` for edit some variable config. this is still relati
 22 # if mine is BAT0 you can check it by typing cat /sys/class/power_supply/BAT0/capacity
 23 # NOTE: ADP Is the status of battery
 24 BATTERY="BAT0"
+25
+26 # To kill running apps before changing the theme
+27 # IMPORTANT DO NOT CHANGE, but you can add the program to be killed
+28 APP="tint2 alacritty polybar nautilus dunst"
 ```
 This is a little variable file to enable and disable some programs
 if you want to activate it then just fill it with `ON` but if not you can BLANK it
