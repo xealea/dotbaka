@@ -50,7 +50,7 @@ external_editor = "nano"
 startup_screen = "playlist"
 startup_slave_screen = "visualizer"
 startup_slave_screen_focus = yes
-song_columns_list_format = "(52)[]{t|fr:Title}|(0)[red]{a}"
+song_columns_list_format = "(52)[]{t|fr:Title}|(0)[magenta]{a}"
 window_border_color = white
 
 # EXEC
