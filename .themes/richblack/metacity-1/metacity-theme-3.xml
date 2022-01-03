@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-	<name>Nordic-darker</name>
+	<name>Nordic</name>
 	<author>Eliver Lara &lt;eliverlara@gmail&gt;</author>
 	<copyright>&#194;Eliver Lara, 2019</copyright>
 	<date>2019</date>
@@ -10,11 +10,11 @@
 
 
 <!-- CONSTANTS -->
-<constant name="C_titlebar" value="#2b303c" />
-<constant name="C_titlebar_unfocused" value="#2b303c" />
-<constant name="C_border_focused" value="#2b303c" />
-<constant name="C_border_unfocused" value="#2b303c" />
-<constant name="C_title_focused" value="#d8dee9" />
+<constant name="C_titlebar" value="#353c4a" />
+<constant name="C_titlebar_unfocused" value="#353c4a" />
+<constant name="C_border_focused" value="#353c4a" />
+<constant name="C_border_unfocused" value="#353c4a" />
+<constant name="C_title_focused" value="#11131e" />
 <constant name="C_title_unfocused" value="#93979f" />
 
 <constant name="C_wm_button_background" value="#fc2" />
@@ -30,9 +30,9 @@
 
 <!-- Focused window -->
 <frame_geometry name="normal" title_scale="medium" rounded_top_left="4" rounded_top_right="4">
-	<distance name="left_width" value="1" />
-	<distance name="right_width" value="1" />
-	<distance name="bottom_height" value="3" />
+	<distance name="left_width" value="0" />
+	<distance name="right_width" value="0" />
+	<distance name="bottom_height" value="0" />
 	<distance name="left_titlebar_edge" value="5" />
 	<distance name="right_titlebar_edge" value="5" />
 	<distance name="title_vertical_pad" value="4" />

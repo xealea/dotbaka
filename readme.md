@@ -31,14 +31,14 @@ I hope you understand what I'm saying and some of the files that will be used or
 ### Theme 🎨
 Two themes that are presented in these dotfiles
 
-### <p align="center">━━━━ • Timberwolf • ━━━━</p>
+### <p align="center">━━━━ • timberwolf • ━━━━</p>
 <p align="center">
   <kbd><img src="https://i.postimg.cc/7hqB6Gb6/2021-12-29-17-29-38-screenshot.png"/></kbd>
 
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
   <kbd><img src="https://i.postimg.cc/jjgYG1n8/IMG-20220101-194749.png"/></kbd>
 
-### <p align="center">━━━━ • Raisinblack • ━━━━</p>
+### <p align="center">━━━━ • richblack • ━━━━</p>
   
 <p align="center">
   <kbd><img src="https://i.postimg.cc/t44LkfqT/2021-12-29-17-29-23-screenshot.png"/></kbd>
@@ -51,7 +51,7 @@ Before we go to installasion dotfiles we need some package to run the dotfiles p
 > Dependencies for [voidlinux](https://voidlinux.org) <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Void_Linux_logo.svg" width="30" height="20" />
 ```sh
 sudo xbps-install -S \
-     xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
+     xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc xdo \
      fish-shell xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
      nautilus ranger fontconfig rsync wget curl w3m w3m-img ImageMagick pamixer pavucontrol \
      scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
@@ -60,7 +60,7 @@ sudo xbps-install -S \
 > Dependencies for [archlinux](https://archlinux.org) | use [paru](https://github.com/Morganamilo/paru) for installasi <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="30" height="20" />
 ```sh
 sudo paru -S \
-     xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
+     xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc xdo \
      fish xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
      nautilus ranger fontconfig rsync wget curl w3m w3m-imgcat imagemagick pamixer pavucontrol \
      scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \

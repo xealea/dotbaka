@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# init dotbaka
+. ${HOME}/.dotbaka
+
+# kill app for switch theme
+pkill $APP

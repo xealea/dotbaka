@@ -18,6 +18,11 @@ super + @space
 super + m
     ~/.scripts/search
 
+# screenshot directly
+Print
+    scrot '%Y-%m-%d-%T-screenshot.png' -e 'mv $f ~/Pictures/Screenshots'; \
+    dunstify -i "SCROT" -u low "" "<span size='small'><u>Pictures/Screenshots</u></span>\nChissu! Take Screenshot"
+
 # program screenshots
 super + p
     bash ~/.scripts/screenshots

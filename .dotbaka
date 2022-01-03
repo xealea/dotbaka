@@ -22,3 +22,7 @@ XFCE4_POWER="ON"
 # if mine is BAT0 you can check it by typing cat /sys/class/power_supply/BAT0/capacity
 # NOTE: ADP Is the status of battery
 BATTERY="BAT0"
+
+# to kill running apps after or before changing the theme.
+# IMPORTANT DO NOT CHANGE, but you can add the program to be killed
+APP="tint2 alacritty polybar nautilus dunst"

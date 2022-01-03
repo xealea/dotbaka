@@ -4,7 +4,7 @@
 rofi_command="rofi -lines 2 -theme ${HOME}/.config/rofi/misc/misc.rasi"
 
 # Themes
-theme_0="raisinblack"
+theme_0="richblack"
 theme_1="timberwolf"
 
 # Variable passed to rofi
@@ -14,12 +14,12 @@ chosen="$(echo -e "$options" | $rofi_command -p "themes" -show -dmenu -sync -sel
 case $chosen in
     $theme_0)
 	    # Kill Process if running ----------------------
-        pkill alacritty sxhkd dunst polybar tint2
+        bash ~/.scripts/killapp
         # ----------------------------------------------
-        sed -i -e 's/Timberwolf/Raisinblack/g' ${HOME}/.xsettingsd
+        sed -i -e 's/timberwolf/richblack/g' ${HOME}/.xsettingsd
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/clean.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/config.rasi
-        sed -i -e 's/Timberwolf/Raisinblack/g' ${HOME}/.config/gtk-3.0/settings.ini
+        sed -i -e 's/timberwolf/richblack/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/misc.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/ytdl.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/search.rasi
@@ -31,16 +31,22 @@ case $chosen in
         sed -i -e 's/foreground = "#16161E"/foreground = "#DFD6CF"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/light/dark/g' ${HOME}/.config/polybar/config.ini
         sed -i -e 's/office-lady.png/blue-archive.png/g' ${HOME}/.fehbg
+        # Restart wm without exit ----------------------
         bspc wm -r
+        # Kill Alacritty Only --------------------------
+        pkill alacritty
+        # Tint2 fix always on top ----------------------
+        bash ~/.scripts/alwaysinbellow
+        # ----------------------------------------------
         ;;
     $theme_1)
         # Kill Process if running ----------------------
         pkill alacritty sxhkd dunst polybar tint2
         # ----------------------------------------------
-        sed -i -e 's/Timberwolf/Raisinblack/g' ${HOME}/.xsettingsd
+        sed -i -e 's/timberwolf/richblack/g' ${HOME}/.xsettingsd
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/clean.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/config.rasi
-        sed -i -e 's/Raisinblack/Timberwolf/g' ${HOME}/.config/gtk-3.0/settings.ini
+        sed -i -e 's/richblack/timberwolf/g' ${HOME}/.config/gtk-3.0/settings.ini
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/misc.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/ytdl.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/search.rasi
@@ -52,6 +58,12 @@ case $chosen in
         sed -i -e 's/foreground = "#DFD6CF"/foreground = "#16161E"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/dark/light/g' ${HOME}/.config/polybar/config.ini
         sed -i -e 's/blue-archive.png/office-lady.png/g' ${HOME}/.fehbg
+        # Restart wm without exit ----------------------
         bspc wm -r
+        # Kill Alacritty Only --------------------------
+        pkill alacritty
+        # Tint2 fix always on top ----------------------
+        bash ~/.scripts/alwaysinbellow
+        # ----------------------------------------------
         ;;
 esac
