@@ -10,8 +10,8 @@ title_vertical_offset_inactive=1
 title_shadow_active=false
 title_shadow_inactive=false
 
-active_text_color=#11131e
-active_text_shadow_color=#11131e
+active_text_color=#D5D7E7
+active_text_shadow_color=#D5D7E7
 inactive_text_color=#778085
 inactive_text_shadow_color=#778085
 
