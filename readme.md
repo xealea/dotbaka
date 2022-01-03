@@ -59,7 +59,8 @@ sudo xbps-install -S \
 ```
 > Dependencies for [archlinux](https://archlinux.org) | use [paru](https://github.com/Morganamilo/paru) for installasi <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="30" height="20" />
 ```sh
-sudo paru -S xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
+sudo paru -S \
+     xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc \
      fish xsettingsd dunst mpv neofetch neovim rofi viewnior xfce4-power-manager \
      nautilus ranger fontconfig rsync wget curl w3m w3m-imgcat imagemagick pamixer pavucontrol \
      scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
