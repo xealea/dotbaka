@@ -91,35 +91,11 @@ rsync -avxHAXP --exclude '.git*' .* ~/
 ```
 ### Variable 📝
 You can edit file `.dotbaka` for edit some variable config. this is still relatively small and just a normal configuration but I hope I can add more in the future
+> You can edit this file and read it before edit. Command `nvim` istead vim text editor and `nano` instead gnu nano text editor
 ```sh
- 5 # bar
- 6 BAR="tint2" # polybar / tint2
- 7
- 8 # compositor ( shaddow for wm )
- 9 COMPOSITOR="ON"
-10
-11 # xbacklight ( set value for first time boot )
-12 VALUE="25"
-13 BACKLIGHT_SET="ON"
-14
-15 # java app fix ( for developer java )
-16 FIX_JAVA_APP="ON"
-17
-18 # Xfce4 power manager ( for battery efficiency )
-19 XFCE4_POWER="ON"
-20
-21 # Battery ( ls /sys/class/power_supply/ ) and see what type of file in your comp
-22 # if mine is BAT0 you can check it by typing cat /sys/class/power_supply/BAT0/capacity
-23 # NOTE: ADP Is the status of battery
-24 BATTERY="BAT0"
-25
-26 # To kill running apps before changing the theme
-27 # IMPORTANT DO NOT CHANGE, but you can add the program to be killed
-28 APP="tint2 alacritty polybar nautilus dunst"
+nvim .dotbaka
 ```
-This is a little variable file to enable and disable some programs
-if you want to activate it then just fill it with `ON` but if not you can BLANK it
-
+**READ IT THE FILE COMMENT BEFORE EDIT!!!**
 ### Keybinds ⌨️
 
    I only listed the important shortcuts. There's still more but have fun discovering it.
