@@ -5,8 +5,14 @@
 # bar
 BAR="tint2" # polybar / tint2
 
+# Monocle bspwm border
+MONOCLE="OFF"
+
 # compositor ( shaddow for wm )
 COMPOSITOR="ON"
+
+# The terminal what you use in ydstk
+TERM="Alacritty"
 
 # xbacklight ( set value for first time boot )
 VALUE="25"
@@ -26,3 +32,18 @@ BATTERY="BAT0"
 # to kill running apps after or before changing the theme.
 # IMPORTANT DO NOT CHANGE, but you can add the program to be killed
 APP="tint2 alacritty polybar nautilus dunst"
+
+# BSPWM special rule for terminal
+# You can choose by "floating" / "full"
+# The floating is means terminal will be not float and not full display
+# But if you choose full. Is means terminal will launch on position full diplay
+TERMINAL="floating"
+
+# BSPWM PADDING
+# T = top padding
+# B = bottom padding
+# L = left padding
+# R = right padding
+# W = border width
+# G = window gaps
+T="0" B="0" L="0" R="0" W="0" G="0"
