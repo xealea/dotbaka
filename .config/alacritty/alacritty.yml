@@ -27,6 +27,12 @@ font:
 
   size: 9
 
+  offset:
+    y: -2
+
+  glyph_offset:
+    y: -1
+
 draw_bold_text_with_bright_colors: true
 
 ## Terminal window settings
@@ -67,7 +73,7 @@ selection:
 
 ## Cs
 cursor:
-  style: Block
+  style: 'Underline'
 
 ## Shell
 shell:
