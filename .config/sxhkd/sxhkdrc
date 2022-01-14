@@ -16,7 +16,7 @@ super + @space
 
 # program search
 super + m
-    ~/.scripts/search
+    bash ~/.scripts/search
 
 # screenshot directly
 Print
@@ -33,7 +33,7 @@ super + x
 
 # program network
 super + n
-    ~/.scripts/network
+    bash ~/.scripts/network
 
 # program compositor
 super + c
@@ -49,11 +49,11 @@ super + z
 
 # download music
 super + ctrl + m
-    ~/.scripts/ytmp3
+    bash ~/.scripts/ytmp3
 
 # yt video mpv
 super + y
-    ~/.scripts/ytvid
+    bash ~/.scripts/ytvid
 
 # make sxhkd reload its configuration files:
 super + Escape
