@@ -67,6 +67,10 @@ sudo paru -S \
      xfce4-power-manager xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd-git slop rsync
 ```
 
+### Compositor
+For compositor im use `https://github.com/vcyzteen/picom.git` for other linux
+And `https://github.com/vcyzteen/picom-vcyzteen-templates.git` for Voidlinux
+
 ### Installation 🍙
 >Firstly. clone the repo and go to file
 ```sh
