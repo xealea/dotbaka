@@ -1,25 +1,26 @@
 colors:
   primary:
-    background: '#190d0f'
-    foreground: '#e9e4df'
+    background: "#724439"
+    foreground: "#f0dfcd"
   cursor:
     text:   CellForeground
-    cursor: '#e9e4df'
+    cursor: "#f0dfcd"
   bright:
-    black:   '#190d0f'
-    red:     '#A58B7A'
-    green:   '#A8978B'
-    yellow:  '#AD9F98'
-    blue:    '#CBB3A5'
-    magenta: '#DBC7BA'
-    cyan:    '#DFD6CF'
-    white:   '#e9e4df'
+    black:    "#724439"
+    red:      "#DA6989"
+    green:    "#EEAA8C"
+    yellow:   "#C095AA"
+    blue:     "#FBC58D"
+    magenta:  "#FFC98D"
+    cyan:     "#FFC98D"
+    white:    "#f0dfcd"
   normal:
-    black:   '#a39f9c'
-    red:     '#A58B7A'
-    green:   '#A8978B'
-    yellow:  '#AD9F98'
-    blue:    '#CBB3A5'
-    magenta: '#DBC7BA'
-    cyan:    '#DFD6CF'
-    white:   '#e9e4df'
+    black:    "#a89c8f"
+    red:      "#DA6989"
+    green:    "#EEAA8C"
+    yellow:   "#C095AA"
+    blue:     "#FBC58D"
+    magenta:  "#FFC98D"
+    cyan:     "#FFC98D"
+    white:    "#f0dfcd"
+

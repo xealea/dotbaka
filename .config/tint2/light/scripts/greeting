@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+GREETING="EAT - CODE - SLEEP - REPEAT"
+echo "<span foreground=\"#16161E\">$GREETING</span>"

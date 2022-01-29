@@ -1,0 +1,70 @@
+#-------------------------------------
+# Backgrounds
+# Background 1: Panel
+rounded = 0
+border_width = 0
+border_sides = TBLR
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #000000 0
+border_color = #000000 0
+background_color_hover = #000000 0
+border_color_hover = #000000 0
+background_color_pressed = #000000 0
+border_color_pressed = #000000 0
+
+# Background 2: Tooltip
+rounded = 0
+border_width = 0
+border_sides = TBLR
+border_content_tint_weight = 0
+background_content_tint_weight = 0
+background_color = #3c4253 100
+border_color = #000000 0
+background_color_hover = #000000 0
+border_color_hover = #000000 0
+background_color_pressed = #000000 0
+border_color_pressed = #000000 0
+
+#-------------------------------------
+# Panel
+panel_items = E
+panel_size = 100% 35
+panel_margin = 0 80 0
+panel_padding = 2 0 2
+panel_background_id = 1
+wm_menu = 1
+panel_position = bottom center horizontal
+panel_layer = bottom
+panel_monitor = all
+panel_shrink = 1
+strut_policy = none
+panel_window_name = tint2
+disable_transparency = 1
+mouse_effects = 1
+mouse_hover_icon_asb = 100 0 10
+mouse_pressed_icon_asb = 100 0 5
+scale_relative_to_dpi = 0
+
+#-------------------------------------
+# Executor 1
+execp = new
+execp_command = ~/.config/tint2/scripts/greeting
+execp_interval = 5
+execp_markup = 1
+execp_monitor = all
+execp_tooltip = Gretting | Wellcome
+execp_font = Iosevka 13
+execp_font_color = #724439 90
+execp_padding = 200 0
+execp_background_id = 1
+execp_centered = 1
+
+#-------------------------------------
+# Tooltip
+tooltip_show_timeout = 0.5
+tooltip_hide_timeout = 0.1
+tooltip_padding = 15 10
+tooltip_background_id = 2
+tooltip_font_color = #16161E 90
+tooltip_font = Iosevka 9

@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill ${HOME}/.wallpaper/office-lady.png
+feh --no-fehbg --bg-fill ${HOME}/.wallpaper/citrus.png

@@ -5,7 +5,7 @@ rofi_command="rofi -lines 2 -theme ${HOME}/.config/rofi/misc/misc.rasi"
 
 # Themes
 theme_0="richblack"
-theme_1="timberwolf"
+theme_1="light"
 
 # Variable passed to rofi
 options="$theme_0\n$theme_1"
@@ -17,6 +17,7 @@ case $chosen in
         bash ~/.scripts/killapp
         # ----------------------------------------------
         sed -i -e 's/timberwolf/richblack/g' ${HOME}/.xsettingsd
+        sed -i -e 's/tint2-citrus/tint2-rich/g' ${HOME}/.dotbaka
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/clean.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/timberwolf/richblack/g' ${HOME}/.config/gtk-3.0/settings.ini
@@ -27,10 +28,10 @@ case $chosen in
         sed -i -e 's/light/dark/g' ${HOME}/.config/alacritty/alacritty.yml
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/powermenu.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/screenshot.rasi
-        sed -i -e 's/background = "#DFD6CF"/background = "#16161E"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/foreground = "#16161E"/foreground = "#DFD6CF"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/background = "#724439"/background = "#16161E"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/foreground = "#16161E"/foreground = "#724439"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/light/dark/g' ${HOME}/.config/polybar/config.ini
-        sed -i -e 's/office-lady.png/blue-archive.png/g' ${HOME}/.fehbg
+        sed -i -e 's/citrus.png/blue-archive.png/g' ${HOME}/.fehbg
         # Restart wm without exit ----------------------
         bspc wm -r
         # Kill Alacritty Only --------------------------
@@ -44,6 +45,7 @@ case $chosen in
         pkill alacritty sxhkd dunst polybar tint2
         # ----------------------------------------------
         sed -i -e 's/timberwolf/richblack/g' ${HOME}/.xsettingsd
+        sed -i -e 's/tint2-rich/tint2-citrus/g' ${HOME}/.dotbaka
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/clean.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/richblack/timberwolf/g' ${HOME}/.config/gtk-3.0/settings.ini
@@ -54,10 +56,10 @@ case $chosen in
         sed -i -e 's/dark/light/g' ${HOME}/.config/alacritty/alacritty.yml
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/powermenu.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/screenshot.rasi
-        sed -i -e 's/background = "#16161E"/background = "#DFD6CF"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/foreground = "#DFD6CF"/foreground = "#16161E"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/background = "#16161E"/background = "#724439"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/foreground = "#724439"/foreground = "#16161E"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/dark/light/g' ${HOME}/.config/polybar/config.ini
-        sed -i -e 's/blue-archive.png/office-lady.png/g' ${HOME}/.fehbg
+        sed -i -e 's/blue-archive.png/citrus.png/g' ${HOME}/.fehbg
         # Restart wm without exit ----------------------
         bspc wm -r
         # Kill Alacritty Only --------------------------

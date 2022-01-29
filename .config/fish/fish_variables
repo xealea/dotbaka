@@ -1,6 +1,13 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR SXHKD_SHELL:/usr/bin/fish
 SETUVAR __fish_initialized:3100
+SETUVAR _fisher_PatrickF1_2F_fzf_2E_fish_files:/home/vcyzteen/\x2econfig/fish/functions/_fzf_configure_bindings_help\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_fzf_extract_var_info\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_fzf_preview_file\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_fzf_report_file_type\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_fzf_search_directory\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_fzf_search_git_log\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_fzf_search_git_status\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_fzf_search_history\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_fzf_search_variables\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_fzf_wrapper\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/fzf_configure_bindings\x2efish\x1e/home/vcyzteen/\x2econfig/fish/conf\x2ed/fzf\x2efish\x1e/home/vcyzteen/\x2econfig/fish/completions/fzf_configure_bindings\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/vcyzteen/\x2econfig/fish/functions/fisher\x2efish\x1e/home/vcyzteen/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_hydro_files:/home/vcyzteen/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/fish_prompt\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/fish_title\x2efish\x1e/home/vcyzteen/\x2econfig/fish/conf\x2ed/hydro\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_40_32_2E_31_2E_30__files:/home/vcyzteen/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_nvm_list\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e/home/vcyzteen/\x2econfig/fish/functions/nvm\x2efish\x1e/home/vcyzteen/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e/home/vcyzteen/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/nvm\x2efish\x402\x2e1\x2e0\x1ePatrickF1/fzf\x2efish\x1ejorgebucaran/hydro
+SETUVAR _hydro_git_27404:\x1d
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:005fd7
@@ -21,7 +28,7 @@ SETUVAR fish_color_redirection:00afff
 SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_status:red
-SETUVAR fish_color_user:#FF247A
+SETUVAR fish_color_user:\x23FF247A
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_pager_color_completion:\x1d

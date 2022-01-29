@@ -132,9 +132,13 @@ if [ $BAR = "polybar" ];
 then
     bash ~/.config/polybar/launch &
 fi
-if [ $BAR = "tint2" ];
+if [ $BAR = "tint2-citrus" ];
 then
-    bash ~/.config/tint2/launch &
+    bash ~/.config/tint2/light/launch &
+fi
+if [ $BAR = "tint2-rich" ];
+then
+    bash ~/.config/tint2/dark/launch &
 fi
 # ----------------------------------------------------------------------------
 
