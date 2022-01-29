@@ -47,3 +47,8 @@ TERMINAL="floating"
 # W = border width
 # G = window gaps
 T="0" B="0" L="0" R="0" W="0" G="0"
+
+# Here write your wellcome message for theme "citrus"
+# this is like message will appear in your wallpaper
+# after switch or using theme citrus for the first time
+WELLCOME_MSG="EAT - CODE - SLEEP - REPEAT"

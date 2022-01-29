@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 
-GREETING="EAT - CODE - SLEEP - REPEAT"
+# init
+. ${HOME}/.dotbaka
+
+# greeting
+GREETING="$WELLCOME_MSG"
 echo "<span foreground=\"#16161E\">$GREETING</span>"
