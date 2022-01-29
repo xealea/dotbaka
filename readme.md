@@ -33,7 +33,7 @@ Two themes that are presented in these dotfiles
 
 ### <p align="center">━━━━ • timberwolf • ━━━━</p>
 <p align="center">
-  <kbd><img src="https://i.postimg.cc/7hqB6Gb6/2021-12-29-17-29-38-screenshot.png"/></kbd>
+  <kbd><img src="https://i.postimg.cc/fbb1GQ5D/2022-01-29-15-07-16-screenshot.png"/></kbd>
 
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
   <kbd><img src="https://i.postimg.cc/jjgYG1n8/IMG-20220101-194749.png"/></kbd>
