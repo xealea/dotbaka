@@ -17,7 +17,7 @@ case $chosen in
         bash ~/.scripts/killapp
         # ----------------------------------------------
         sed -i -e 's/timberwolf/richblack/g' ${HOME}/.xsettingsd
-        sed -i -e 's/tint2-citrus/tint2-rich/g' ${HOME}/.dotbaka
+        sed -i -e 's/citrus/rich/g' ${HOME}/.config/bspwm/bspwmrc
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/clean.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/timberwolf/richblack/g' ${HOME}/.config/gtk-3.0/settings.ini
@@ -45,7 +45,7 @@ case $chosen in
         pkill alacritty sxhkd dunst polybar tint2
         # ----------------------------------------------
         sed -i -e 's/timberwolf/richblack/g' ${HOME}/.xsettingsd
-        sed -i -e 's/tint2-rich/tint2-citrus/g' ${HOME}/.dotbaka
+        sed -i -e 's/rich/citrus/g' ${HOME}/.config/bspwm/bspwmrc
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/clean.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/config.rasi
         sed -i -e 's/richblack/timberwolf/g' ${HOME}/.config/gtk-3.0/settings.ini

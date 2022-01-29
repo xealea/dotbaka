@@ -3,7 +3,7 @@
 # BEFORE EDIT THIS FILE
 
 # bar
-BAR="tint2-citrus" # polybar / tint2
+BAR="tint2" # polybar / tint2
 
 # Monocle bspwm border
 MONOCLE="OFF"
