@@ -49,7 +49,7 @@ scale_relative_to_dpi = 0
 #-------------------------------------
 # Executor 1
 execp = new
-execp_command = ~/.config/tint2/scripts/greeting
+execp_command = ~/.config/tint2/citrus/scripts/greeting
 execp_interval = 5
 execp_markup = 1
 execp_monitor = all
