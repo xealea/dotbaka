@@ -1,4 +1,4 @@
-#!/bin/bash/env bash
+#!/bin/sh/env sh
 
 # Default Values
 Y_AXIS=0

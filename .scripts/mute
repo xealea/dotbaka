@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 XF86AudioMute
     pamixer \
     --toggle-mute; \

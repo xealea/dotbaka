@@ -1,4 +1,4 @@
-#!/bin/bash/env bash
+#!/bin/sh/env sh
 
 # Rofi Command
 rofi_command="rofi -modi drun -theme ${HOME}/.config/rofi/misc/screenshot.rasi -show"
