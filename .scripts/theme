@@ -1,11 +1,11 @@
-#!/bin/bash/env bash
+#!/bin/sh/env sh
 
 # Rofi Command
 rofi_command="rofi -lines 2 -theme ${HOME}/.config/rofi/misc/misc.rasi"
 
 # Themes
 theme_0="richblack"
-theme_1="light"
+theme_1="citrus"
 
 # Variable passed to rofi
 options="$theme_0\n$theme_1"
