@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 MENU="$HOME/.config/rofi/misc/ytdl.rasi"
 MUSIC="$HOME/Music"

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 # ENV
 CONFIG_DIR="$XDG_CONFIG_HOME/tint2/citrus"
