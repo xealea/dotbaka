@@ -31,7 +31,7 @@ I hope you understand what I'm saying and some of the files that will be used or
 ### Theme 🎨
 Two themes that are presented in these dotfiles
 
-### <p align="center">━━━━ • timberwolf • ━━━━</p>
+### <p align="center">━━━━ • citrus • ━━━━</p>
 <p align="center">
   <kbd><img src="https://i.postimg.cc/fbb1GQ5D/2022-01-29-15-07-16-screenshot.png"/></kbd>
 
