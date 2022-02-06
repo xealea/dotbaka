@@ -3,9 +3,9 @@
 # ENV
 CONFIG_DIR="$XDG_CONFIG_HOME/tint2/rich"
 
-# program
-launch() {
-  if [[ "$(pidof tint2)" != "" ]]; then 
+# with widget
+widget() {
+  if [[ "$(pidof tint2)" != "" ]]; then
     pkill tint2
   fi
 
@@ -16,4 +16,24 @@ launch() {
   tint2 -c "$CONFIG_DIR/networc" &> /dev/null &
 }
 
-launch
+# no widget
+no_widget() {
+  if [[ "$(pidof tint2)" != "" ]]; then
+    pkill tint2
+  fi
+
+  tint2 -c "$CONFIG_DIR/tasksrc" &> /dev/null &
+  tint2 -c "$CONFIG_DIR/menusrc" &> /dev/null &
+  tint2 -c "$CONFIG_DIR/networc" &> /dev/null &
+}
+
+case ${1} in
+    --widget)
+      widget
+      ;;
+    --nowidget)
+      no_widget
+      ;;
+esac
+
+exit ${?}
