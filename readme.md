@@ -36,7 +36,7 @@ Two themes that are presented in these dotfiles
   <kbd><img src="https://i.postimg.cc/1tzjsDqr/2022-02-04-17-53-01-screenshot.png"/></kbd>
 
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
-  <kbd><img src="https://i.postimg.cc/jjgYG1n8/IMG-20220101-194749.png"/></kbd>
+  <kbd><img src="https://i.postimg.cc/3wWjxSDg/1644141507417.png"/></kbd>
 
 ### <p align="center">━━━━ • richblack • ━━━━</p>
   
