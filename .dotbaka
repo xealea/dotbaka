@@ -6,7 +6,7 @@
 BAR="tint2" # polybar / tint2
 
 # choose with widget or not
-OPTION="--widget"
+OPTION="widget" # widget / nowidget
 
 # Monocle bspwm border
 MONOCLE="OFF"

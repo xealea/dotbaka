@@ -134,7 +134,7 @@ then
 fi
 if [ $BAR = "tint2" ];
 then
-    bash ~/.config/tint2/citrus/launch $OPTION &
+    bash ~/.config/tint2/citrus/launch --$OPTION &
 fi
 # ----------------------------------------------------------------------------
 
