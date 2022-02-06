@@ -5,4 +5,4 @@
 
 # greeting
 GREETING="$WELLCOME_MSG"
-echo "<span foreground=\"#16161E\">$GREETING</span>"
+echo "<span foreground=\"#724439\">$GREETING</span>"
