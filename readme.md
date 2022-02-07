@@ -41,7 +41,7 @@ Two themes that are presented in these dotfiles
 ### <p align="center">━━━━ • livery • ━━━━</p>
   
 <p align="center">
-  <kbd><img src="https://i.postimg.cc/t44LkfqT/2021-12-29-17-29-23-screenshot.png"/></kbd>
+  <kbd><img src="https://i.postimg.cc/q73Sdrn9/2022-02-07-14-04-28-screenshot.png"/></kbd>
 
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
   <kbd><img src="https://i.postimg.cc/L6j8VRdH/IMG-20220101-193532.png"/></kbd>
