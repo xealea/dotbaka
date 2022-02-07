@@ -5,7 +5,7 @@ CONFIG_DIR="$XDG_CONFIG_HOME/tint2/rich"
 
 # with widget
 widget() {
-  if [[ "$(pidof tint2)" != "" ]]; then
+  if [[ "$(pidof tint2)" != "" ]]; then 
     pkill tint2
   fi
 

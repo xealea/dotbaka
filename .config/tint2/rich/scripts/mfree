@@ -1,4 +1,0 @@
-#!/usr/bin/env sh
-
-FREE="$(free -m | sed -n 2p | awk '{print $3}')"
-echo "<span foreground=\"#16161E\"> </span><span foreground=\"#16161E\">$FREE</span>"

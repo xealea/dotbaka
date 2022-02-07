@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+# init
+. ${HOME}/.dotbaka
+
+# greeting
+GREETING="$WELLCOME_MSG"
+echo "<span foreground=\"#FCEDCE\">$GREETING</span>"

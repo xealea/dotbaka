@@ -1,4 +1,0 @@
-#!/usr/bin/env sh
-
-UPDATES="$(xbps-install -SUy 2> /dev/null | wc -l)"
-echo "<span foreground=\"#16161E\"> </span><span foreground=\"#16161E\">$UPDATES</span>"

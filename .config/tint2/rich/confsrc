@@ -28,13 +28,13 @@ border_color_pressed = #000000 0
 
 #-------------------------------------
 # Panel
-panel_items = EEEE
-panel_size = 100% 30
-panel_margin = 220 290 0
+panel_items = E
+panel_size = 100% 35
+panel_margin = 0 80 0
 panel_padding = 2 0 2
 panel_background_id = 1
 wm_menu = 1
-panel_position = bottom left horizontal
+panel_position = bottom center horizontal
 panel_layer = bottom
 panel_monitor = all
 panel_shrink = 1
@@ -49,56 +49,14 @@ scale_relative_to_dpi = 0
 #-------------------------------------
 # Executor 1
 execp = new
-execp_command = ~/.config/tint2/rich/scripts/mfree
+execp_command = ~/.config/tint2/rich/scripts/greeting
 execp_interval = 5
 execp_markup = 1
 execp_monitor = all
-execp_tooltip = Free RAM
+execp_tooltip = Gretting | Wellcome
 execp_font = Iosevka 13
-execp_font_color = #16161E 90
-execp_padding = 30 0
-execp_background_id = 1
-execp_centered = 1
-
-#-------------------------------------
-# Executor 2
-execp = new
-execp_command = ~/.config/tint2/rich/scripts/upvoid
-execp_interval = 1000
-execp_markup = 1
-execp_monitor = all
-execp_tooltip = Number of packages that needs to be updated (XBPS OFFICIAL)
-execp_font = Iosevka 13
-execp_font_color = #000000 100
-execp_padding = 30 0
-execp_background_id = 1
-execp_centered = 1
-
-#-------------------------------------
-# Executor 3
-execp = new
-execp_command = ~/.config/tint2/rich/scripts/bat
-execp_interval = 100
-execp_markup = 1
-execp_monitor = all
-execp_tooltip = Battery Percentase
-execp_font = Iosevka 13
-execp_font_color = #000000 100
-execp_padding = 30 0
-execp_background_id = 1
-execp_centered = 1
-
-#-------------------------------------
-# Executor 4
-execp = new
-execp_command = ~/.config/tint2/rich/scripts/lavg
-execp_interval = 5
-execp_markup = 1
-execp_monitor = all
-execp_tooltip = Average CPU Load
-execp_font = Iosevka 13
-execp_font_color = #000000 100
-execp_padding = 30 0
+execp_font_color = #FCEDCE 90
+execp_padding = 200 0
 execp_background_id = 1
 execp_centered = 1
 
@@ -110,4 +68,3 @@ tooltip_padding = 15 10
 tooltip_background_id = 2
 tooltip_font_color = #16161E 90
 tooltip_font = Iosevka 9
-

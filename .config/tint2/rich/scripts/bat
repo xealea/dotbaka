@@ -1,7 +1,0 @@
-#!/usr/bin/env sh
-
-# init dotbaka
-. "${HOME}/.dotbaka"
-
-TEMPS="$(cat /sys/class/power_supply/$BATTERY/capacity | awk '{print $1}')"
-echo "<span foreground=\"#16161E\"> </span><span foreground=\"#16161E\">$TEMPS</span>"
