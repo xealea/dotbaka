@@ -28,10 +28,10 @@ case $chosen in
         sed -i -e 's/light/dark/g' ${HOME}/.config/alacritty/alacritty.yml
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/powermenu.rasi
         sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/screenshot.rasi
-        sed -i -e 's/background = "#724439"/background = "#16161E"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/foreground = "#FFC98D"/foreground = "#FFFFFF"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/background = "#724439"/background = "#4D4845"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/foreground = "#FFC98D"/foreground = "#FDEDCF"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/light/dark/g' ${HOME}/.config/polybar/config.ini
-        sed -i -e 's/citrus.png/blue-archive.png/g' ${HOME}/.fehbg
+        sed -i -e 's/citrus.png/blok.png/g' ${HOME}/.fehbg
         # Restart wm without exit ----------------------
         bspc wm -r
         # Kill Alacritty Only --------------------------
@@ -56,10 +56,10 @@ case $chosen in
         sed -i -e 's/dark/light/g' ${HOME}/.config/alacritty/alacritty.yml
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/powermenu.rasi
         sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/screenshot.rasi
-        sed -i -e 's/background = "#16161E"/background = "#724439"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/foreground = "#FFFFFF"/foreground = "#FFC98D"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/background = "#4D4845"/background = "#724439"/g' ${HOME}/.config/dunst/dunstrc
+        sed -i -e 's/foreground = "#FDEDCF"/foreground = "#FFC98D"/g' ${HOME}/.config/dunst/dunstrc
         sed -i -e 's/dark/light/g' ${HOME}/.config/polybar/config.ini
-        sed -i -e 's/blue-archive.png/citrus.png/g' ${HOME}/.fehbg
+        sed -i -e 's/blok.png/citrus.png/g' ${HOME}/.fehbg
         # Restart wm without exit ----------------------
         bspc wm -r
         # Kill Alacritty Only --------------------------

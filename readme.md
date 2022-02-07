@@ -38,7 +38,7 @@ Two themes that are presented in these dotfiles
 ### <p align="center">━━━━ • Pallete • ━━━━</p>
   <kbd><img src="https://i.postimg.cc/3wWjxSDg/1644141507417.png"/></kbd>
 
-### <p align="center">━━━━ • richblack • ━━━━</p>
+### <p align="center">━━━━ • livery • ━━━━</p>
   
 <p align="center">
   <kbd><img src="https://i.postimg.cc/t44LkfqT/2021-12-29-17-29-23-screenshot.png"/></kbd>
