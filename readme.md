@@ -1,12 +1,14 @@
 <p align="center">
-<img src="https://i.postimg.cc/hj4CCsD4/IMG-20211207-230730.png"/>
+<img src="https://i.postimg.cc/Wp8NbsQ5/IMG-20220208-172254.png"/>
+<img src="https://i.postimg.cc/XqSQRMgF/IMG-20220208-164931.png"/>
+
 <a href="https://github.com/vcyzteen/dotbaka/stargazers">
         <img src="https://img.shields.io/github/stars/vcyzteen/dotbaka?color=%238dc776&labelColor=%23101415&style=flat-square">
     </a>
     <a href="https://github.com/vcyzteen/dotbaka/network/members/">
         <img src="https://img.shields.io/github/forks/vcyzteen/dotbaka?color=%2384a0c6&labelColor=%23101415&style=flat-square">
     </a>
-    <img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?color=%23e7ac7e&labelColor=%23101415&style=flat-square">
+        <img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?color=%23e7ac7e&labelColor=%23101415&style=flat-square">
 </a>
   
 ### Hello There! 👋
@@ -14,7 +16,16 @@ this is my bspwm config. what I made as interesting and simple as possible and n
 
 before going deeper into these dotfiles I hope you can master the basics of dotfiles or wm `window manager` for linux before. if you have mastered it then it will be easier to install these dofiles
 
-I hope you understand what I'm saying and some of the files that will be used or `called` dotfiles
+I hope you understand what I'm saying and some of the files that will be used or `called` dotfiles and bellow here is a preview that I can show a little
+
+<p align="center">
+  <kbd><br>citrus
+  <br><br>
+  <kbd><img src="https://i.postimg.cc/1tzjsDqr/2022-02-04-17-53-01-screenshot.png"/></kbd></kbd>
+<p align="center">
+  <kbd><br>livery
+  <br><br>
+  <kbd><img src="https://i.postimg.cc/q73Sdrn9/2022-02-07-14-04-28-screenshot.png"/></kbd></kbd>
 
 ### Some Detail About My Setup 📝
    * <b>WM</b> : [bspwm](https://github.com/baskerville/bspwm) 🎨 2 changable themes/mode!
@@ -28,24 +39,6 @@ I hope you understand what I'm saying and some of the files that will be used or
    * <b>Application Launcher</b> : [Rofi](https://github.com/davatorium/rofi) 🚀 apps & sidebar menu!
    * <b>File Manager</b> : [Nautilus](https://github.com/GNOME/nautilus) 🟦
    * <b>Text Editor</b> : [neovim](https://neovim.io/) 💻
-
-### Theme 🎨
-Two themes that are presented in these dotfiles
-
-### <p align="center">━━━━ • citrus • ━━━━</p>
-<p align="center">
-  <kbd><img src="https://i.postimg.cc/1tzjsDqr/2022-02-04-17-53-01-screenshot.png"/></kbd>
-
-### <p align="center">━━━━ • Pallete • ━━━━</p>
-  <kbd><img src="https://i.postimg.cc/3wWjxSDg/1644141507417.png"/></kbd>
-
-### <p align="center">━━━━ • livery • ━━━━</p>
-  
-<p align="center">
-  <kbd><img src="https://i.postimg.cc/q73Sdrn9/2022-02-07-14-04-28-screenshot.png"/></kbd>
-
-### <p align="center">━━━━ • Pallete • ━━━━</p>
-  <kbd><img src="https://i.postimg.cc/L6j8VRdH/IMG-20220101-193532.png"/></kbd>
 
 ### Dependency 📦
 Before we go to installasion dotfiles we need some package to run the dotfiles properly and correctly. and below are some linux and its dependencies that I've used to install these dotfiles
@@ -157,8 +150,6 @@ some scripts or tools that I use do not all come from me and this is why I inclu
   - Also the great one [r/unixporn](https://www.reddit.com/r/unixporn).
 
 ### All artists who create icons, illustrations, and wallpapers. 🖼
-  - [vinceliuice](https://github.com/vinceliuice) Tela-grey Icons
-  - [kapatarou](https://safebooru.donmai.us/posts?tags=kapatarou) Avatar-Original NSFW
 
 ### © Owner dotfiles
 [![IMG-20211208-105846.png](https://i.postimg.cc/pLZbNPZm/IMG-20211208-105846.png)](https://postimg.cc/sMv07dbz)
