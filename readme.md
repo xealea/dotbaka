@@ -3,12 +3,12 @@
 <img src="https://i.postimg.cc/XqSQRMgF/IMG-20220208-164931.png"/>
 
 <a href="https://github.com/vcyzteen/dotbaka/stargazers">
-        <img src="https://img.shields.io/github/stars/vcyzteen/dotbaka?color=%238dc776&labelColor=%23101415&style=flat-square">
+        <img src="https://img.shields.io/github/stars/vcyzteen/dotbaka?color=C7655C&style=for-the-badge&labelColor=1A1B26">
     </a>
     <a href="https://github.com/vcyzteen/dotbaka/network/members/">
-        <img src="https://img.shields.io/github/forks/vcyzteen/dotbaka?color=%2384a0c6&labelColor=%23101415&style=flat-square">
+        <img src="https://img.shields.io/github/forks/vcyzteen/dotbaka?color=FFC98D&style=for-the-badge&labelColor=1A1B26">
     </a>
-        <img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?color=%23e7ac7e&labelColor=%23101415&style=flat-square">
+        <img src="https://img.shields.io/github/repo-size/vcyzteen/dotbaka?color=FDEDCF&style=for-the-badge&labelColor=1A1B26">
 </a>
   
 ### Hello There! 👋
