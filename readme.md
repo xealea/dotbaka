@@ -20,6 +20,7 @@ I hope you understand what I'm saying and some of the files that will be used or
    * <b>WM</b> : [bspwm](https://github.com/baskerville/bspwm) 🎨 2 changable themes/mode!
    * <b>DM</b> : [lxdm](https://blog.lxde.org/2009/09/10/lxdm-new-display-manager/) 🌼 minimaliDM!
    * <b>Shell</b> : [fish](https://github.com/fish-shell/fish-shell) 🐟 with some aliasing!
+   * <b>Coolor</b> : [livery & citrus](https://github.com/vcyzteen) 🍵 credits: @vcyzteen
    * <b>Terminal</b> : [alacritty](https://github.com/alacritty/alacritty) 🚀 OpenGL TERM!
    * <b>Panel</b> : [polybar](https://github.com/polybar/polybar) 🧬 2 theme and [tint2](https://gitlab.com/o9000/tint2) 📯 with one theme and special bar scheme!
    * <b>Compositor</b> : [picom](https://github.com/yshui/picom) ✨ lightweight!
