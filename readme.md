@@ -64,8 +64,8 @@ sudo paru -S \
 ```
 
 ### Compositor 🔗
-For compositor im use [vcyzteen/picom.git](https://github.com/vcyzteen/picom.git) for other linux
-And [picom-vcyzteen-templates.git](https://github.com/vcyzteen/picom-vcyzteen-templates.git) for Voidlinux
+For compositor im use [`vcyzteen/picom.git`](https://github.com/vcyzteen/picom.git) for other linux
+And [`picom-vcyzteen-templates.git`](https://github.com/vcyzteen/picom-vcyzteen-templates.git) for Voidlinux
 
 ### Installation 🍙
 >Firstly. clone the repo and go to file
