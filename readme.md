@@ -32,21 +32,21 @@ I hope you understand what I'm saying and some of the files that will be used or
 I made this color because it was inspired by the history of [`wayang`](https://en.m.wikipedia.org/wiki/Wayang) & [`batik`](https://en.m.wikipedia.org/wiki/Batik) from my own country of origin, namely [`Indonesia`](https://en.m.wikipedia.org/wiki/Indonesia) because the history of wayang is very popular, even abroad, so I took the initiative to try to make a color palette related to the color of wayang and this is the result
 
 ### Some Detail About My Setup 📝
-   * <b>WM</b> : [bspwm](https://github.com/baskerville/bspwm) 🎨 2 changable themes/mode!
-   * <b>DM</b> : [lxdm](https://blog.lxde.org/2009/09/10/lxdm-new-display-manager/) 🌼 minimaliDM!
-   * <b>Shell</b> : [fish](https://github.com/fish-shell/fish-shell) 🐟 with some aliasing!
-   * <b>Coolor</b> : [livery & citrus](https://github.com/vcyzteen) 🍵 credits: @vcyzteen
-   * <b>Terminal</b> : [alacritty](https://github.com/alacritty/alacritty) 🚀 OpenGL TERM!
-   * <b>Panel</b> : [polybar](https://github.com/polybar/polybar) 🧬 2 theme and [tint2](https://gitlab.com/o9000/tint2) 📯 with one theme and special bar scheme!
-   * <b>Compositor</b> : [picom](https://github.com/yshui/picom) ✨ lightweight!
-   * <b>Notify Daemon</b> : [Dunst](https://github.com/dunst-project/dunst) 🍃 minimalism!
-   * <b>Application Launcher</b> : [Rofi](https://github.com/davatorium/rofi) 🚀 apps & sidebar menu!
-   * <b>File Manager</b> : [Nautilus](https://github.com/GNOME/nautilus) 🟦
-   * <b>Text Editor</b> : [neovim](https://neovim.io/) 💻
+   * <b>WM</b> : [`bspwm`](https://github.com/baskerville/bspwm) 🎨 2 changable themes/mode!
+   * <b>DM</b> : [`lxdm`](https://blog.lxde.org/2009/09/10/lxdm-new-display-manager/) 🌼 minimaliDM!
+   * <b>Shell</b> : [`fish`](https://github.com/fish-shell/fish-shell) 🐟 with some aliasing!
+   * <b>Coolor</b> : [`livery & citrus`](https://github.com/vcyzteen) 🍵 credits: `@vcyzteen`
+   * <b>Terminal</b> : [`alacritty`](https://github.com/alacritty/alacritty) 🚀 OpenGL TERM!
+   * <b>Panel</b> : [`polybar`](https://github.com/polybar/polybar) 🧬 2 theme and [`tint2`](https://gitlab.com/o9000/tint2) 📯 with one theme and special bar scheme!
+   * <b>Compositor</b> : [`picom`](https://github.com/yshui/picom) ✨ lightweight!
+   * <b>Notify Daemon</b> : [`Dunst`](https://github.com/dunst-project/dunst) 🍃 minimalism!
+   * <b>Application Launcher</b> : [`Rofi`](https://github.com/davatorium/rofi) 🚀 apps & sidebar menu!
+   * <b>File Manager</b> : [`Nautilus`](https://github.com/GNOME/nautilus) 🟦
+   * <b>Text Editor</b> : [`neovim`](https://neovim.io/) 💻
 
 ### Dependency 📦
 Before we go to installasion dotfiles we need some package to run the dotfiles properly and correctly. and below are some linux and its dependencies that I've used to install these dotfiles
-> Dependencies for [voidlinux](https://voidlinux.org) <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Void_Linux_logo.svg" width="30" height="20" />
+> Dependencies for [`voidlinux`](https://voidlinux.org) <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Void_Linux_logo.svg" width="30" height="20" />
 ```sh
 sudo xbps-install -S \
      xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc xdo \
@@ -55,7 +55,7 @@ sudo xbps-install -S \
      scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
      xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd slop rsync
 ```
-> Dependencies for [archlinux](https://archlinux.org) | use [paru](https://github.com/Morganamilo/paru) for installasi <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="30" height="20" />
+> Dependencies for [`archlinux`](https://archlinux.org) | use [`paru`](https://github.com/Morganamilo/paru) for installasi <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="30" height="20" />
 ```sh
 sudo paru -S \
      xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc xdo \
@@ -141,17 +141,17 @@ This is the linux os i use in my daily life
 
 ### Credits 🏷
 some scripts or tools that I use do not all come from me and this is why I include credits as a form of my respect for the owners
-  - [Elena](https://github.com/elenapan)
-  - [Adhi Pambudi](https://github.com/addy-dclxvi)
-  - [Rizqi Nur Assyaufi](https://github.com/bandithijo)
-  - [Aditya Shakya](https://github.com/adi1090x)
-  - [Harry Elric](https://github.com/owl4ce)
+  - [`Elena`](https://github.com/elenapan)
+  - [`Adhi Pambudi`](https://github.com/addy-dclxvi)
+  - [`Rizqi Nur Assyaufi`](https://github.com/bandithijo)
+  - [`Aditya Shakya`](https://github.com/adi1090x)
+  - [`Harry Elric`](https://github.com/owl4ce)
   - ?
  
 ### Our local linux community 🌏
-  - [Linuxer Desktop Art](https://facebook.com/groups/linuxart)
-  - [@dotfiles_id](https://t.me/dotfiles_id) indonesia
-  - Also the great one [r/unixporn](https://www.reddit.com/r/unixporn).
+  - [`Linuxer Desktop Art`](https://facebook.com/groups/linuxart)
+  - [`@dotfiles_id`](https://t.me/dotfiles_id) indonesia
+  - Also the great one [`r/unixporn`](https://www.reddit.com/r/unixporn).
 
 ### All artists who create icons, illustrations, and wallpapers. 🖼
 
