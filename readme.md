@@ -29,7 +29,7 @@ I hope you understand what I'm saying and some of the files that will be used or
   <kbd><img src="https://i.postimg.cc/q73Sdrn9/2022-02-07-14-04-28-screenshot.png"/></kbd></kbd>
 
 ### About Color! 🎨
-I made this color because it was inspired by the history of [`wayang`](https://en.m.wikipedia.org/wiki/Wayang) from my own country of origin, namely [`Indonesia`](https://en.m.wikipedia.org/wiki/Indonesia) because the history of wayang is very popular, even abroad, so I took the initiative to try to make a color palette related to the color of wayang and this is the result
+I made this color because it was inspired by the history of [`wayang`](https://en.m.wikipedia.org/wiki/Wayang) & [`batik`](https://en.m.wikipedia.org/wiki/Batik) from my own country of origin, namely [`Indonesia`](https://en.m.wikipedia.org/wiki/Indonesia) because the history of wayang is very popular, even abroad, so I took the initiative to try to make a color palette related to the color of wayang and this is the result
 
 ### Some Detail About My Setup 📝
    * <b>WM</b> : [bspwm](https://github.com/baskerville/bspwm) 🎨 2 changable themes/mode!
