@@ -1,5 +1,4 @@
 # <p align="center">`Javanese Model`</p>
-
 <p align="center">
 <img src="https://i.postimg.cc/Wp8NbsQ5/IMG-20220208-172254.png"/>
 <img src="https://i.postimg.cc/XqSQRMgF/IMG-20220208-164931.png"/>
@@ -16,7 +15,7 @@
 ### Hello There! 👋
 this is my bspwm config. what I made as interesting and simple as possible and not everyone will be like it but if you are interested you can use it
 
-before going deeper into these dotfiles I hope you can master the basics of dotfiles or wm `window manager` for linux before. if you have mastered it then it will be easier to install these dofiles
+before going deeper into these dotfiles I hope you can master the basics of dotfiles or wm [`window manager`](https://en.m.wikipedia.org/wiki/Window_manager) for linux before. if you have mastered it then it will be easier to install these dofiles
 
 I hope you understand what I'm saying and some of the files that will be used or `called` dotfiles and bellow here is a preview that I can show a little
 
@@ -28,6 +27,9 @@ I hope you understand what I'm saying and some of the files that will be used or
   <kbd><br>livery
   <br><br>
   <kbd><img src="https://i.postimg.cc/q73Sdrn9/2022-02-07-14-04-28-screenshot.png"/></kbd></kbd>
+
+### About Color! 🎨
+I made this color because it was inspired by the history of [`wayang`](https://en.m.wikipedia.org/wiki/Wayang) from my own country of origin, namely [`Indonesia`](https://en.m.wikipedia.org/wiki/Indonesia) because the history of wayang is very popular, even abroad, so I took the initiative to try to make a color palette related to the color of wayang and this is the result
 
 ### Some Detail About My Setup 📝
    * <b>WM</b> : [bspwm](https://github.com/baskerville/bspwm) 🎨 2 changable themes/mode!
