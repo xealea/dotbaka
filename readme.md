@@ -1,4 +1,4 @@
-# <p align="center">`Javanese Model`</p>
+# <p align="center">[`Javanese Model`](https://en.m.wikipedia.org/wiki/Java)</p>
 <p align="center">
 <img src="https://i.postimg.cc/Wp8NbsQ5/IMG-20220208-172254.png"/>
 <img src="https://i.postimg.cc/XqSQRMgF/IMG-20220208-164931.png"/>
@@ -17,7 +17,7 @@ this is my bspwm config. what I made as interesting and simple as possible and n
 
 before going deeper into these dotfiles I hope you can master the basics of dotfiles or wm [`window manager`](https://en.m.wikipedia.org/wiki/Window_manager) for linux before. if you have mastered it then it will be easier to install these dofiles
 
-I hope you understand what I'm saying and some of the files that will be used or `called` dotfiles and bellow here is a preview that I can show a little
+I hope you understand what I'm saying and some of the files that will be used or [`called`](https://en.m.wiktionary.org/wiki/call) dotfiles and bellow here is a preview that I can show a little
 
 <p align="center">
   <kbd><br>citrus
