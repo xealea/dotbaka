@@ -55,7 +55,7 @@ sudo xbps-install -S \
      scrot polkit xfce-polkit xdg-user-dirs youtube-dl alacritty screenkey xautolock i3lock-color ueberzug \
      xfce4-power-manager-settings xscreensaver pulseaudio pulseeffects-legacy wmname skyppy-xd slop rsync
 ```
-> Dependencies for [`archlinux`](https://archlinux.org) | use [`paru`](https://github.com/Morganamilo/paru) for installasi <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="30" height="20" />
+> Dependencies for [`archlinux`](https://archlinux.org) | use [`paru`](https://github.com/Morganamilo/paru) for installation <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg" width="30" height="20" />
 ```sh
 sudo paru -S \
      xorg xorg-server bspwm sxhkd ncmpcpp feh cava mpd mpc xdo \
@@ -66,15 +66,14 @@ sudo paru -S \
 ```
 
 ### Compositor 🔗
-For compositor im use [`vcyzteen/picom.git`](https://github.com/vcyzteen/picom.git) for other linux
-And [`picom-vcyzteen-templates.git`](https://github.com/vcyzteen/picom-vcyzteen-templates.git) for Voidlinux
+For compositor I'm using [`vcyzteen/picom.git`](https://github.com/vcyzteen/picom.git) for generic Linux distribution and [`picom-vcyzteen-templates.git`](https://github.com/vcyzteen/picom-vcyzteen-templates.git) for Voidlinux
 
 ### Installation 🍙
->Firstly. clone the repo and go to file
+>First of all clone the repo and change directory to it
 ```sh
 git clone https://github.com/vcyzteen/dotbaka.git && cd dotbaka
 ```
-> Then, run rsync for copying all file into your dot folder
+> Then run rsync for copying all files into your home folder
 ```sh
 rsync -avxHAXP --exclude '.git*' .* ~/
 ```
@@ -83,24 +82,25 @@ rsync -avxHAXP --exclude '.git*' .* ~/
 chsh -s /usr/bin/fish
 ```
 ### Updates ⬆️
-> Fistly go to the dir and pull
+> Go to the dotbaka directory and pull updates
 ```sh
 cd dotbaka && git pull
 ```
-> Then lastly do it this again
+> Then sync all the files
 ```sh
 rsync -avxHAXP --exclude '.git*' .* ~/
 ```
 ### Variable 📝
-You can edit file `.dotbaka` for edit some variable config. this is still relatively small and just a normal configuration but I hope I can add more in the future
+You can edit file `.dotbaka` to edit the configuration variables. This is still relatively small and just a normal configuration but I hope I can add more in the future
 > You can edit this file and read it before edit. Command `nvim` istead vim text editor and `nano` instead gnu nano text editor
 ```sh
 nvim .dotbaka
 ```
-**READ IT THE FILE COMMENT BEFORE EDIT!!!**
+**READ THE COMMENTS IN THE FILE BEFORE EDITING IT!!!**
+        
 ### Keybinds ⌨️
 
-   I only listed the important shortcuts. There's still more but have fun discovering it.
+   I listed only the important shortcuts. There's still more but have fun discovering it.
 
    |                               Keybind                                |         Description         |
    | -------------------------------------------------------------------- | --------------------------- |
@@ -135,12 +135,12 @@ nvim .dotbaka
   * Run `pushd ~/.icons/ && sudo ln -vs ~/.icons/Tela-grey /usr/share/icons/Tela-grey && popd` to linked icon into symlink
 
 ### System Info 💻
-This is the linux os i use in my daily life
+This is the Linux infos I use in my daily drive
 
 <kbd><img src="https://i.postimg.cc/rwmNVz7r/2021-12-27-18-36-25-screenshot.png"/></kbd>
 
 ### Credits 🏷
-some scripts or tools that I use do not all come from me and this is why I include credits as a form of my respect for the owners
+Some scripts or tools that I use do not all come from me and this is why I include credits as a form of my respect for the owners
   - [`Elena`](https://github.com/elenapan)
   - [`Adhi Pambudi`](https://github.com/addy-dclxvi)
   - [`Rizqi Nur Assyaufi`](https://github.com/bandithijo)
