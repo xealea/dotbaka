@@ -64,7 +64,7 @@ visual_bell:
   duration: 0.5
   color: "#ffffff"
 
-background_opacity: 1.0
+# background_opacity: 1.0
 
 ##Selection
 selection:
