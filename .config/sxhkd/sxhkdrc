@@ -170,7 +170,6 @@ XF86MonBrightnessUp
     ~/.scripts/brightness --i
 
 XF86MonBrightnessDown
-	xbacklight -dec 1; \
     ~/.scripts/brightness --d
 
 # pulseaudio controls speaker volume up & down
