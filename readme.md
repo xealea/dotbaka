@@ -157,5 +157,7 @@ Some scripts or tools that I use do not all come from me and this is why I inclu
 
 ### All artists who create icons, illustrations, and wallpapers. 🖼
 
+<img alt="" align="center" width="100%" src="https://api.star-history.com/svg?repos=xealea/dotbaka&type=Date"/>
+
 <p align="center">
 <img src="https://i.postimg.cc/MKMNRX6b/IMG-20220209-120311.png"/>
