@@ -1,71 +1,56 @@
-#!/bin/sh/env sh
+#!/bin/bash
 
-# Rofi Command
 rofi_command="rofi -lines 2 -theme ${HOME}/.config/rofi/misc/misc.rasi"
 
 # Themes
-theme_0="livery"
-theme_1="citrus"
+themes=("livery" "citrus")
+theme_colors=(
+  "timberwolf:richblack citrus:rich light:dark"
+  "timberwolf:richblack rich:citrus dark:light"
+)
+theme_files=(
+  "${HOME}/.xsettingsd ${HOME}/.config/bspwm/bspwmrc \
+   ${HOME}/.config/gtk-3.0/settings.ini \
+   ${HOME}/.config/alacritty/alacritty.yml \
+   ${HOME}/.config/polybar/config.ini \
+   ${HOME}/.fehbg"
+  "${HOME}/.config/rofi/clean.rasi ${HOME}/.config/rofi/config.rasi \
+   ${HOME}/.config/rofi/misc/misc.rasi ${HOME}/.config/rofi/misc/ytdl.rasi \
+   ${HOME}/.config/rofi/misc/search.rasi ${HOME}/.config/rofi/misc/network.rasi \
+   ${HOME}/.config/rofi/misc/powermenu.rasi ${HOME}/.config/rofi/misc/screenshot.rasi \
+   ${HOME}/.config/dunst/dunstrc"
+)
 
-# Variable passed to rofi
-options="$theme_0\n$theme_1"
-
+# Get chosen theme
+options=$(printf '%s\n' "${themes[@]}")
 chosen="$(echo -e "$options" | $rofi_command -p "themes" -show -dmenu -sync -selected-row 0)"
-case $chosen in
-    $theme_0)
-	    # Kill Process if running ----------------------
-        bash ~/.scripts/killapp
-        # ----------------------------------------------
-        sed -i -e 's/timberwolf/richblack/g' ${HOME}/.xsettingsd
-        sed -i -e 's/citrus/rich/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/clean.rasi
-        sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/config.rasi
-        sed -i -e 's/timberwolf/richblack/g' ${HOME}/.config/gtk-3.0/settings.ini
-        sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/misc.rasi
-        sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/ytdl.rasi
-        sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/search.rasi
-        sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/network.rasi
-        sed -i -e 's/light/dark/g' ${HOME}/.config/alacritty/alacritty.yml
-        sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/powermenu.rasi
-        sed -i -e 's/light/dark/g' ${HOME}/.config/rofi/misc/screenshot.rasi
-        sed -i -e 's/background = "#724439"/background = "#4D4845"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/foreground = "#FFC98D"/foreground = "#FDEDCF"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/light/dark/g' ${HOME}/.config/polybar/config.ini
-        sed -i -e 's/citrus.png/blok.png/g' ${HOME}/.fehbg
-        # Restart wm without exit ----------------------
-        bspc wm -r
-        # Kill Alacritty Only --------------------------
-        pkill alacritty
-        # Tint2 fix always on top ----------------------
-        bash ~/.scripts/alwaysinbellow
-        # ----------------------------------------------
-        ;;
-    $theme_1)
-        # Kill Process if running ----------------------
-        pkill alacritty sxhkd dunst polybar tint2
-        # ----------------------------------------------
-        sed -i -e 's/timberwolf/richblack/g' ${HOME}/.xsettingsd
-        sed -i -e 's/rich/citrus/g' ${HOME}/.config/bspwm/bspwmrc
-        sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/clean.rasi
-        sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/config.rasi
-        sed -i -e 's/richblack/timberwolf/g' ${HOME}/.config/gtk-3.0/settings.ini
-        sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/misc.rasi
-        sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/ytdl.rasi
-        sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/search.rasi
-        sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/network.rasi
-        sed -i -e 's/dark/light/g' ${HOME}/.config/alacritty/alacritty.yml
-        sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/powermenu.rasi
-        sed -i -e 's/dark/light/g' ${HOME}/.config/rofi/misc/screenshot.rasi
-        sed -i -e 's/background = "#4D4845"/background = "#724439"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/foreground = "#FDEDCF"/foreground = "#FFC98D"/g' ${HOME}/.config/dunst/dunstrc
-        sed -i -e 's/dark/light/g' ${HOME}/.config/polybar/config.ini
-        sed -i -e 's/blok.png/citrus.png/g' ${HOME}/.fehbg
-        # Restart wm without exit ----------------------
-        bspc wm -r
-        # Kill Alacritty Only --------------------------
-        pkill alacritty
-        # Tint2 fix always on top ----------------------
-        bash ~/.scripts/alwaysinbellow
-        # ----------------------------------------------
-        ;;
-esac
+
+# Apply chosen theme
+theme_index=$(echo "${themes[@]}" | grep -o "$chosen" | wc -w)
+if [[ $theme_index -eq 0 ]]; then
+  exit
+fi
+theme_index=$((theme_index - 1))
+theme_color=${theme_colors[$theme_index]}
+theme_files=${theme_files[$theme_index]}
+
+# Kill processes
+killall alacritty sxhkd dunst polybar tint2
+
+# Update files
+IFS=' ' read -ra files <<< "$theme_files"
+IFS=' ' read -ra colors <<< "$theme_color"
+for (( i=0; i<${#files[@]}; i++ )); do
+  sed -i "s/${colors[i]}/g" "${files[i]}"
+done
+
+# Restart wm without exit
+bspc wm -r
+
+# Tint2 fix always on top
+killall tint2
+sleep 0.1
+tint2 &
+
+# Exit
+exit 0
