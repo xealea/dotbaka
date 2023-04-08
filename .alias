@@ -1,37 +1,29 @@
-#!/bin/fish alias
-# alias for xbps
+# System commands
+alias q='exit'
+alias c='clear'
+alias off='loginctl poweroff'
+alias reboot='loginctl reboot'
 
-# --- System
-alias q="exit"
-alias c="clear"
-alias off="loginctl poweroff"
-alias reboot="loginctl reboot"
-alias sleep="loginctl suspend"
+# Github commands
+alias gf='git fetch'
+alias gc='git clone'
+alias gcp='git cherry-pick'
+alias grh='git reset --hard'
+alias gm='git merge FETCH_HEAD'
+alias gcpm1='git cherry-pick -m1'
 
-# -- Github
-alias gf="git fetch"
-alias gc="git clone"
-alias gcp="git cherry-pick"
-alias grh="git reset --hard"
-alias gm="git merge FETCH_HEAD"
-alias gcpm1="git cherry-pick -m1"
+# Ping commands
+alias pg='ping 8.8.8.8'
+alias pc='ping 1.1.1.1'
 
-# --- Ping
-alias pg="ping 8.8.8.8"
-alias pc="ping 1.1.1.1"
+# Xbps commands
+alias xdo='sudo xdowngrade'
+alias depsx='xbps-query -x'
+alias xquery='xbps-query -s'
+alias rmx='sudo xbps-remove'
+alias xipkg='sudo xbps-install --repository=hostdir/binpkgs${1:+/$1}'
+alias rmxo='sudo xbps-remove --remove-orphans'
 
-# --- Xbps
-alias xd="sudo xdowngrade"
-alias depsx="xbps-query -x"
-alias xquery="xbps-query -s"
-alias rmpkg="sudo xbps-remove -R"
-alias xipkg="sudo xbps-install -S"
-alias rmxapp="sudo xbps-remove -O"
-alias update="sudo xbps-install -Su"
-alias rmxo="sudo xbps-remove --remove-orphans"
-alias xipkgfree="sudo xbps-install --repository=hostdir/binpkgs"
-alias xipkgnonfree="sudo xbps-install --repository=hostdir/binpkgs/nonfree"
-
-# --- etc
-alias makessh="bash ~/.scripts/ssh"
-alias ncmpcpp="bash ~/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug"
+# etc commands
+alias ssh='bash ~/.scripts/ssh'
+alias ncmpcpp='bash ~/.ncmpcpp/ncmpcpp-ueberzug/ncmpcpp-ueberzug'
