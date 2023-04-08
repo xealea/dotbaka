@@ -1,20 +1,12 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
-up() {
-  xbacklight -inc 1; \
-  dunstify "盛 Brigthness Up:" -h int:value:$(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
-}
-
-down() {
-  xbacklight -dec 1; \
-  dunstify "滛 Brigthness Down:" -h int:value:$(xbacklight -get | cut -f 1 -d '.') -t 1000 -r 1
-}
-
-if [[ "$1" == "--i" ]];
-then
-  up 
-fi
-if [[ "$1" == "--d" ]];
-then
-  down
-fi
+case "$1" in
+  --i)
+    brightness=$(xbacklight -inc 1 | cut -f 1 -d '.')
+    dunstify "盛 Brigthness Up:" -h int:value:$brightness -t 1000 -r 1
+    ;;
+  --d)
+    brightness=$(xbacklight -dec 1 | cut -f 1 -d '.')
+    dunstify "滛 Brigthness Down:" -h int:value:$brightness -t 1000 -r 1
+    ;;
+esac
