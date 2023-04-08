@@ -33,7 +33,7 @@ super + x
 
 # program network
 super + n
-    bash ~/.scripts/network
+    ./scripts/network
 
 # program compositor
 super + c
