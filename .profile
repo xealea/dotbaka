@@ -14,28 +14,11 @@
 # if you're sure that you'll never log in via telnet or xterm or a
 # serial line.
 
-# Export Environment App,File,Etc
-export VISUAL="vim"
-export EDITOR="vim"
-export GPG_TTY="tty"
-export USE_CCACHE="1"
-export TERM="alacritty"
-export TZ="Asia/Jakarta"
-export GDK_BACKEND="x11"
-export BROWSER="firefox"
-export TERMINAL="alacritty"
-export SHELL="/usr/bin/fish"
-export XDG_SESSION_TYPE="x11"
-export SDL_VIDEO_X11_DGAMOUSE="0"
-export XDG_CURRENT_DESKTOP="gnome"
-export QT_QPA_PLATFORMTHEME="gtk2"
-export QT_QPA_PLATFORMTHEME="gtk3"
-export _JAVA_AWT_WM_NONREPARENTING="1"
-export QT_AUTO_SCREEN_SCALE_FACTOR="0"
-export XDG_CACHE_HOME="$HOME/.cache"
-export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_DATA_HOME="$HOME/.local/share"
-# export SPICETIFY_INSTALL="$HOME/spicetify-cli"
-# export PATH="$SPICETIFY_INSTALL:$PATH"
-export JDK_JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
-export DISABLE_MAGIC_FUNCTIONS="true"
+# .profile - Bourne Shell startup script for login shells
+# see also sh(1), environ(7).
+
+# Override default environment variables if desired
+export VISUAL="vim"; export EDITOR="vim"; export GPG_TTY="tty"; export USE_CCACHE="1"; export TERM="alacritty"; export TZ="Asia/Jakarta"; export GDK_BACKEND="x11"; export BROWSER="firefox"; export TERMINAL="alacritty"; export SHELL="/usr/bin/fish"; export XDG_SESSION_TYPE="x11"; export SDL_VIDEO_X11_DGAMOUSE="0"; export XDG_CURRENT_DESKTOP="gnome"; export QT_QPA_PLATFORMTHEME="gtk2"; export QT_QPA_PLATFORMTHEME="gtk3"; export _JAVA_AWT_WM_NONREPARENTING="1"; export QT_AUTO_SCREEN_SCALE_FACTOR="0"; export XDG_CACHE_HOME="$HOME/.cache"; export XDG_CONFIG_HOME="$HOME/.config"; export XDG_DATA_HOME="$HOME/.local/share"; export JDK_JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'; export DISABLE_MAGIC_FUNCTIONS="true"
+
+# Set blocksize variable
+export BLOCKSIZE=K
