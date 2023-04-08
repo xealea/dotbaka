@@ -1,42 +1,36 @@
-#!/bin/sh/env sh
+#!/bin/bash
 
-# Rofi Command
 rofi_command="rofi -modi drun -theme ${HOME}/.config/rofi/misc/screenshot.rasi -show"
-
-# Border
-s1=""
-s2="3"
-s3="5"
-s4=""
-
-# Variable passed to screenshots
-SAVE_DIR="${HOME}/Pictures/Screenshots"
+options=( "" "3" "5" "" )
 
 # Create directory if needed
-if [ ! -d "$SAVE_DIR" ]; then
-    mkdir -p "$SAVE_DIR"
-fi
+SAVE_DIR="${HOME}/Pictures/Screenshots"
+[[ -d "$SAVE_DIR" ]] || mkdir -p "$SAVE_DIR"
 
-# Variable passed to rofi
-options="$s1\n$s2\n$s3\n$s4"
-
-chosen="$(echo -e "$options" | $rofi_command -p "screenshots" -dmenu -sync -selected-row 0)"
+# Take screenshot based on user selection
+chosen=$(printf '%s\n' "${options[@]}" | $rofi_command -p "screenshots" -dmenu -sync -selected-row 0)
 case $chosen in
-    $s1)
+    "")
         sleep 0.5
         scrot '%Y-%m-%d-%T-screenshot.png' -e 'mv $f ~/Pictures/Screenshots'
-        dunstify -i "SCROT" -u low "" "<span size='small'><u>Pictures/Screenshots</u></span>\nChissu! Take Screenshot"
         ;;
-    $s2)
+    "3")
         scrot -d 3 '%Y-%m-%d-%T-screenshot.png' -e 'mv $f ~/Pictures/Screenshots'
-        dunstify -i "SCROT" -u low "" "<span size='small'><u>Pictures/Screenshots</u></span>\nChissu! Take Screenshot"
         ;;
-    $s3)
+    "5")
         scrot -d 5 '%Y-%m-%d-%T-screenshot.png' -e 'mv $f ~/Pictures/Screenshots'
-        dunstify -i "SCROT" -u low "" "<span size='small'><u>Pictures/Screenshots</u></span>\nChissu! Take Screenshot"
         ;;
-    $s4)
+    "")
         scrot --line style=dash,width=2,color="white" --select '%Y-%m-%d-%T-screenshot.png' -e 'mv $f ~/Pictures/Screenshots'
-        dunstify -i "SCROT" -u low "" "<span size='small'><u>Pictures/Screenshots</u></span>\nChissu! Take Screenshot"
         ;;
 esac
+
+# Add border and round corners
+if [[ -f "$SAVE_DIR/%Y-%m-%d-%T-screenshot.png" ]]; then
+    convert "$SAVE_DIR/%Y-%m-%d-%T-screenshot.png" \
+        -bordercolor black -border 15 \
+        -alpha set -background none \
+        -vignette 0x4 -blur 0x5 \
+        -alpha shape "$SAVE_DIR/%Y-%m-%d-%T-screenshot.png"
+    dunstify -i "SCROT" -u low "" "<span size='small'><u>Pictures/Screenshots</u></span>\nChissu! Take Screenshot"
+fi
