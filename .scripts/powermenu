@@ -1,37 +1,29 @@
-#!/bin/sh/env sh
+#!/bin/bash
 
-# Rofi Command
 rofi_command="rofi -modi drun -theme ${HOME}/.config/rofi/misc/powermenu.rasi -show"
 
-# Border
-s1=""
-s2=""
-s3="鈴"
-s4=""
+symbols=("" "" "鈴" "")
+icons=("${HOME}/.icons/Tela-grey/24/actions/application-exit.svg" \
+       "${HOME}/.icons/Tela-grey/scalable/apps/system-restart.svg" \
+       "${HOME}/.icons/Tela-grey/scalable/apps/system-suspend.svg" \
+       "${HOME}/.icons/Tela-grey/scalable/apps/system-log-out.svg")
+options=("logout the system" "reboot the system" "suspend the system" "poweroff the system")
+actions=("exit" "reboot" "suspend" "poweroff")
 
-# Variable passed to rofi
-options="$s1\n$s2\n$s3\n$s4"
+menu=""
+for s in "${symbols[@]}"; do
+    menu="$menu$s\n"
+done
 
-chosen="$(echo -e "$options" | $rofi_command -p "powermenu" -dmenu -sync -selected-row 0)"
-case $chosen in
-    $s1)
-        dunstify -i "~/.icons/Tela-grey/24/actions/application-exit.svg" "logout the system" -t 1000 -r 1
-        sleep 0.5
-        loginctl exit
-        ;;
-    $s2)
-        dunstify -i "~/.icons/Tela-grey/scalable/apps/system-restart.svg" "reboot the system" -t 1000 -r 1
-        sleep 0.5
-        loginctl reboot
-        ;;
-    $s3)
-        dunstify -i "~/.icons/Tela-grey/scalable/apps/system-suspend.svg" "suspend the system" -t 1000 -r 1
-        sleep 0.5
-        loginctl suspend
-        ;;
-    $s4)
-        dunstify -i "~/.icons/Tela-grey/scalable/apps/system-log-out.svg" "poweroff the system" -t 1000 -r 1
-        sleep 0.5
-        loginctl poweroff
-        ;;
-esac
+function power_action {
+    dunstify -i "${icons[$1]}" "$2" -t 1000 -r 1
+    sleep 0.5
+    loginctl ${actions[$1]}
+}
+
+chosen="$(echo -e "$menu" | $rofi_command -p "powermenu" -dmenu -selected-row 0)"
+if [[ -n "$chosen" ]]; then
+    if ! power_action "$chosen" "${options[$chosen]}"; then
+        dunstify "Error: failed to ${options[$chosen]}" -t 1000 -u critical
+    fi
+fi
