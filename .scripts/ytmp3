@@ -1,51 +1,34 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
-MENU="$HOME/.config/rofi/misc/ytdl.rasi"
-MUSIC="$HOME/Music"
+readonly MENU="$HOME/.config/rofi/misc/ytdl.rasi"
+readonly MUSIC="$HOME/Music"
+readonly ICON="$HOME/.icons/Tela-grey/scalable/apps/music_icon-24.svg"
 
 # Rofi prompt
-rofi_prompt="Download Mp3  ="
+readonly rofi_prompt="Download Mp3  ="
 
-# rofi
-main() {
-    # Get choice from rofi
-    choice=$( rofi -lines 1 -dmenu -theme "$MENU" -i -fuzzy -p "$rofi_prompt" )
+# Create directory if needed
+if [ ! -d "$MUSIC" ]; then
+  mkdir -p "$MUSIC"
+fi
+
+while true; do
+  # Get choice from rofi
+  read -r choice < <(rofi -lines 1 -dmenu -theme "$MENU" -i -fuzzy -p "$rofi_prompt")
 
   # If user has not picked anything, exit
   if [[ -z "${choice// }" ]]; then
-      exit 1
+    exit 1
   fi
 
-  # Get URL
-  linktoplay="$(grep -m 1 "$choice" | cut -d '@' -f 2)"
+  # Get video title and download mp3
+  yid=$(youtube-dl -q --get-title --embed-thumbnail --extract-audio --audio-format mp3 --audio-quality 0 --output "$MUSIC/%(title)s.%(ext)s" --match-title "$choice")
+  printf '<span size="small"><u>%s</u></span>\n%s\n' "$MUSIC" "$yid" | notify-send -i "$ICON" -u low ""
 
-  # If the choice does not exist, try searching for it
-  if [ ${#linktoplay} -eq "0" ]; then
-    yid=$(youtube-dl -q --get-title --embed-thumbnail --extract-audio --audio-format mp3 --audio-quality 0 ytsearch:"$choice")
-    dunstify -i "~/.icons/Tela-grey/scalable/apps/music_icon-24.svg" -u low "" "<span size='small'><u>$HOME/Music</u></span>\n$yid"
-  fi
-}
-
-initdir() {
-  # Create directory if needed
-  if [ ! -d "$MUSIC" ]; then
-      mkdir -p "$MUSIC"
-  fi
-}
-
-getname() {
-    ls *mp3 | awk '{print 1}'
-}
-
-movefile() {
-    mv $getname ${HOME}/Music
-}
-
-initdir
-main
-
-while [ $? -ne 0 ]; do
-   getname & movefile
+  # Ask if user wants to download another mp3
+  read -p "Download another mp3? [y/N]: " answer
+  case "$answer" in
+    [yY]) continue;;
+    *) break;;
+  esac
 done
-
-exit ${?}
