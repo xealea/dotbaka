@@ -1,19 +1,21 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
-type -p pamixer &>/dev/null || dunstify -u low -r 15 'Install pamixer!'
+command -v pamixer >/dev/null 2>&1 || { dunstify -u low -r 15 'Install pamixer!'; exit 1; }
 
 VOLUME="$(pamixer --get-volume)"
 
 notify() {
-  if [ "$VOLUME" -lt 0 ];then
-    ICON="ﱝ"
-  elif [ "$VOLUME" -lt 30 ];then
-    ICON=""
-  elif [ "$VOLUME" -lt 70 ];then
-    ICON="墳"
-  else 
-    ICON=""
-  fi
+  case $VOLUME in
+    [0-9]|[1-2][0-9])
+      ICON="ﱝ"
+      ;;
+    [3-6][0-9])
+      ICON=""
+      ;;
+    *)
+      ICON=""
+      ;;
+  esac
   dunstify "$ICON Volume:" -h int:value:$VOLUME -t 1000 -r 1
 }
 
@@ -28,4 +30,4 @@ esac
       
 notify
 
-exit ${?}
+exit $?
